@@ -13,7 +13,7 @@ body {
   line-height: 1.6;
 }
 body.fullscreen-image-background {
-  background-image: url('../img/header-blur-dark.png');
+  background-image: url('../img/header-blur-light.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -98,12 +98,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 .navbar-nav > li > a:hover {
-  border-bottom: 2px solid #646464;
+  border-bottom: 2px solid #cccc33;
   padding-bottom: 0;
   background-color: transparent;
 }
 .navbar-nav > li.active > a {
-  border-bottom: 2px solid #646464;
+  border-bottom: 2px solid #cccc33;
   padding-bottom: 0;
   background-color: transparent;
 }
@@ -137,19 +137,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-toggle {
-  background-color: #646464;
+  background-color: transparent;
 }
 .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: #107E86;
 }
 
 @media screen and (max-width: 767px) {
   .navbar-collapse {
-    background-color: #646464;
+    background-color: #cccc33;
   }
   .navbar-collapse .navbar-nav > li > a {
-    color: #e6e6e6;
-    border-bottom: none;
+    color: #107E86;
+    border-bottom: 5px;
+    border-bottom-color: #ffffff;
     padding-top: 15px;
     padding-bottom: 15px;
   }
