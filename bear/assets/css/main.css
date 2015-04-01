@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 /* NAVIGATION BAR
 /* --------------------- */
 .navbar-brand {
-  padding: 10px 15px;
+  padding: 15px;
 }
 .navbar-brand img {
   width: 74px;
@@ -5217,7 +5217,7 @@ img.mfp-img {
 .hero-heading{
   font-family: "Dosis", sans-serif;
   color: #cccc33;
-  font-weight: 300;
+  font-weight: 500;
 }
 .hero-unit .hero-content .hero-text .hero-heading {
   font-size: 6em;
@@ -5408,8 +5408,31 @@ img.mfp-img {
 .service-item .service-icon {
   position: absolute;
   top: 0;
-  font-size: 5em;
-  color: #ffae3f;
+  left:-0.18em;
+  font-size: 7em;
+  color: #197E85;
+}
+.service-item .service-icon-right
+{
+  position: absolute;
+  top: 0.67em;
+  left:0.73em;
+  font-size: 4em;
+  color: #cccc33;
+   -webkit-text-fill-color: #cccc33; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #F5F5F5;
+}
+.service-item .service-icon-left
+{
+  position: absolute;
+  top: 1.19em;
+  left:-0.7em;
+  font-size: 3em;
+  color: #cccc33;
+   -webkit-text-fill-color: #cccc33; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #F5F5F5;
 }
 .service-item .service-text {
   margin-left: 100px;
