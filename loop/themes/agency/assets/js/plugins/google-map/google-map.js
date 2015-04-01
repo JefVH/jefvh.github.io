@@ -111,7 +111,7 @@
 
 		function codeAddress() {
 		
-			var address = "Google New York, 76 Ninth Ave, New York, NY, USA";
+			var address = "Patrijzenlaan 2, 9180 Moerbeke-Waas, Belgium";
 			geocoder.geocode( { 'address': address}, function(results, status) {
 				if (status == google.maps.GeocoderStatus.OK) {
 					map.setCenter(results[0].geometry.location);
