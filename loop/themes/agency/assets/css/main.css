@@ -5384,12 +5384,14 @@ img.mfp-img {
 }
 .about .img-left {
   position: absolute;
-  bottom: -60px;
-  left: -66px;
+  bottom: -40px;
+  left: -5px;
+  width:300px;
 }
 @media screen and (max-width: 1370px) {
   .about .img-left {
-    left: -140px;
+    left: -5px;
+    width:250px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -5863,7 +5865,7 @@ img.mfp-img {
 }
 /* ------------------ TESTIMONIAL ------------------ */
 .testimonial {
-  background-image: url('../img/sky.jpg?1394021998');
+  background-image: url('../img/desk.jpg?1394021998');
   text-align: center;
   color: #fff;
 }
@@ -5960,7 +5962,7 @@ img.mfp-img {
 .twitter-stream {
   text-align: center;
   padding: 40px 0;
-  background-color: #00aeef;
+  background-color: #CCCC33;
 }
 @media screen and (max-width: 480px) {
   .twitter-stream {
@@ -5979,7 +5981,7 @@ img.mfp-img {
   width: 50px;
   height: 50px;
   margin-bottom: 20px;
-  background-color: #00a6e7;
+  background-color: #CCCC33;
 }
 .twitter-stream .twitter-icon i {
   font-size: 30px;
