@@ -13,7 +13,7 @@ body {
   line-height: 1.6;
 }
 body.fullscreen-image-background {
-  background-image: url('../img/sliders/slider3.png?1393983498');
+  background-image: url('../img/header-blur-dark.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 5px;
   border-bottom: 2px solid transparent;
   font-size: 12px;
-  color: #646464;
+  color: #454545;
   font-weight: 700;
 }
 .navbar-nav > li > a:hover {
@@ -260,7 +260,7 @@ a:hover, a:focus {
 }
 .section-heading h2 {
   font-size: 3em;
-  color: #ffae3f;
+  color: #cccc33;
 }
 .section-heading p {
   font-size: 1.5em;
@@ -5204,10 +5204,18 @@ img.mfp-img {
     margin-top: -80px;
   }
 }
-.hero-unit .hero-content .hero-text .hero-heading,
+.hero-unit .hero-content .hero-text,
 .hero-unit .hero-content .hero-text p {
   font-family: "Dosis", sans-serif;
   color: #646464;
+  font-weight: 300;
+}
+.hero-text p span{
+  color: #cccc33;
+}
+.hero-heading{
+  font-family: "Dosis", sans-serif;
+  color: #cccc33;
   font-weight: 300;
 }
 .hero-unit .hero-content .hero-text .hero-heading {
