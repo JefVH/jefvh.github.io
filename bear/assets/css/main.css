@@ -162,6 +162,31 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #107E86;
 }
 
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+
+  .navbar-toggle:hover {
+    background: transparent !important;
+  }
+
+  .icon-bar {
+    width: 22px;
+    transition: all 0.2s;
+  }
+  .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  .middle-bar {
+    opacity: 0;
+  }
+  .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .navbar-collapse {
     background-color: #cccc33;
