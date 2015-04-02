@@ -67,7 +67,7 @@ jQuery( function($){
 
 			// Functionality
 			autoplay: 1,				// Slideshow starts playing automatically
-			slide_interval: 5000,		// Length between transitions
+			slide_interval: 4000,		// Length between transitions
 			transition: 1, 				// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
 			transition_speed: 1000,		// Speed of transition
 
@@ -149,7 +149,7 @@ jQuery( function($){
 	*     Twitter's default renderings.
 	*/
 
-	twitterFetcher.fetch( '441767385733668865', 'tweet', 1, true, false, true, 'default');
+	twitterFetcher.fetch( '583417990219223040', 'tweet', 1, true, false, true, 'default');
 
 
 	/*----------------------/

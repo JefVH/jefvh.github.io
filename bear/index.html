@@ -97,7 +97,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<li><a href="#services">DIENSTEN</a></li>
 					<li><a href="#works">ONS WERK</a></li>
 					<li><a href="#team">TEAM</a></li>
-					<li><a href="#contact">CONTACT US</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+					<li class="navlink-border"><a href="#">OFFERTE</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -172,8 +173,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<div class="col-md-6">
 							<div class="service-item">
 								<span class="icon-monitor service-icon"></span>
-								<span class="icon-tablet service-icon-right"></span>
-								<span class="icon-phone service-icon-left"></span>
 								<div class="service-text">
 									<h3>Responsive Webdesign</h3>
 									<p>Quickly actualize proactive niches rather than user friendly catalysts for change.</p>
@@ -183,7 +182,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						</div>
 						<div class="col-md-6">
 							<div class="service-item">
-								<span class="icon-cart service-icon"></span>
+								<span class="icon-sale service-icon"></span>
 								<div class="service-text">
 									<h3>E-Commerce</h3>
 									<p>Quickly actualize proactive niches rather than user friendly catalysts for change.</p>
@@ -193,7 +192,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						</div>
 						<div class="col-md-6">
 							<div class="service-item">
-								<span class="icon-people service-icon"></span>
+								<span class="icon-profile2 service-icon"></span>
 								<div class="service-text">
 									<h3>Social Media</h3>
 									<p>Quickly actualize proactive niches rather than user friendly catalysts for change.</p>
@@ -203,7 +202,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						</div>
 						<div class="col-md-6">
 							<div class="service-item">
-								<span class="icon-stats service-icon"></span>
+								<span class="icon-chart4 service-icon"></span>
 								<div class="service-text">
 									<h3>SEO / SEA</h3>
 									<p>Quickly actualize proactive niches rather than user friendly catalysts for change.</p>
@@ -218,7 +217,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<!-- END SERVICES -->
 
 		<!-- CALL TO ACTION -->
-		<div id="call-to-action" class="section call-to-action most-dark">
+		<div id="call-to-action" class="section call-to-action green">
 			<p class="wow fadeInUp" data-wow-offset="200">Bel ons nu en geniet van onze vele voordelen</p>
 			<p class="wow fadeInUp" data-wow-offset="200"><i class="fa fa-phone"></i> +32(0)472 79 32 26</p>
 		</div>
@@ -434,23 +433,60 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="google-map">
 					<div id="map-canvas"></div>
 				</div>
-				<div class="contact-info">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-4">
-								<i class="fa fa-map-marker"></i>
-								<h3>Adres</h3>
-								<p>Patrijzenlaan 2<br />B-9180 Moerbeke-Waas</p>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="contact-info">
+								<ul class="list-unstyled">
+									<li>
+										<i class="fa fa-map-marker pull-left"></i>
+										<h3>Adres</h3>
+										<p>Patrijzenlaan 2<br />B-9180 Moerbeke-Waas</p>
+									</li>
+									<li>
+										<i class="fa fa-envelope pull-left"></i>
+										<h3>Contact</h3>
+										<p>+32(0)472 79 32 26<br /><a href="mailto:hello@yourcompany.com">hello@bear.be</a></p>
+									</li>
+									<li>
+										<i class="fa fa-user pull-left"></i>
+										<h3>Vervoeg Ons Team</h3>
+										<p>Stuur uw laatste CV naar<br /><a href="mailto:career@yourcompany.com">career@bear.be</a></p>
+									</li>
+								</ul>
 							</div>
-							<div class="col-md-4">
-								<i class="fa fa-envelope"></i>
-								<h3>Contact</h3>
-								<p>+32(0)472 79 32 26<br /><a href="mailto:hello@yourcompany.com">hello@bear.be</a></p>
-							</div>
-							<div class="col-md-4">
-								<i class="fa fa-user"></i>
-								<h3>Vervoeg Ons Team</h3>
-								<p>Stuur uw laatste CV naar<br /><a href="mailto:career@yourcompany.com">career@bear.be</a></p>
+						</div>
+						<div class="col-md-8">
+							<div class="contact-form">
+								<div class="alert"></div>
+								<form id="contact-form" method="post" role="form" novalidate>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="form-group">
+												<label class="sr-only" for="name">Naam:</label>	
+												<input type="text" id="name" class="form-control" name="name" placeholder="Naam*" required>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<label class="sr-only" for="email">Email:</label>
+												<input type="email" id="email" class="form-control" name="email" placeholder="Email*" required>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="subject">Onderwerp:</label>
+										<input type="text" id="subject" class="form-control" name="subject" placeholder="Onderwerp">
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="message">Bericht:</label>
+										<textarea id="message" name="message" class="form-control" placeholder="Bericht*" required></textarea>
+									</div>
+									<button type="submit" class="btn btn-primary btn-lg" id="submit-button">
+										<i class="fa loading-icon"></i> <span>Stuur bericht</span>
+									</button>
+									<input type="hidden" name="msg-submitted" id="msg-submitted" value="true"> 
+								</form>
 							</div>
 						</div>
 					</div>
