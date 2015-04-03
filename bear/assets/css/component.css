@@ -103,7 +103,7 @@ a:hover, a:focus {
 	display: block;
 	margin-bottom: 2.5em;
 	color: #3b3f45;
-	content: 'Nakijken en Indienen';
+	content: 'Uw aanvraag';
 	font-weight: 500;
 	font-size: 1.85em;
 }
@@ -458,15 +458,15 @@ button.fs-continue,
 }
 
 .fs-fields input.fs-mark {
-	padding-left: 1em;
-	background-image: url(../img/dollar.svg);
+	padding-left: 1.3em;
+	background-image: url(../img/euro.svg);
 	background-position: 0% 0.15em;
-	background-size: auto 75%;
+	background-size: auto 70%;
 	background-repeat: no-repeat;
 }
 
 .fs-fields input.fs-mark[required] {
-	background-image: url(../img/dollar.svg), url(../img/abacusstar.svg);
+	background-image: url(../img/euro.svg), url(../img/abacusstar.svg);
 	background-position: 0% 0.15em, top right;
 	background-size: auto 75%, 18px;
 	background-repeat: no-repeat;
@@ -566,7 +566,7 @@ button.fs-continue,
 /* Number indicator */
 .fs-numbers {
 	position: absolute;
-	top: 0;
+	top: 1.5em;
 	right: 0;
 	overflow: hidden;
 	color: rgba(0,0,0,0.4);
@@ -865,11 +865,24 @@ input[type=text]::-ms-clear {
 		top: 0;
 		right: 0;
 		padding: 1.5em 1em 8em 1em;
-		font-size: 1.5em;
+		font-size: 1.8em;
 	}
 
 	.fs-title {
 		padding: 20px;
+	}
+	.fs-title img{
+		float: none;
+		width: 100px;
+	}
+
+	.fs-title h1{
+		size: 1.5em;
+		margin-top: 20px;
+	}
+
+	.fs-fields li{
+		margin-top: 30px;
 	}
 
 	.fs-numbers {

@@ -37,6 +37,49 @@ h1, h2, h3, h4, h5, h6 {
   src: url('../fonts/brankic.eot?1392697956');
   src: url('../fonts/brankic.eot?&1392697956#iefix') format('embedded-opentype'), url('../fonts/brankic.svg?1392697956') format('svg'), url('../fonts/brankic.ttf?1392697956') format('truetype'), url('../fonts/brankic.woff?1392697956') format('woff');
 }
+
+/* --------------------- */
+/* OFFERTE IFRAME
+/* --------------------- */
+#close{
+  position:absolute;
+  top:0.5em;
+  right:0.5em;
+  cursor: pointer;
+  cursor: hand;
+  z-index: 1;
+  overflow: none;
+}
+
+#close.hidden{
+  display:none
+}
+
+#close i{
+  color: #454545;
+  font-size: 1.8em;
+}
+
+#offerte{
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  -vendor-animation-duration: 1s;
+  -vendor-animation-delay: 0.5s;
+}
+#offerte.nodisplay{
+  display: none;
+}
+#offerte.fadeOut{
+  -vendor-animation-duration: 1.5s;
+  -vendor-animation-delay: 0.5s;
+}
+#offerte-button{
+  cursor: hand;
+  cursor: pointer;
+}
+
+
 /* --------------------- */
 /* NAVIGATION BAR
 /* --------------------- */
@@ -118,7 +161,8 @@ h1, h2, h3, h4, h5, h6 {
   padding-top:5px;
   padding-bottom: 5px;
   border: 2px solid #cccc33;
-  color: #cccc33;
+  background-color: #cccc33;
+  color: #F7F7F7;
 }
 .navbar-nav > li.navlink-border > a:focus{
   padding-top: 5px;
