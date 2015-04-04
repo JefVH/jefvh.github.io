@@ -263,6 +263,7 @@ jQuery( function($){
 	/*---------------------*/
 
 	$('#offerte-button').click(function(){
+		$(window.scroll(0,0));
 		disable_scroll();
 		$('.navbar').hide();
 		$('#close').removeClass('hidden');

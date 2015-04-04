@@ -245,8 +245,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 767px) {
-  .navbar-collapse {
-    background-color: #cccc33;
+  .navbar.navbar-light {
+    background-color: transparent;
+    border-bottom: none;
+  }
+  .navbar.navbar-light .navbar-brand{
+    position: absolute;
+    top: 10px;
+    left: 10px;
   }
   .navbar-collapse .navbar-nav > li > a {
     color: #107E86;
@@ -260,6 +266,20 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 15px;
     padding-bottom: 15px;
     text-decoration: underline;
+  }
+  .navbar-nav > li.navlink-border > a{
+  border-bottom: none;
+  border: 2px solid #454545;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top:5px;
+  }
+  .navbar-nav > li.navlink-border > a:hover{
+  padding-top:5px;
+  padding-bottom: 5px;
+  border: 2px solid #cccc33;
+  background-color: #cccc33;
+  color: #F7F7F7;
   }
 }
 /* --------------------- */
@@ -5282,10 +5302,6 @@ img.mfp-img {
   position: relative;
   overflow: hidden;
   height: 100%;
-}
-.hero-unit.hero-light .hero-content .hero-text .hero-heading,
-.hero-unit.hero-light .hero-content .hero-text p {
-  color: #fff;
 }
 .hero-unit .hero-bg-pattern {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
