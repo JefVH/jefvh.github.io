@@ -5300,6 +5300,7 @@ img.mfp-img {
 }
 
 /* ------------------ HERO UNIT ------------------ */
+
 .hero-unit {
   position: relative;
   overflow: hidden;
@@ -5529,22 +5530,24 @@ img.mfp-img {
 
 /* ------------------ SERVICES ------------------ */
 .service-item {
+  width:60%;
+  margin-left:20%;
+  margin-right:20%;
   margin-bottom: 60px;
 }
 .service-item .service-icon {
-  position: absolute;
-  top: 0;
-  left:-0.18em;
-  font-size: 6.5em;
-  color: #197E85;
+  margin-left:25%;
+  margin-right:25%;
+  width: 50%;
 }
 .service-item .service-text {
-  margin-left: 100px;
+  /*margin-left: 100px;*/
   overflow: hidden;
 }
 .service-item .service-text h3 {
   margin-top: 6px;
   color: #646464;
+  text-align: center;
 }
 .service-item .service-text p {
   margin-bottom: 0;
