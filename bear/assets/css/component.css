@@ -385,16 +385,16 @@ button.fs-continue,
 	transform: translate(-50%,-50%);
 }
 
-.fs-fields .fs-radio-custom label.radio-mobile::after {
-	background-image: url(../img/mobile.svg);
+.fs-fields .fs-radio-custom label.radio-webdesign::after {
+	background-image: url(../img/services/webdesign.png);
 }
 
-.fs-fields .fs-radio-custom label.radio-social::after {
-	background-image: url(../img/social.svg);
+.fs-fields .fs-radio-custom label.radio-ecommerce::after {
+	background-image: url(../img/services/ecommerce.png);
 }
 
-.fs-fields .fs-radio-custom label.radio-conversion::after {
-	background-image: url(../img/conversion.svg);
+.fs-fields .fs-radio-custom label.radio-websiteanalysis::after {
+	background-image: url(../img/services/websiteanalysis.png);
 }
 
 .fs-fields .fs-radio-custom label:hover::after,

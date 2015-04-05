@@ -30,19 +30,22 @@
 				<form id="myform" class="fs-form fs-form-full" autocomplete="off">
 					<ol class="fs-fields">
 						<li>
-							<label class="fs-field-label fs-anim-upper" for="q1">Wat is uw naam?</label>
-							<input class="fs-anim-lower" id="q1" name="q1" type="text" placeholder="Jan Peters" required/>
+							<label class="fs-field-label fs-anim-upper" for="q1">Wat is uw naam en adres?</label>
+							<input class="fs-anim-lower" id="q1a" name="q1" type="text" placeholder="Naam" required/>
+							<input class="fs-anim-lower" id="q1b" name="q1" type="text" placeholder="Straatnaam en nummer" required/>
+							<input class="fs-anim-lower" id="q1c" name="q1" type="number" placeholder="Postcode" required/>
+							<input class="fs-anim-lower" id="q1d" name="q1" type="text" placeholder="Stad" required/>
 						</li>
 						<li>
 							<label class="fs-field-label fs-anim-upper" for="q2" data-info="We zullen je heus niet spammen..">Wat is uw email adres?</label>
 							<input class="fs-anim-lower" id="q2" name="q2" type="email" placeholder="jan@peters.be" required/>
 						</li>
 						<li data-input-trigger>
-							<label class="fs-field-label fs-anim-upper" for="q3" data-info="Dit help ons uit te zoeken wat soort website u nodig heeft.">Wat is uw prioriteit voor een nieuwe website?</label>
+							<label class="fs-field-label fs-anim-upper" for="q3" data-info="Dit help ons uit te zoeken wat soort website u nodig heeft.">Wat is de prioriteit van uw nieuwe website?</label>
 							<div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
-								<span><input id="q3b" name="q3" type="radio" value="conversion"/><label for="q3b" class="radio-conversion">Sell things</label></span>
-								<span><input id="q3c" name="q3" type="radio" value="social"/><label for="q3c" class="radio-social">Become famous</label></span>
-								<span><input id="q3a" name="q3" type="radio" value="mobile"/><label for="q3a" class="radio-mobile">Mobile market</label></span>
+								<span><input id="q3b" name="q3" type="radio" value="webdesign"/><label for="q3b" class="radio-webdesign">Webdesign</label></span>
+								<span><input id="q3c" name="q3" type="radio" value="ecommerce"/><label for="q3c" class="radio-ecommerce">E-Commerce</label></span>
+								<span><input id="q3a" name="q3" type="radio" value="websiteanalysis"/><label for="q3a" class="radio-websiteanalysis">Website Analyse</label></span>
 							</div>
 						</li>
 						<li data-input-trigger>
