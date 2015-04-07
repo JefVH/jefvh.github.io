@@ -1,0 +1,3 @@
+Sitemap:http://www.deceuninck.be/sitemap.xml
+User-agent:*
+
