@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/nl/Main.master" AutoEventWireup="true" CodeFile="QuickLinks.master.cs" Inherits="masterpages_QuickLinks_nl" %>
+
+<asp:Content ID="contentHead" ContentPlaceHolderID="head" Runat="Server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="contentBreadCrumbs" ContentPlaceHolderID="breadCrumbs" Runat="Server">
+    <asp:ContentPlaceHolder ID="breadCrumbs" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="contentMainContent" ContentPlaceHolderID="mainContent" Runat="Server">
+                        <div class="inner-content">
+                            <asp:ContentPlaceHolder ID="mainContent" runat="server">
+                            </asp:ContentPlaceHolder>
+                            <br />
+                        </div>
+</asp:Content>
+
+<asp:Content ID="contentSideBar" ContentPlaceHolderID="sideBar" Runat="Server">
+            <div id="primary" class="sidebar">
+                <asp:ContentPlaceHolder ID="sideBar_Primary" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="secondary" class="sidebar">
+                <asp:ContentPlaceHolder ID="sideBar_Secundary" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+</asp:Content>
+<asp:Content ID="content1" ContentPlaceHolderID="plhJavascript" runat="Server">
+    <asp:ContentPlaceHolder ID="plhJavascript" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

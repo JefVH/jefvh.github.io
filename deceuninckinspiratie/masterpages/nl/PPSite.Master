@@ -1,0 +1,255 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="PPSite.master.cs" Inherits="PPSite_master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />    
+    <link href="/Content/PP/Styles/application.css" rel="stylesheet" />
+    <script src="/Scripts/jquery-1.9.1.min.js"></script>
+    <%--<script src="/Scripts/fancybox/jquery.fancybox-1.3.4.min.js"></script>
+    <script src="/Scripts/custom.js"></script>--%>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js" charset="utf-8"></script>
+    <script src="/Scripts/google-analytics.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-320446-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header id="header" class="block center-xlarge">
+            <h1><a href="/nl/index.aspx">
+                <img src="/Content/PP/Images/logo.svg" alt="Deceuninck, Ramen en Deuren in duurzaam PVC" width="160" height="80" /></a></h1>
+            <div class="menu">
+                <a class="no-nps">
+                    <i>
+                        <img src="/Content/PP/Images/menu.svg" width="27" height="25" alt="" class="img-menu" /></i>
+                    <h6>MENU</h6>
+                    <i>
+                        <img src="/Content/PP/Images/menu-bottom.svg" alt="" width="98" height="18" class="img-menu-bottom" /></i>
+                </a>
+            </div>
+            <nav class="menu-hover">
+                <ul class="main-menu">
+                    <li class="main-item">
+                        <div>
+                            <h4 class="active">Onze producten</h4>
+                            <ul class="show">
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/ramen-deuren.aspx">Ramen</a></li>
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/tuintoepassingen/twinson-terras.aspx">Terras</a></li>
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/gevelbekleding.aspx">Gevelbekleding</a></li>
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/ramen-deuren/pvc-schuifdeuren.aspx">Schuifdeuren</a></li>
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/ramen-deuren/deuren.aspx">Deuren</a></li>
+                            </ul>
+                            <ul class="show">
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/tuintoepassingen/tuinafsluitingen.aspx">Tuinafsluiting</a></li>
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/dakranden-dakoversteken.aspx">Dakoversteken</a></li>
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/luiken.aspx">Luiken</a></li>
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/pvc-rolluiken.aspx">Rolluiken</a></li>
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/interieurtoepassingen.aspx">Interieurtoepassingen</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="main-item">
+                        <div>
+                            <h4>Technologie</h4>
+                            <ul>
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/tuintoepassingen/twinson-terras.aspx">Twinson</a></li>
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/ramen-deuren/pvc-ramen.aspx">Linktrusion</a></li>
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/ramen-deuren/integraal-gekleurd.aspx">360°</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="main-item">
+                        <div>
+                            <h4>Tools</h4>
+                            <ul>
+                                <li><a class="popUpWindowEnergyCalculator" href="http://www.deceuninck.be/nl/energiecalculator/Default.html?ID=250&CountryCode=BE&LanguageCode=NL" target="_blank">Energiecalculator</a></li>
+                                <li><a class="popUpWindowColorSim" href="http://windowscoloursimulator.com/be_btnFoot/?lang_id=002" target="_blank">Kleurensimulator voor ramen en deuren</a></li>
+                                <li><a href="http://www.magazine.likemagazine.be/LikeMagazine/nl/FB966DA308A146BBB2BE1BAFF5AF9997" target="_blank">Stel uw eigen magazine samen</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="main-item">
+                        <div>
+                            <h4><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/inspiratiemodule/index.aspx">Inspiratie</a></h4>
+                        </div>
+                    </li><%--Toegevoegde link voor inspiratiemodule--%>
+                    <li class="main-item">
+                        <div>
+                            <h4><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/inspiratiemodule/index-grid.aspx">Inspiratie Grid</a></h4>
+                        </div>
+                    </li><%--Toegevoegde link voor inspiratiemodule--%>
+                    <li class="main-item">
+                        <div>
+                            <h4>Over Deceuninck</h4>
+                            <ul>
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/deceuninck-group.aspx">Over ons</a></li>
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/nieuws.aspx">Nieuws</a></li>
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/vacatures.aspx">Vacatures</a></li>
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/deceuninck-recycling.aspx">Deceuninck recycling</a></li>
+                                <li><a href="http://www.deceuninck.be/blog/">Blog</a></li>
+                                <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/contact.aspx">Contact</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="main-item">
+                        <div>
+                            <h5><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/contact.aspx">Contact</a></h5>
+                        </div>
+                    </li>
+                </ul>
+                <div class="extra">
+                    <a class="button" href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/vind-een-verdeler.aspx">
+                        <img src="/Content/PP/Images/menu-extra-arrow.svg" width="9" height="14" alt="" />Vind een verdeler</a>
+                    <a class="button" href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/contact.aspx?link=knop">
+                        <img src="/Content/PP/Images/menu-extra-arrow.svg" width="9" height="14" alt="" />Gratis prijsofferte</a>
+                    <a class="small-button" href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/vacatures.aspx">Werken bij Deceuninck?</a>
+                    <a class="small-button" href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/bestekteksten.aspx">Deceuninck voor Professionals</a>
+                </div>
+                <div class="close">
+                    <a href="#">
+                        <img src="/Content/PP/Images/menu-close.svg" alt="" width="11" height="11" /></a>
+                </div>
+            </nav>
+            <div class="lang">
+                <ul>
+                    <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/index.aspx" class="active">NL</a></li>
+                    <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/fr/index.aspx">FR</a></li>
+                </ul>
+            </div>
+            <div class="action-buttons">
+                <a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/vind-een-verdeler.aspx" class="dealer">
+                    <h4>Vind een verdeler</h4>
+                    <h6>In uw buurt</h6>
+                </a>
+                <a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/contact.aspx?link=knop" onclick="ga('send', 'event', 'Homepage', 'click', 'C2A_Prijsofferte');" class="quote">
+                    <h4>Gratis prijsofferte</h4>
+                    <h6>Ramen, deuren, gevel<br /> en terras</h6>
+                </a>
+            </div>
+        </header>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <section id="footer" class="block left-xlarge">
+            <div class="left-large">
+                <div class="item contact">
+                    <h3>U wil contact opnemen?</h3>
+                    <ul>
+                        <li>Deceuninck NV - Benelux</li>
+                        <li>Bruggesteenweg 360</li>
+                        <li>BE-8830 Hooglede-Gits</li>
+                        <li>T +32 51 239 272</li>
+                        <li>F +32 51 239 261</li>
+                        <li><a href="mailto:belux@deceuninck.com">belux@deceuninck.com</a></li>
+                    </ul>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/deceuninck.group" target="_blank">
+                            <img src="/Content/PP/Images/SocialMedia/facebook.svg" width="32" height="33" alt="Facebook" /></a>
+                        <a href="https://twitter.com/Deceuninck" target="_blank">
+                            <img src="/Content/PP/Images/SocialMedia/twitter.svg" width="32" height="33" alt="Twitter" /></a>
+                        <a href="https://www.youtube.com/user/deceunincknv" target="_blank">
+                            <img src="/Content/PP/Images/SocialMedia/youtube.svg" width="32" height="33" alt="Youtube" /></a>
+                        <a href="http://www.deceuninck.be/blog/feed/" target="_blank">
+                            <img src="/Content/PP/Images/SocialMedia/rss.svg" width="32" height="33" alt="RSS" /></a>
+                        <a href="http://www.pinterest.com/deceuninck/" target="_blank">
+                            <img src="/Content/PP/Images/SocialMedia/pintrest.svg" width="32" height="33" alt="Pintrest" /></a>
+                        <a href="https://plus.google.com/+Deceuninck-group/posts" target="_blank">
+                            <img src="/Content/PP/Images/SocialMedia/googleplus.svg" width="32" height="33" alt="Google Plus" /></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="subitem">
+                        <h3>Onze producten</h3>
+                        <ul>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/ramen-deuren.aspx">Ramen</a></li>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/tuintoepassingen/twinson-terras.aspx">Terras</a></li>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/gevelbekleding.aspx">Gevelbekleding</a></li>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/ramen-deuren/pvc-schuifdeuren.aspx">Schuifdeuren</a></li>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/ramen-deuren/deuren.aspx">Deuren</a></li>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/tuintoepassingen/tuinafsluitingen.aspx">Tuinafsluiting</a></li>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/dakranden-dakoversteken.aspx">Dakoversteken</a></li>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/luiken.aspx">Luiken</a></li>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/pvc-rolluiken.aspx">Rolluiken</a></li>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/interieurtoepassingen.aspx">Interieurtoepassingen</a></li>
+                        </ul>
+                    </div>
+                    <div class="subitem">
+                        <h3>Technologie</h3>
+                        <ul>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/tuintoepassingen/twinson-terras.aspx">Twinson</a></li>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/ramen-deuren/pvc-ramen.aspx">Linktrusion</a></li>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/ramen-deuren/integraal-gekleurd.aspx">360°</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="subitem">
+                        <h3>Tools</h3>
+                        <ul>
+                            <li><a class="popUpWindowEnergyCalculator" href="http://www.deceuninck.be/nl/energiecalculator/Default.html?ID=250&CountryCode=BE&LanguageCode=NL" target="_blank">Energiecalculator</a></li>
+                            <li><a class="popUpWindowColorSim" href="http://windowscoloursimulator.com/be_btnFoot/?lang_id=002" target="_blank">Kleurensimulator voor ramen en deuren</a></li>
+                            <li><a href="http://www.magazine.likemagazine.be/LikeMagazine/nl/FB966DA308A146BBB2BE1BAFF5AF9997" target="_blank">Stel uw eigen magazine samen</a></li>
+                        </ul>
+                    </div>
+                    <div class="subitem">
+                        <h3>Over Deceuninck</h3>
+                        <ul>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/deceuninck-group.aspx">Over ons</a></li>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/deceuninck-recycling.aspx">Deceunick recycling</a></li>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/nieuws.aspx">Nieuws</a></li>
+                            <li><a href="http://www.deceuninck.be/blog/">Blog</a></li>
+                            <li><a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/vacatures.aspx">Vacatures</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="bottom">
+                    <p>&copy; <%= DateTime.Now.Year %> Deceuninck, alle rechten voorbehouden | <a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/sitemap.aspx">Sitemap</a> | <a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/juridisch.aspx">Juridisch</a> | <a href="http://<%= Request.ServerVariables.Get("HTTP_HOST") %>/nl/contact.aspx">Contact</a></p>
+                </div>
+            </div>
+        </section>
+    </form>
+       <!-- Google-code voor remarketingtag -->
+    <!--------------------------------------------------
+Remarketingtags mogen niet worden gekoppeld aan gegevens waarmee iemand persoonlijk kan worden geïdentificeerd of op pagina's worden geplaatst die binnen gevoelige categorieën vallen. Meer informatie en instructies voor het instellen van de tag zijn te vinden op: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 1017069475;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+
+    <noscript>
+        <div style="display: inline;">
+            <img height="1" width="1" style="border-style: none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1017069475/?value=0&amp;guid=ON&amp;script=0" />
+        </div>
+    </noscript>
+    <script type="text/javascript">
+        setTimeout(function () {
+            var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0009/1755.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)
+        }, 1);
+    </script>
+
+</body>
+</html>

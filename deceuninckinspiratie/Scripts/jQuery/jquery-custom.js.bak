@@ -1,0 +1,96 @@
+jQuery(document).ready(function () {
+
+    // Empty input fields on click
+    //--------------------------------------
+    // display value in search field
+    jQuery('input.searchInput, input.emptyonclick, input.loginname, input.password').emptyonclick();
+
+
+    // Slider (homepage)
+    //--------------------------------------  
+    // main vertical scroll
+    $("#slider-content").scrollable({
+
+        // basic settings
+        vertical: true, mousewheel: false, speed: 600, circular: true
+
+        // main navigator (thumbnail images)
+    }).navigator("#slider-nav").autoscroll(6000);
+
+    $('#slider-nav li').hoverIntent(function () {
+        $(this).click();
+    }, function () { });
+
+
+    // Slider (pages)
+    //--------------------------------------
+    // main vertical scroll
+
+    $("#slider-content-page").scrollable().navigator("#slider-nav-page");
+
+
+
+    // Popups (colorbox - http://colorpowered.com/colorbox/)
+    //--------------------------------------
+
+    $("#slider-content a").fancybox({
+        'transitionIn': 'elastic',
+        'transitionOut': 'elastic'
+    });
+
+    $("#slider-nav a").fancybox({
+        'transitionIn': 'elastic',
+        'transitionOut': 'elastic'
+    });
+
+    $(".item h1").fancybox({
+        'transitionIn': 'elastic',
+        'transitionOut': 'elastic'
+    });
+
+    /*$("#menu a").fancybox({  
+    'transitionIn'	: 'elastic',      
+    'transitionOut'	: 'elastic'        
+    });*/
+
+
+    $(".popup .readmore a").fancybox({
+        'transitionIn': 'elastic',
+        'transitionOut': 'elastic'
+    });
+
+
+    $("a#country").fancybox({
+        'transitionIn': 'elastic',
+        'transitionOut': 'elastic'
+    });
+
+    $("a.discover").fancybox({
+        'transitionIn': 'elastic',
+        'transitionOut': 'elastic'
+    });
+
+
+    // Superfish expandable menu
+    //--------------------------------------     
+
+    $("ul.menu").superfish();
+
+
+});
+
+
+// Open new window select country
+//--------------------------------------     
+
+//    $(function() {
+//    $("#Select1, #Select2").change(function() {
+//            if ($(this).val()) {
+//                window.open($(this).val(), '_blank');
+//                //$("#formElement").submit();
+//            }
+//        });
+
+//    });
+
+

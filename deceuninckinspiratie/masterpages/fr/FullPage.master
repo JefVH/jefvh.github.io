@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/fr/Main.master" AutoEventWireup="true" CodeFile="FullPage.master.cs" Inherits="masterpages_FullPage_fr" %>
+
+<asp:Content ID="contentHead" ContentPlaceHolderID="head" Runat="Server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+</asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="contentBreadCrumbs" ContentPlaceHolderID="breadCrumbs" Runat="Server">
+    <asp:ContentPlaceHolder ID="breadCrumbs" runat="server">
+</asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="contentMainContent" ContentPlaceHolderID="mainContent" Runat="Server">
+    <asp:ContentPlaceHolder ID="mainContent" runat="server">
+</asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="contentBottomWrapper" ContentPlaceHolderID="bottomWrapper" Runat="Server">
+            <div class="inner-wrapper-bottom">
+            </div>
+</asp:Content>
+
+<asp:Content ID="contentSidebar" ContentPlaceHolderID="sideBar" Runat="Server">
+</asp:Content>
+
+<asp:Content ID="content1" ContentPlaceHolderID="plhJavascript" runat="Server">
+    <asp:ContentPlaceHolder ID="plhJavascript" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
