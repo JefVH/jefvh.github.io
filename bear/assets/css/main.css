@@ -330,12 +330,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-info {
-  background-color: #00aeef;
-  border-color: #00aeef;
+  background-color: #fe9b2d;
+  border-color: #fe9b2d;
 }
 .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active {
-  background-color: #00aeef;
-  border-color: #009bd5;
+  background-color: #cccc33;
+  border-color: #cccc33;
 }
 
 .btn-primary {
@@ -5332,28 +5332,27 @@ img.mfp-img {
 }
 .hero-unit .hero-content {
   position: absolute;
-  left: 18%;
-  top: 50%;
+  left: 15%;
+  top: 20%;
   width: 100%;
-  margin-top: -17em;
   z-index: 2;
 }
 @media screen and (max-width: 1024px){
   .hero-unit .hero-content{
-    top:55%;
-    left:12%;
+    top:15%;
+    left:10%;
   }
 }
 @media screen and (max-width: 768px){
   .hero-unit .hero-content{
-    top:45%;
-    left:26%;
+    top:20%;
+    left:8%;
   }
 }
 @media screen and (max-width: 375px){
   .hero-unit .hero-content{
-    top:65%;
-    left:19%;
+    top:20%;
+    left:10%;
   }
 }
 .hero-unit .hero-content .hero-text,
@@ -5375,19 +5374,19 @@ img.mfp-img {
   font-weight: 300;
 }
 .hero-unit .hero-content .hero-text .hero-heading {
-  font-size: 2em;
+  font-size: 1.6em;
 }
 .hero-unit .hero-content .hero-text .hero-heading span.herotitlespan{
-  font-family: "Dosis", sans-serif;
+  font-family: 'Boogaloo', cursive;
   color:#197e85;
-  font-weight:500;
-  font-size:2.8em;
+  font-weight:700;
+  font-size:2.3em;
 }
 .hero-unit .hero-content .hero-text .hero-heading span.herosubtitlespan{
-  font-family: 'Lobster Two', cursive;
-  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
   color: #cccc33;
-  font-size:2em;
+  font-size:1.5em;
 }
 @media screen and (max-width: 1024px){
   .hero-unit .hero-content .hero-text .hero-heading {
@@ -5402,13 +5401,7 @@ img.mfp-img {
 }
 @media screen and (max-width: 768px){
   .hero-unit .hero-content .hero-text .hero-heading {
-    font-size: 3em;
-  }
-  .hero-unit .hero-content .hero-text .hero-heading span.herotitlespan{
-    font-size:1.5em;
-  }
-  .hero-unit .hero-content .hero-text .hero-heading span.herosubtitlespan{
-    font-size:1.3em;
+    font-size: 2.5em;
   }
 }
 @media screen and (max-width: 480px) {
@@ -5418,7 +5411,7 @@ img.mfp-img {
 }
 @media screen and (max-width: 375px){
   .hero-unit .hero-content .hero-text .hero-heading {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 .hero-unit .hero-content .hero-text p {
@@ -5444,6 +5437,8 @@ img.mfp-img {
 }
 .hero-unit .hero-content .hero-buttons {
   z-index: 2;
+  text-align: left;
+  margin-top: 2%;
 }
 .hero-unit .hero-content .hero-buttons .btn {
   margin: 0 5px;
