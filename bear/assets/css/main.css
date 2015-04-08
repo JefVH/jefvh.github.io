@@ -397,6 +397,7 @@ a:hover, a:focus {
 .section-heading {
   text-align: center;
   margin-bottom: 50px;
+  margin-top:15px;
 }
 .section-heading h2, .section-heading p {
   font-family: "Dosis", sans-serif;
