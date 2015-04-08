@@ -5381,10 +5381,11 @@ img.mfp-img {
   font-family: "Dosis", sans-serif;
   color:#197e85;
   font-weight:500;
-  font-size:2.5em;
+  font-size:2.8em;
 }
 .hero-unit .hero-content .hero-text .hero-heading span.herosubtitlespan{
   font-family: 'Lobster Two', cursive;
+  font-weight: 700;
   color: #cccc33;
   font-size:2em;
 }
