@@ -13,7 +13,7 @@ body {
   line-height: 1.6;
 }
 body.fullscreen-image-background {
-  background-image: url('../img/header-blur-light.png');
+  background-image: url('../img/header-illustration.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -23,6 +23,17 @@ body.fullscreen-image-background {
     background-attachment: fixed;
   }
 }
+@media screen and (max-width: 768px){
+  body.fullscreen-image-background{
+    background-image: url('../img/header-illustration-responsive-tablet.png');
+  }
+}  
+@media screen and (max-width: 375px){
+  body.fullscreen-image-background{
+    background-image: url('../img/header-illustration-responsive-mobile.png');
+  }
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Dosis", sans-serif;
@@ -5320,10 +5331,10 @@ img.mfp-img {
 }
 .hero-unit .hero-content {
   position: absolute;
-  left: 0;
+  left: 18%;
   top: 50%;
   width: 100%;
-  margin-top: -10em;
+  margin-top: -17em;
   z-index: 2;
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -5336,6 +5347,18 @@ img.mfp-img {
     margin-top: -80px;
   }
 }
+@media screen and (max-width: 768px){
+  .hero-unit .hero-content{
+    top:45%;
+    left:28%;
+  }
+}
+@media screen and (max-width: 375px){
+  .hero-unit .hero-content{
+    top:30%;
+    left:20%;
+  }
+}
 .hero-unit .hero-content .hero-text,
 .hero-unit .hero-content .hero-text p {
   font-family: "Dosis", sans-serif;
@@ -5344,9 +5367,7 @@ img.mfp-img {
 }
 .hero-text{
   text-align: left;
-  position: absolute;
-  left:17vw;
-  top:-10vh;
+
 }
 .hero-text p span{
   color: #cccc33;
@@ -5357,25 +5378,36 @@ img.mfp-img {
   font-weight: 300;
 }
 .hero-unit .hero-content .hero-text .hero-heading {
-  font-size: 4vh;
+  font-size: 2em;
 }
 .hero-unit .hero-content .hero-text .hero-heading span.herotitlespan{
   font-family: "Dosis", sans-serif;
   color:#197e85;
   font-weight:500;
-  font-size:7vh;
+  font-size:2.5em;
 }
 .hero-unit .hero-content .hero-text .hero-heading span.herosubtitlespan{
   font-family: 'Lobster Two', cursive;
   color: #cccc33;
-  font-size:6vh;
-}
-@media screen and (max-width: 768px) {
-  .hero-unit .hero-content .hero-text .hero-heading {
-    font-size: 4em;
-  }
+  font-size:2em;
 }
 @media screen and (max-width: 480px) {
+  .hero-unit .hero-content .hero-text .hero-heading {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 768px){
+  .hero-unit .hero-content .hero-text .hero-heading {
+    font-size: 3em;
+  }
+  .hero-unit .hero-content .hero-text .hero-heading span.herotitlespan{
+    font-size:1.5em;
+  }
+  .hero-unit .hero-content .hero-text .hero-heading span.herosubtitlespan{
+    font-size:1.3em;
+  }
+}
+@media screen and (max-width: 375px){
   .hero-unit .hero-content .hero-text .hero-heading {
     font-size: 2em;
   }
