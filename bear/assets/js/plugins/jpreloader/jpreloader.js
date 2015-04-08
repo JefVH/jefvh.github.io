@@ -94,6 +94,11 @@
 			top: jpreOptions.loaderVPos,
 			left: Math.round((50 / $(window).width()) * posWidth) + '%'
 		});
+
+		jImage = $('<img></img>')
+		.attr('id','jpreImage')
+		.attr('src','assets/img/bear-logo-dark.png')
+		.appendTo(jLoader);
 		
 		jBar = $('<div></div>')
 		.attr('id', 'jpreBar')
@@ -111,7 +116,7 @@
 				height: '100%'
 			})
 			.appendTo(jLoader)
-			.html('Loading...');
+			.html('Laden...');
 		}
 		if( !jpreOptions.autoclose ) {
 			jButton = $('<div></div>')

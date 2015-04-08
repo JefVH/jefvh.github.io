@@ -92,8 +92,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px;
 }
 .navbar-brand img {
-  width: 100px;
+  width: 78px;
   height: auto;
+}
+@media screen and (min-width: 767px){
+  .navbar-brand img{
+    width:100px;
+  }
 }
 
 .navbar,
@@ -158,20 +163,14 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-nav > li.navlink-border > a{
   border-bottom: none;
   border: 2px solid #454545;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top:5px;
+  padding:5px;
 }
 .navbar-nav > li.navlink-border > a:hover{
-  padding-top:5px;
-  padding-bottom: 5px;
   border: 2px solid #cccc33;
   background-color: #cccc33;
   color: #F7F7F7;
 }
 .navbar-nav > li.navlink-border > a:focus{
-  padding-top: 5px;
-  padding-bottom: 5px;
   border: 2px solid #cccc33;
   color: #cccc33;
 }
@@ -191,17 +190,30 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0;
 }
 .navbar.navbar-light {
-  background-color: #f7f7f7;
-  border-bottom: 1px solid #eee;
+  background-color: #cccc33;
+  border-bottom: 1px solid #cccc33;
 }
-.navbar.navbar-light .navbar-nav.nav-text-light > li > a {
-  color: #646464;
+.navbar.navbar-light .navbar-nav > li > a {
+  color: #454545;
 }
-.navbar.navbar-light .navbar-nav.nav-text-light > li > a:hover {
-  border-bottom-color: #646464;
+.navbar.navbar-light .navbar-nav > li > a:hover {
+  border-bottom-color: #197E85;
 }
-.navbar.navbar-light .navbar-nav.nav-text-light > li.active > a {
-  border-bottom-color: #646464;
+.navbar.navbar-light .navbar-nav > li.active > a {
+  border-bottom-color: #197E85;
+}
+.navbar.navbar-light .navbar-nav > li.navlink-border > a {
+  border:2px solid #454545;
+}
+.navbar.navbar-light .navbar-nav > li.navlink-border > a:hover {
+  border: 2px solid #197E85;
+  background-color: #197E85;
+  color: #F7F7F7;
+}
+.navbar.navbar-light .navbar-nav > li.navlink-border > a:focus {
+  border: 2px solid #197E85;
+  background-color: #197E85;
+  color: #F7F7F7;
 }
 
 
@@ -454,7 +466,7 @@ body #jprePercentage {
   color: #777;
 }
 body #jpreOverlay {
-  background-color: #fafafa;
+  background-color: #cccc33;
 }
 body #jpreBar {
   -moz-box-shadow: none;
@@ -4701,7 +4713,7 @@ body {
 }
 
 #jpreOverlay {
-  background-color: #000000;
+  background-color: #cccc33;
 }
 
 #jpreSlide {
@@ -4716,12 +4728,6 @@ body {
 #jpreLoader {
   width: 300px;
   height: 25px;
-  box-shadow: 0 0 7px 3px #fff;
-  -moz-box-shadow: 0 0 7px 3px #fff;
-  -webkit-box-shadow: 0 0 7px 3px #fff;
-  border-radius: 25px;
-  -moz-border-radius: 25px;
-  -webkit-border-radius: 25px;
 }
 
 #jpreBar {
@@ -4748,6 +4754,14 @@ body {
   -webkit-animation: progress 2s linear infinite;
   -ms-animation: progress 2s linear infinite;
   -o-animation: progress 2s linear infinite;
+}
+
+#jpreImage{
+  position: relative;
+  top: -100px;
+  width: 18%;
+  margin-left: 41%;
+  margin-right: 41%;
 }
 
 #jprePercentage {
