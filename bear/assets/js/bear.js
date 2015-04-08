@@ -57,6 +57,12 @@ jQuery( function($){
 		easing: 'easeInOutExpo'
 	});
 
+	$(document).ready(function () {
+			  $(".navbar-toggle").on("click", function () {
+				    $(this).toggleClass("active");
+			  });
+		});
+
 
 	/*----------------------/
 	/* HERO UNIT SUPERSIZED
