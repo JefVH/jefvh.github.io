@@ -84,11 +84,15 @@ h1, h2, h3, h4, h5, h6 {
 /* --------------------- */
 /* NAVIGATION BAR
 /* --------------------- */
+
+.conatainer.navbar-header{
+  height: 55px;
+}
 .navbar-brand {
   padding: 15px;
 }
 .navbar-brand img {
-  width: 74px;
+  width: 100px;
   height: auto;
 }
 
@@ -114,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-nav {
-  padding: 10px 0;
+  padding: 15px 0;
 }
 .navbar-nav > li {
   margin: 0 10px;
@@ -137,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 5px;
   padding-top: 7px;
   border-bottom: 2px solid transparent;
-  font-size: 12px;
+  font-size: 14px;
   color: #454545;
   font-weight: 700;
 }
@@ -5331,16 +5335,33 @@ img.mfp-img {
   color: #646464;
   font-weight: 300;
 }
+.hero-text{
+  text-align: left;
+  position: absolute;
+  left:17vw;
+  top:-10vh;
+}
 .hero-text p span{
   color: #cccc33;
 }
 .hero-heading{
-  font-family: "Dosis", sans-serif;
-  color: #cccc33;
-  font-weight: 500;
+  font-family: "Lato", sans-serif;
+  color: #454545;
+  font-weight: 300;
 }
 .hero-unit .hero-content .hero-text .hero-heading {
-  font-size: 6em;
+  font-size: 4vh;
+}
+.hero-unit .hero-content .hero-text .hero-heading span.herotitlespan{
+  font-family: "Dosis", sans-serif;
+  color:#197e85;
+  font-weight:500;
+  font-size:7vh;
+}
+.hero-unit .hero-content .hero-text .hero-heading span.herosubtitlespan{
+  font-family: 'Lobster Two', cursive;
+  color: #cccc33;
+  font-size:6vh;
 }
 @media screen and (max-width: 768px) {
   .hero-unit .hero-content .hero-text .hero-heading {

@@ -75,8 +75,7 @@ jQuery( function($){
 			slide_links: 'blank',		// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 			thumb_links: 0,				// Individual thumb links for each slide
 			slides:  	[				// Slideshow Images
-							{image : 'assets/img/sliders/slider1.png', title : '<div class="hero-text"><h2 class="hero-heading">WEB DESIGN AGENCY</h2><p><span>B</span>eautiful.<span>E</span>xciting.<span>A</span>ccessible.<span>R</span>esourceful</p></div>', thumb : '', url : ''},
-							{image : 'assets/img/sliders/slider2.png', title : '<div class="hero-text"><h2 class="hero-heading">DIGITALE COMMUNICATIE</h2><p><span>B</span>eautiful.<span>E</span>xciting.<span>A</span>ccessible.<span>R</span>esourceful</p></div>', thumb : '', url : ''}
+							{image : 'assets/img/header-illustration.png', title : '<div class="hero-text"><h2 class="hero-heading"><span class="herotitlespan">BERESTERK</span><br>in <span class="herosubtitlespan">webdesign</span><br>& <span class="herosubtitlespan">digitale<br>communicatie</span></h2></div>', thumb : '', url : ''}
 						],
 		});
 
