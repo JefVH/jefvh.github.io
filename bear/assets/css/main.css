@@ -5347,7 +5347,7 @@ img.mfp-img {
 @media screen and (max-width: 768px){
   .hero-unit .hero-content{
     top:45%;
-    left:28%;
+    left:25%;
   }
 }
 @media screen and (max-width: 375px){
