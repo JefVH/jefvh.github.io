@@ -1,9 +1,321 @@
-﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title></title>
+    <title>Deceuninck Academy</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <script type="text/javascript" async="" src="https://stats.g.doubleclick.net/dc.js"></script>
+    <script src="Scripts/jquery-1.11.2.min.js?fp=635617498500000000" type="text/javascript"></script>
+    <style type="text/css"></style>
+    <script src="Scripts/jquery-ui-1.9.2.min.js?fp=635617498500000000" type="text/javascript"></script>
+    <script src="Scripts/jquery.vticker.min.js?fp=635617498500000000" type="text/javascript"></script>
+    <script src="Scripts/DataTables-1.9.4/media/js/jquery.dataTables.js?fp=635617498520000000" type="text/javascript"></script>
+    <script src="Scripts/Custom/jQuery/LayoutWithSelectorCells.js?fp=635617498500000000" type="text/javascript"></script>
+    <script src="Scripts/Custom/jQuery/Functions.js?fp=635617498500000000" type="text/javascript"></script>
+    <script src="Scripts/jquery.lazyload.js?fp=635617498500000000" type="text/javascript"></script>
+    <script src="Scripts/jquery.autocomplete.js?fp=635617498500000000" type="text/javascript"></script>
+    <script src="Scripts/Custom/jQuery/autocomplete.js?fp=635617498500000000" type="text/javascript"></script>
+    <script src="Scripts/jquery.fileDownload.js?fp=635617498500000000" type="text/javascript"></script>
+    <script src="Scripts/spin.min.js?fp=635617498500000000" type="text/javascript"></script>
+    <style type="text/css"></style>
+    <link rel="shortcut icon" href="Deceuninck.ico" type="image/x-icon">
+    <link type="text/css" href="Content/themes/base/minified/jquery-ui.min.css?fp=635617498300000000" rel="stylesheet">
+    <link type="text/css" href="Content/DataTables-1.9.4/media/css/demo_page.css?fp=635617498290000000" rel="stylesheet">
+    <link type="text/css" href="Content/DataTables-1.9.4/media/css/demo_table_jui.css?fp=635617498290000000" rel="stylesheet">
+    <link href="Content/Deceuninck_Bundle.min.css?fp=635617498270000000" rel="stylesheet">
+    <link href="Content/Autocomplete.css?fp=635617498270000000" rel="stylesheet">
+    <link href="Content/jquery.pietimer.css?fp=635617498280000000" rel="stylesheet">
+    <script type="text/javascript">
+        //Do not remove! Firefox hack
+        window.onunload = function () { };
+
+
+        var division = "2";
+        var customer = "30001";
+        var employee = "20";
+        var language = "D";
+
+
+        // Count how often the form was submitted to avoid double-submit issues.
+        var formSubmitCount = 0;
+        function ButtonSetRefresh() {
+            // This needs to be on the bottom part of the page to ensure that this is the last section of document ready that gets run
+            $(".ui-buttonset a.first").each(function () { $(this).html('<img src="http://www.deceuninck-online.com/App_Themes/Deceuninck/Images/icon_first.png" />'); });
+            $(".ui-buttonset a.previous").each(function () { $(this).html('<img src="http://www.deceuninck-online.com/App_Themes/Deceuninck/Images/btn_previousstep.png" />'); });
+            $(".ui-buttonset a.next").each(function () { $(this).html('<img src="http://www.deceuninck-online.com/App_Themes/Deceuninck/Images/btn_nextstep.png" />'); });
+            $(".ui-buttonset a.last").each(function () { $(this).html('<img src="http://www.deceuninck-online.com/App_Themes/Deceuninck/Images/icon_last.png" />'); });
+        }
+    </script>
+
+
+    <!--[if IE 8]>
+    <link type="text/css" href="/Content/Deceuninck_IE8.css" rel="stylesheet" />
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <link type="text/css" href="/Content/Deceuninck_IE7-and-down.css" rel="stylesheet" />
+    <![endif]-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".datePicker").each(function () {
+                var settings = {};
+                if ($(this).data("mindate") !== undefined) {
+                    settings.minDate = $(this).data("mindate");
+                }
+                $(this).datepicker(settings);
+            });
+            $(".quickLinks").first().show();
+            // Add required field markup
+            $("label.m").each(function () {
+                $(this).html($(this).html() + " " + $("#requiredFieldHtmlMarkup").val());
+            });
+        });
+
+    </script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-320446-1']);
+        _gaq.push(['_setDomainName', 'deceuninck-online.com']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
 </head>
 <body>
+
+    <div class="aspNetHidden">
+        <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+        <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+        <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNTE5NTcwNzI1D2QWAmYPZBYCAgUPZBYUAgUPFgIeBGhyZWYFqgEvT3JkZXIvRGlyZWN0T3JkZXIvRGlyZWN0T3JkZXIuYXNweD9zaWQ9ZjhhOTJkNWU3ZGUzNGQzODhmMjA3ZDU2MzA0NWY0NTEmc0RJTlI9MiZzQ1VOUj0zMDAwMSZzRU1OUj0yMCZMTkNEPUQmRFRDRD1ubC1CRSZjPTElN2M5OSU3Y0tWS3V5ZyUyZmhYUE1RN2Vsc1EzckxsTEt5Q1BFJTNkJnNDVU5NPWQCBw8WAh8ABaoBL09yZGVyL0RpcmVjdE9yZGVyL0RpcmVjdE9yZGVyLmFzcHg/c2lkPWY4YTkyZDVlN2RlMzRkMzg4ZjIwN2Q1NjMwNDVmNDUxJnNESU5SPTImc0NVTlI9MzAwMDEmc0VNTlI9MjAmTE5DRD1EJkRUQ0Q9bmwtQkUmYz0xJTdjOTklN2NLVkt1eWclMmZoWFBNUTdlbHNRM3JMbExLeUNQRSUzZCZzQ1VOTT1kAgkPFgIeCWlubmVyaHRtbAUIV2Vsa29tLCBkAgsPDxYCHgRUZXh0BQdMb2cgdWl0ZGQCDw8WAh4LXyFJdGVtQ291bnQCAxYGAgEPZBYCAgEPFgIfAgW9ATxhIGhyZWY9Ii9PcmRlci9EaXJlY3RPcmRlci9EaXJlY3RPcmRlci5hc3B4P3NpZD1mOGE5MmQ1ZTdkZTM0ZDM4OGYyMDdkNTYzMDQ1ZjQ1MSZzRElOUj0yJnNDVU5SPTMwMDAxJnNFTU5SPTIwJkxOQ0Q9RCZEVENEPW5sLUJFJmM9MSU3Yzk5JTdjS1ZLdXlnJTJmaFhQTVE3ZWxzUTNyTGxMS3lDUEUlM2Qmc0NVTk09Ij5Ib21lPC9hPmQCAg9kFgICAQ8WAh8CBbkBPGEgaHJlZj0iL1NlcnZpY2VDZW50ZXIvRGVmYXVsdC5hc3B4P3NpZD1mOGE5MmQ1ZTdkZTM0ZDM4OGYyMDdkNTYzMDQ1ZjQ1MSZzRElOUj0yJnNDVU5SPTMwMDAxJnNFTU5SPTIwJkxOQ0Q9RCZEVENEPW5sLUJFJmM9MSU3Yzk5JTdjS1ZLdXlnJTJmaFhQTVE3ZWxzUTNyTGxMS3lDUEUlM2Qmc0NVTk09Ij5EaWVuc3RlbjwvYT5kAgMPZBYCAgEPFgIfAgUHRHJvcGJveGQCEw8WAh8CBQdEcm9wYm94ZAIVDxYCHwMCAxYGZg9kFgICAQ8WAh8CBRY2LzAyLzIwMTU6IFBST0ZJTEVTIDI4ZAIBD2QWAgIBDxYCHwIFNjMwLzAxLzIwMTU6IE5JRVVXRSBERUNFVU5JTkNLIFBSSUpTTElKU1QgRkVCUlVBUkkgMjAxNWQCAg9kFgICAQ8WAh8CBTEyNi8wMS8yMDE1OiBQUklKU0xJSlNUIEJPVVcgREVDRVVOSU5DSyAwMS8wMi8yMDE1ZAIbD2QWAgIBDxYCHwIF3QMgPGRpdj4NCiAgICAgICAgPGxhYmVsIGNsYXNzPSJsYXJnZUxhYmVsIj5VcmwgOjwvbGFiZWw+DQogICAgICAgICAgICA8c3Bhbj48YSBocmVmPSJodHRwOi8vZGVjZXVuaW5jay5jbGllbnRzLmRtcy5iZS9kb3dubG9hZHMvIiB0YXJnZXQ9Il9ibGFuayI+aHR0cDovL2RlY2V1bmluY2suY2xpZW50cy5kbXMuYmUvZG93bmxvYWRzLzwvYT48L3NwYW4+DQogICAgICAgIDxkaXY+DQogICAgICAgICAgICA8bGFiZWwgY2xhc3M9ImxhcmdlTGFiZWwiPkdlYnJ1aWtlcnNuYWFtIDo8L2xhYmVsPg0KICAgICAgICAgICAgPHNwYW4+ZGVjZXVuaW5jazwvc3Bhbj4NCiAgICAgICAgPC9kaXY+DQogICAgICAgIDxkaXY+DQogICAgICAgICAgICA8bGFiZWwgY2xhc3M9ImxhcmdlTGFiZWwiPldhY2h0d29vcmQgOjwvbGFiZWw+DQogICAgICAgICAgICA8c3Bhbj5wcmVmZXJyZWRwYXJ0bmVyPC9zcGFuPg0KICAgICAgICA8L2Rpdj4NCiAgICA8L2Rpdj5kAh8PDxYEHwIFEExlZ2FsIGRpc2NsYWltZXIeC05hdmlnYXRlVXJsBaMBfi9BYm91dC9MZWdhbERpc2NsYWltZXIuYXNweD9zaWQ9ZjhhOTJkNWU3ZGUzNGQzODhmMjA3ZDU2MzA0NWY0NTEmc0RJTlI9MiZzQ1VOUj0zMDAwMSZzRU1OUj0yMCZMTkNEPUQmRFRDRD1ubC1CRSZjPTElN2M5OSU3Y0tWS3V5ZyUyZmhYUE1RN2Vsc1EzckxsTEt5Q1BFJTNkJnNDVU5NPWRkAiEPD2QWAh4FdGl0bGUFDkRvd25sb2FkIGdhbW1hFgICAQ8WAh8CBTtVdyBiZXN0YW5kIHdvcmR0IHZvb3JiZXJlaWQsIGRpdCBrYW4gdG90IDE1IHNlY29uZGVuIGR1cmVuLmRk2KkuxsTYPJtCill7ox1TgpV+73w=">
+    </div>
+
+    <script type="text/javascript">
+<!--
+var theForm = document.forms['frmInouticBase'];
+if (!theForm) {
+    theForm = document.frmInouticBase;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+// -->
+    </script>
+
+
+    <div class="aspNetHidden">
+
+        <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAQ6E7ghK1HFKNheLGdlXAPHzySFEsyNQ/m2Ylnxkbj93VT1G2i7RbMnl87RE3kifQygGz5g8jqN8hGxSYTuTUi9b4kEPr3YPNyzMJ3TNNELQVb2XfM=">
+    </div>
+    <input type="hidden" name="_ctl0:requiredFieldHtmlMarkup" id="requiredFieldHtmlMarkup" value="*">
+    <input type="hidden" name="_ctl0:hfAutocompleteInvalidTooltip" id="hfAutocompleteInvalidTooltip" value="Verkeerde input">
+    <div id="top">
+        <div id="logo">
+            <a href="http://www.deceuninck-online.com/Order/DirectOrder/DirectOrder.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=" id="logoLink1">
+                <img>
+            </a>
+            <a href="http://www.deceuninck-online.com/Order/DirectOrder/DirectOrder.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=" id="logoLink2">
+                <img src="deceuninck_logo_website.png">
+            </a>
+        </div>
+        <div id="topRightContainer">
+            <div id="user">Welkom, </div>
+            <a id="LogoutLinkButton" href="javascript:__doPostBack('_ctl0$LogoutLinkButton','')">Log uit</a>
+        </div>
+        <div id="menuContainer">
+            <div id="menuContainerPanel" class="menu">
+                <ul id="menu" class="dropdown active">
+                    <li class="one">
+                        <span>
+                            <a href="http://www.deceuninck-online.com/Order/DirectOrder/DirectOrder.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Orders</a><ul class="sub_menu">
+                                <li><span><a href="http://www.deceuninck-online.com/Order/DirectOrder/DirectOrder.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Directe bestelling</a></span></li>
+                                <li>
+                                    <span>
+                                        <a href="http://www.deceuninck-online.com/Order/ProductCatalog/ProductCatalog.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">e-Catalogus</a><ul class="sub_menu">
+                                            <li><span><a href="http://www.deceuninck-online.com/Order/ProductCatalog/ProductCatalog.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">e-Catalogus</a></span></li>
+                                            <li><span><a href="http://www.deceuninck-online.com/Order/ProductCatalog/CustomerCodification.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Klantencode</a></span></li>
+                                        </ul>
+                                    </span>
+                                </li>
+                                <li><span><a href="http://www.deceuninck-online.com/Order/Container/Container.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Container</a></span></li>
+                                <li><span><a href="http://www.deceuninck-online.com/Order/OrderHistory/OrderHistory.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Mijn bestellingen</a></span></li>
+                                <li><span><a href="http://www.deceuninck-online.com/Order/Holidays/Holidays.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Levering- en vakantiekalender</a></span></li>
+                                <li><span><a href="http://www.deceuninck-online.com/Order/PurchaseOverview.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Aankoopstatistieken</a></span></li>
+                            </ul>
+                        </span>
+                    </li>
+                    <li class="two"><span><a href="http://www.deceuninck-online.com/Crm/AgentLeads.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Mijn info aanvragen</a></span></li>
+                    <li class="three">
+                        <span>
+                            <a href="http://www.deceuninck-online.com/ServiceCenter/TechnicalData/Search.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Diensten</a><ul class="sub_menu active">
+                                <li><span><a href="http://www.deceuninck-online.com/ServiceCenter/TechnicalData/Search.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Technische informatie</a></span></li>
+                                <li class="active">
+                                    <span>
+                                        <a href="http://www.deceuninck-online.com/ServiceCenter/Marketing/Search.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Marketing</a><ul class="sub_menu active">
+                                            <li><span><a href="http://www.deceuninck-online.com/ServiceCenter/Marketing/Search.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Foto’s &amp; brochures</a></span></li>
+                                            <li><span><a href="http://www.deceuninck-online.com/Order/ProductCatalog/SelectProductGroup/SelectProductSubGroup.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=&amp;productGroupCode=81">Monstermateriaal</a></span></li>
+                                            <li><span><a href="http://www.deceuninck-online.com/Order/ProductCatalog/SelectProductGroup/SelectProductSubGroup.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=&amp;productGroupCode=84">Displays</a></span></li>
+                                            <li><span><a href="http://www.deceuninck-online.com/Order/ProductCatalog/SelectProductGroup/SelectProductSubGroup.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=&amp;productGroupCode=83">Publiciteitsmateriaal</a></span></li>
+                                            <li>
+                                                <span>
+                                                    <a href="http://www.deceuninck-online.com/ServiceCenter/Marketing/CorporateIdentity/CI_Manual_Deceuninck.pdf" target="_blank">Gebruik logo's</a><ul class="sub_menu">
+                                                        <li><span><a href="http://www.deceuninck-online.com/ServiceCenter/Marketing/CorporateIdentity/CI_Manual_Deceuninck.pdf" target="_blank">CI Manual</a></span></li>
+                                                        <li><span><a href="http://www.deceuninck-online.com/ServiceCenter/Marketing/CorporateIdentity/DownloadLogo/Deceuninck.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Deceuninck logo</a></span></li>
+                                                        <li><span><a href="http://www.deceuninck-online.com/ServiceCenter/Marketing/CorporateIdentity/DownloadLogo/Twinson.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Twinson logo</a></span></li>
+                                                        <li><span><a href="http://www.deceuninck-online.com/ServiceCenter/Marketing/CorporateIdentity/DownloadLogo/Linktrusion.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Linktrusion logo</a></span></li>
+                                                        <li><span><a href="http://www.deceuninck-online.com/ServiceCenter/Marketing/CorporateIdentity/DownloadLogo/Decoroc.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Decoroc logo</a></span></li>
+                                                        <li><span><a href="http://www.deceuninck-online.com/ServiceCenter/Marketing/CorporateIdentity/DownloadLogo/Omniral.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Omniral logo</a></span></li>
+                                                    </ul>
+                                                </span>
+                                            </li>
+                                            <li class="active"><span><a href="http://www.deceuninck-online.com/ServiceCenter/Marketing/ExternalFTP/Default.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Dropbox</a></span></li>
+                                        </ul>
+                                    </span>
+                                </li>
+                                <li><span><a href="http://www.deceuninck-online.com/ServiceCenter/NewsOverview.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Nieuwsbrief</a></span></li>
+                                <li>
+                                    <span>
+                                        <a href="http://www.deceuninck-online.com/ServiceCenter/CustomerCare/ClaimOverview.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Klantenzorg</a><ul class="sub_menu">
+                                            <li><span><a href="http://www.deceuninck-online.com/ServiceCenter/CustomerCare/ClaimOverview.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Klachtenoverzicht</a></span></li>
+                                            <li><span><a href="http://www.deceuninck-online.com/ServiceCenter/CustomerCare/ClaimEntry.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Ingave klacht</a></span></li>
+                                        </ul>
+                                    </span>
+                                </li>
+                                <li><span><a href="http://www.deceuninck-online.com/ServiceCenter/EmptyStillagesCollection.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Afhalen lege containers</a></span></li>
+                                <li><span><a href="http://www.deceuninck-online.com/ServiceCenter/RecyclingContainerCollection.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Haal volle recycling containers op</a></span></li>
+                                <li>
+                                    <span>
+                                        <a href="http://www.deceuninck-online.com/ServiceCenter/Software/TerraceCalculation.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Software</a><ul class="sub_menu">
+                                            <li><span><a href="http://www.deceuninck-online.com/ServiceCenter/Software/TerraceCalculation.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Terrace berekeningsmodule</a></span></li>
+                                        </ul>
+                                    </span>
+                                </li>
+                            </ul>
+                        </span>
+                    </li>
+                    <li class="four">
+                        <span>
+                            <a href="http://www.deceuninck-online.com/Profile/CompanyDetails.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Mijn profiel</a><ul class="sub_menu">
+                                <li><span><a href="http://www.deceuninck-online.com/Profile/CompanyDetails.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Mijn organisatie</a></span></li>
+                                <li><span><a href="http://www.deceuninck-online.com/Profile/Contacts.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Mijn contacten</a></span></li>
+                                <li><span><a href="http://www.deceuninck-online.com/Account/SwitchAccount.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Schakel over naar andere gebruiker</a></span></li>
+                                <li><span><a href="http://www.deceuninck-online.com/Logout.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Log uit</a></span></li>
+                            </ul>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+
+    <ul class="breadcrumbs">
+
+        <li>
+            <a href="http://www.deceuninck-online.com/Order/DirectOrder/DirectOrder.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Home</a>
+        </li>
+
+        <li>
+            <a href="http://www.deceuninck-online.com/ServiceCenter/Default.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Diensten</a>
+        </li>
+
+        <li>
+            Bedankt
+        </li>
+
+    </ul>
+
+
+
+    <div class="contentBlock">
+        <div class="innerContentBlock">
+            <h1 style="position: relative; z-index: 1">
+               Bedankt voor uw inschrijving
+                <div id="newsWrapper" style="display: block;">
+                    <div id="newsBlockWrapper">
+                        <div id="newsBlock" style="overflow: hidden; position: relative; height: 20px;">
+                            <ul style="position: absolute; margin: 0px; padding: 0px; top: 0px;">
+
+
+
+
+
+
+
+                                <li style="margin: 0px; padding: 0px; height: 20px;">
+                                    26/01/2015: PRIJSLIJST BOUW DECEUNINCK 01/02/2015
+                                </li>
+                                <li style="margin: 0px; padding: 0px; height: 20px;">
+                                    6/02/2015: PROFILES 28
+                                </li>
+                                <li style="margin: 0px; padding: 0px; height: 20px;">
+                                    30/01/2015: NIEUWE DECEUNINCK PRIJSLIJST FEBRUARI 2015
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="newsButtons">
+                        <img id="btnNewsPrevious" class="btnNews" data-action="prev" src="http://www.deceuninck-online.com/App_Themes/Deceuninck/Images/btn_previousstep.png">
+                        <img id="btnNewsNext" class="btnNews" data-action="next" src="http://www.deceuninck-online.com/App_Themes/Deceuninck/Images/btn_nextstep.png">
+                    </div>
+                </div>
+            </h1>
+            <p>Bedankt om u in te schrijven voor een opleiding binnen Deceuninck Academy.</p>
+            
+        </div>
+    </div>
+    <div class="footer">
+        <span>
+            <img>
+        </span>
+        <span>
+            <a id="LegalDisclaimerHyperLink" href="http://www.deceuninck-online.com/About/LegalDisclaimer.aspx?sid=f8a92d5e7de34d388f207d563045f451&amp;sDINR=2&amp;sCUNR=30001&amp;sEMNR=20&amp;LNCD=D&amp;DTCD=nl-BE&amp;c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&amp;sCUNM=">Legal disclaimer</a>
+        </span>
+    </div>
+
+    <div id="pnlDownloadGamma" title="Download gamma" style="display: none;">
+
+        <p>
+            Uw bestand wordt voorbereid, dit kan tot 15 seconden duren.
+
+        </p>
+        <div style="text-align:center;">
+            <div id="pietimer"></div>
+        </div>
+        <div>&nbsp;</div>
+
+    </div>
+
+
+
+    <script type="text/javascript">
+    <!--
+    $(document).ready(function () {
+        $("table.dataTable").show();
+        if ($("#newsBlock ul li").length > 0) {
+            $("#newsWrapper").show();
+            $("#newsBlock").vTicker({
+                pause: 5000,
+                speed: 1200
+            });
+        }
+        $(".btnNews").click(function (e) {
+            e.preventDefault();
+            $("#newsBlock").vTicker($(this).data("action"), { animate: true });
+            return false;
+        });
+        $("#newsBlockWrapper").click(function () {
+            location.href = "/ServiceCenter/NewsOverview.aspx?sid=f8a92d5e7de34d388f207d563045f451&sDINR=2&sCUNR=30001&sEMNR=20&LNCD=D&DTCD=nl-BE&c=1%7c99%7cKVKuyg%2fhXPMQ7elsQ3rLlLKyCPE%3d&sCUNM=";
+        });
+        });
+    //-->
+    </script>
+
 
 </body>
 </html>
