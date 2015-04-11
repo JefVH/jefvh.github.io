@@ -1,3 +1,9 @@
+$(document).ready(function(){
+	setTimeout(function(){$('.hero-text').addClass('animated slideInLeft visible');},500);
+	setTimeout(function(){$('.hero-buttons').addClass('animated slideInLeft visible');},1000);
+	/*$('.hero-buttons').addClass('animated slideInLeft').delay(800);*/
+});
+
 jQuery( function($){
 	
 	/*----------------------/

@@ -13,7 +13,7 @@ body {
   line-height: 1.6;
 }
 body.fullscreen-image-background {
-  background-image: url('../img/header-illustration.png');
+  background-image: url('../img/header-desk-mockup.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -199,10 +199,12 @@ h1, h2, h3, h4, h5, h6 {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
+  padding-top: 30px;
 }
-.navbar.navbar-light {
+.navbar-light {
   background-color: #cccc33;
   border-bottom: 1px solid #cccc33;
+  padding-top: 0;
 }
 .navbar.navbar-light .navbar-nav > li > a {
   color: #454545;
@@ -340,14 +342,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-primary {
   background-color: transparent;
-  border-color: #cccc33;
-  color: #cccc33;
+  border-color: #197E85;
+  color: #197E85;
   text-transform: uppercase;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  background-color: transparent;
+  background-color: #cccc33;
   border-color: #cccc33;
-  color: #cccc33;
+  color: #ffffff;
 }
 
 .btn-primary.disabled,
@@ -5333,8 +5335,7 @@ img.mfp-img {
 .hero-unit .hero-content {
   position: absolute;
   left: 15%;
-  top: 20%;
-  width: 100%;
+  top: 25%;
   z-index: 2;
 }
 @media screen and (max-width: 1024px){
@@ -5361,32 +5362,31 @@ img.mfp-img {
   color: #646464;
   font-weight: 300;
 }
-.hero-text{
-  text-align: left;
-
+.hero-text {
+  font-size: 1.8em;
+  display: none;
 }
-.hero-text p span{
-  color: #cccc33;
-}
-.hero-heading{
-  font-family: "Lato", sans-serif;
-  color: #454545;
-  font-weight: 300;
-}
-.hero-unit .hero-content .hero-text .hero-heading {
-  font-size: 1.6em;
-}
-.hero-unit .hero-content .hero-text .hero-heading span.herotitlespan{
+.hero-text h2{
   font-family: 'Boogaloo', cursive;
   color:#197e85;
   font-weight:700;
-  font-size:2.3em;
+  font-size:2.5em;
+  margin-bottom: 0;
 }
-.hero-unit .hero-content .hero-text .hero-heading span.herosubtitlespan{
+.hero-text h3{
   font-family: 'Playfair Display', serif;
   font-weight: 400;
+  font-size:1.3em;
+}
+.hero-text h3 span{
+  font-size: 1.5em;
   color: #cccc33;
-  font-size:1.5em;
+}
+.hero-buttons{
+  display:none;
+}
+.visible{
+  display: inherit;
 }
 @media screen and (max-width: 1024px){
   .hero-unit .hero-content .hero-text .hero-heading {
@@ -5437,8 +5437,6 @@ img.mfp-img {
 }
 .hero-unit .hero-content .hero-buttons {
   z-index: 2;
-  text-align: left;
-  margin-top: 2%;
 }
 .hero-unit .hero-content .hero-buttons .btn {
   margin: 0 5px;
@@ -5448,11 +5446,8 @@ img.mfp-img {
   .hero-unit .hero-content .hero-buttons .btn {
     margin-bottom: 10px;
   }
-}
-.hero-unit .hero-content .hero-buttons #btn-about {
-  padding: 15px 41px;
-}
-.hero-unit .hero-content .hero-buttons #btn-contact {
+} 
+.hero-unit .hero-content .hero-buttons{
   padding: 15px 30px;
 }
 @media screen and (max-width: 480px) {
