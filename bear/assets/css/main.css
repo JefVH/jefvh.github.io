@@ -5364,7 +5364,6 @@ img.mfp-img {
 }
 .hero-text {
   font-size: 1.8em;
-  display: none;
 }
 .hero-text h2{
   font-family: 'Boogaloo', cursive;
@@ -5381,12 +5380,6 @@ img.mfp-img {
 .hero-text h3 span{
   font-size: 1.5em;
   color: #cccc33;
-}
-.hero-buttons{
-  display:none;
-}
-.visible{
-  display: inherit;
 }
 @media screen and (max-width: 1024px){
   .hero-unit .hero-content .hero-text .hero-heading {
