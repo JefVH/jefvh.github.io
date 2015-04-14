@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+    <projects>
+        <project>
+			<id>001</id>
+            <location>Gavere</location>
+            <country>Belgique<country>
+			<googlemaps></googlemaps>
+            <projecttype>Nouvelle construction</projecttype>
+            <buildingstyle>Presbytère</buildingstyle>
+            <producttitle>Fenêtres et portes</producttitle>
+            <producttype>Profilés de châssis</producttype>
+            <series>Zendow#neo Autentica</series>
+            <colourtype>Laquage Decoroc</colourtype>
+            <colour>Balmoral (REF.6909) RAL &#00B1; D 085 60 10</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>Grâce aux châssis Autentica, notre maison a un look classique et un confort contemporain.</quote>
+            <img1>gavere1.jpg</img1>
+            <img2>gavere2.jpg</img2>
+            <img3>gavere3.jpg</img3>
+            <img4>gavere4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>002</id>
+            <location>Booischot</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype>Nouvelle construction</projecttype>
+            <buildingstyle>Maison classique</buildingstyle>
+            <producttitle>Fenêtres et portes</producttitle>
+            <producttype>Profilés de châssis</producttype>
+            <series>Zendow#neo</series>
+            <colourtype>Finition filmée</colourtype>
+            <colour>Blanc crème (REF.1096) RAL &#00B1; 9001</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>En choisissant Deceuninck, nous avons choisi un produit de qualité, 100% belge.</quote>
+            <img1>booischot1.jpg</img1>
+            <img2>booischot2.jpg</img2>
+            <img3>booischot3.jpg</img3>
+            <img4>booischot4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>003</id>
+            <location>Crisnée</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype>Nouvelle construction</projecttype>
+            <buildingstyle>Maison moderne</buildingstyle>
+            <producttitle>Fenêtres et portes</producttitle>
+            <producttype>Profilés de châssis</producttype>
+            <series>Zendow#neo Premium</series>
+            <colourtype>Laquage. Decoroc</colourtype>
+            <colour>Gris anthracite (REF.6072) RAL &#00B1; 7016</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>Le concept du profilé et les matériaux durables garantissent une excellente isolation.</quote>
+            <img1>crisnee1.jpg</img1>
+            <img2>crisnee2.jpg</img2>
+            <img3>crisnee3.jpg</img3>
+            <img4>crisnee4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>004</id>
+            <location>Lochristi</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype>Nouvelle construction</projecttype>
+            <buildingstyle>Presbytère</buildingstyle>
+            <producttitle>Fenêtres et portes</producttitle>
+            <producttype>Profilés de châssis</producttype>
+            <series>Zendow#neo</series>
+            <colourtype>Laquage Decoroc</colourtype>
+            <colour>Balmoral (REF.6909) RAL &#00B1; D 085 60 10</colour>
+            <customer>De Clerck, Vrasene, BE</customer>
+			<websitecustomer>http://www.de-clerck.be</websitecustomer>
+            <quote>Le profilé à chambres multiples, les joints et le vitrage forment une combinaison très isolante acoustiquement.</quote>
+            <img1>lochristi1.jpg</img1>
+            <img2>lochristi2.jpg</img2>
+            <img3>lochristi3.jpg</img3>
+            <img4>lochristi4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>005</id>
+            <location>Ostende</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype>Rénovation</projecttype>
+            <buildingstyle>Maison classique</buildingstyle>
+            <producttitle>Fenêtres et portes</producttitle>
+            <producttype>Profilés de châssis</producttype>
+            <series>Zendow#neo Autentica</series>
+            <colourtype>Laquage Decoroc</colourtype>
+            <colour>Balmoral (REF.6909) RAL &#00B1; D 085 60 10</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>Fini les factures d'énergie impayables. Grâce aux nouvelles portes et fenêtres de Deceuninck, nous avons considérablement réduit nos coûts!</quote>
+            <img1>oostende1.jpg</img1>
+            <img2>oostende2.jpg</img2>
+            <img3>oostende3.jpg</img3>
+            <img4>oostende4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>006</id>
+            <location>Oostduinkerke</location>
+            <country>Belgique</country>
+			<googlemaps>https://goo.gl/maps/XqTNe</googlemaps>
+            <projecttype>Rénovation</projecttype>
+            <buildingstyle>Fermette</buildingstyle>
+            <producttitle>Fenêtres et portes</producttitle>
+            <producttype>Profilés de châssis</producttype>
+            <series>Zendow#neo</series>
+            <colourtype>Finition filmée</colourtype>
+            <colour>Cèdre gris (REF.1143)</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>Les profilés Deceuninck sont recyclables à 100% et fabriqués selon un processus peu énergivore.</quote>
+            <img1>oostduinkerke1.jpg</img1>
+            <img2>oostduinkerke2.jpg</img2>
+            <img3>oostduinkerke3.jpg</img3>
+            <img4>oostduinkerke4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>007</id>
+            <location>Sint-Pauwels</location>
+            <country>Belgique</country>
+			<googlemaps>https://goo.gl/maps/615Zd</googlemaps>
+            <projecttype>Nouvelle construction</projecttype>
+            <buildingstyle>Presbytère</buildingstyle>
+            <producttitle>Fenêtres et portes</producttitle>
+            <producttype>Profilés de châssis</producttype>
+            <series>Zendow#neo Autentica</series>
+            <colourtype>Laquage Decoroc/colourtype>
+            <colour>Balmoral (REF.6909) RAL &#00B1; D 085 60 10</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>Les châssis sont compatibles avec n'importe quel type de vitrage haut rendement.</quote>
+            <img1>sintpauwels1.jpg</img1>
+            <img2>sintpauwels2.jpg</img2>
+            <img3>sintpauwels3.jpg</img3>
+            <img4>sintpauwels4.jpg</img4>
+			<img5>sintpauwels5.jpg</img5>
+			<img6>sintpauwels6.jpg</img6>
+        </project>
+        <project>
+			<id>008</id>
+            <location>Liège</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype>Nouvelle construction</projecttype>
+            <buildingstyle>Château-ferme</buildingstyle>
+            <producttitle>Fenêtres et portes</producttitle>
+            <producttype>Profilés de châssis</producttype>
+            <series>Zendow#neo</series>
+            <colourtype>Finition filmée</colourtype>
+            <colour>Gris quartz (REF.1068) RAL &#00B1; 7039</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote></quote>
+            <img1>luik1.jpg</img1>
+            <img2>luik2.jpg</img2>
+            <img3>luik3.jpg</img3>
+            <img4>luik4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>009</id>
+            <location>Vrasene</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype>Nouvelle construction</projecttype>
+            <buildingstyle>Construction semi mitoyenne</buildingstyle>
+            <producttitle>Fenêtres et portes</producttitle>
+            <producttype>Profilés de châssis</producttype>
+            <series>Zendow#neo</series>
+            <colourtype>Laquage Decoroc</colourtype>
+            <colour>Balmoral (REF.6909) RAL &#00B1; D 085 60 10</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>Pour une question d'uniformité, la couleur du bardage est la même que celle des châssis.</quote>
+            <img1>vrasene1.jpg</img1>
+            <img2>vrasene2.jpg</img2>
+            <img3>vrasene3.jpg</img3>
+            <img4>vrasene4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>010</id>
+            <location>Marke</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype>Nouvelle construction</projecttype>
+            <buildingstyle>Presbytère</buildingstyle>
+            <producttitle>Fenêtres et portes</producttitle>
+            <producttype>Profilés de châssis</producttype>
+            <series>Zendow#neo Autentica</series>
+            <colourtype>Laquage Decoroc</colourtype>
+            <colour>Blanc crème (REF.6096) RAL &#00B1; 9001</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>Grâce aux châssis en PVC de Deceuninck, finis les gros travaux de peinture et d'entretien.</quote>
+            <img1>marke1.jpg</img1>
+            <img2>marke2.jpg</img2>
+            <img3>marke3.jpg</img3>
+            <img4>marke4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>011</id>
+            <location>Zillebeke</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype>Nouvelle construction</projecttype>
+            <buildingstyle>Habitation contemporaine</buildingstyle>
+            <producttitle>Bardage et sous-toiture</producttitle>
+            <producttype>Sous-toiture</producttype>
+            <series>Habillage de chéneaux P 1031 e.a.a. P 130</series>
+            <colourtype>Finition filmée</colourtype>
+            <colour>Cèdre gris (REF.1143)</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>L'habillage des chéneaux demande peu d'entretien. Peinture et vernis sont superflus.</quote>
+            <img1>zillebeke1.jpg</img1>
+            <img2>zillebeke2.jpg</img2>
+            <img3>zillebeke3.jpg</img3>
+            <img4>zillebeke4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>012</id>
+            <location>Kuurne</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype>Rénovation</projecttype>
+            <buildingstyle>Pavillon de jardin</buildingstyle>
+            <producttitle>Bardage et sous-toiture</producttitle>
+            <producttype>Bardage</producttype>
+            <series>Rabat 150 Premium P 2750</series>
+            <colourtype>Finition filmée</colourtype>
+            <colour>Gris quartz (REF.1068) RAL &#00B1; 7039</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>Le PVC est un choix écologique pour le bardage de façade. Il est entièrement recyclable.</quote>
+            <img1>kuurne1.jpg</img1>
+            <img2>kuurne2.jpg</img2>
+            <img3>kuurne3.jpg</img3>
+            <img4>kuurne4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>013</id>
+            <location>Kachtem</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype>Nouvelle construction</projecttype>
+            <buildingstyle>Habillage contemporaine</buildingstyle>
+            <producttitle>Bardage et sous-toiture</producttitle>
+            <producttype>Sous-toiture</producttype>
+            <series>Lisse 167 Twinson p 9576</series>
+            <colourtype>Twinson</colourtype>
+            <colour>Brun écorce (REF.504)</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>La sous-toiture en Twinson combine la chaleur, la beauté et l'élégance du bois avec la durabilité du PVC.</quote>
+            <img1>kachtem1.jpg</img1>
+            <img2>kachtem2.jpg</img2>
+            <img3>kachtem3.jpg</img3>
+            <img4>kachtem4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>014</id>
+            <location>Assebroek</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype>Rénovation</projecttype>
+            <buildingstyle>Habillage contemporaine</buildingstyle>
+            <producttitle>Bardage et sous-toiture</producttitle>
+            <producttype>Bardage</producttype>
+            <series>Lisse 167 Twinson p 9576</series>
+            <colourtype>Twinson</colourtype>
+            <colour>Noir réglisse (REF.502)</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>Comme il est peu épais, le bardage de Deceuninck convient à la fois aux nouvelles constructions et, en association avec l'isolation, il permet de respecter le décret sur les alignements applicable en Flandre.</quote>
+            <img1>assebroek1.jpg</img1>
+            <img2>assebroek2.jpg</img2>
+            <img3>assebroek3.jpg</img3>
+            <img4>assebroek4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>015</id>
+            <location>Gesves</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype>Nouvelle construction</projecttype>
+            <buildingstyle>Habillage contemporaine</buildingstyle>
+            <producttitle>Bardage et sous-toiture</producttitle>
+            <producttype>Bardage</producttype>
+			<series>Lisse 167 Twinson p 9576</series>
+            <colourtype>Twinson</colourtype>
+            <colour>Brun écorce (REF.504)</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>Comme il est certifié PEFC, ce bardage de façade représente une alternative écologique aux essences de bois tropicales.</quote>
+            <img1>gesves1.jpg</img1>
+            <img2>gesves2.jpg</img2>
+            <img3>gesves3.jpg</img3>
+            <img4>gesves4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>016</id>
+            <location>Heuvelland</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype>Rénovation</projecttype>
+            <buildingstyle>Habillage contemporaine</buildingstyle>
+            <producttitle>Bardage et sous-toiture</producttitle>
+            <producttype>Bardage</producttype>
+            <series>Lisse 167 Twinson p 9576</series>
+            <colourtype>Twinson</colourtype>
+            <colour>Noir réglisse (REF.502)</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>Pour la finition, nous avions le choix entre toute une série de profilés dans la même couleur que les planches du bardage ou en aluminium.</quote>
+            <img1>heuvelland1.jpg</img1>
+            <img2>heuvelland2.jpg</img2>
+            <img3>heuvelland3.jpg</img3>
+            <img4></img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>017</id>
+            <location>Hoksem - Hoegaarden</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype>Nouvelle construction</projecttype>
+            <buildingstyle>Habitation moderne</buildingstyle>
+            <producttitle>Bardage et sous-toiture</producttitle>
+            <producttype>Bardage</producttype>
+            <series>Rabat 150 P 2750</series>
+            <colourtype>Teinté dans la masse</colourtype>
+            <colour>Gris clair (REF.0007) e.a.a. gris foncé (REF.0090)</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>Lorsque vous placez un bardage de façade Deceuninck sur un mur extérieur, l'idéal est de poser en même temps une enveloppe ultra-isolante.</quote>
+            <img1>hoksem1.jpg</img1>
+            <img2>hoksem2.jpg</img2>
+            <img3>hoksem3.jpg</img3>
+            <img4>hoksem4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>018</id>
+            <location>Geel</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype>Nouvelle construction</projecttype>
+            <buildingstyle></buildingstyle>
+            <producttitle>Aménagement extérieur</producttitle>
+            <producttype>Clôture</producttype>
+            <series>Twinson p 9341</series>
+            <colourtype>Twinson</colourtype>
+            <colour>Noir réglisse (REF.502)</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>Pour la clôture, nous avons utilisé des planches Twinson en bois composite. Le résultat nous plaît beaucoup!</quote>
+            <img1>geel1.jpg</img1>
+            <img2>geel2.jpg</img2>
+            <img3>geel3.jpg</img3>
+            <img4>geel4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>019</id>
+            <location>Heist-op-den-Berg</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype></projecttype>
+            <buildingstyle></buildingstyle>
+            <producttitle>Aménagement extérieur</producttitle>
+            <producttype>Terrasse</producttype>
+            <series>Twinson p 9555</series>
+            <colourtype>Twinson</colourtype>
+            <colour>Brun tourbe (REF.505)</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>Les terrasses Twinson de Deceuninck ont un look très naturel et s'intègrent parfaitement dans chaque jardin.</quote>
+            <img1>heistopdenberg1.jpg</img1>
+            <img2>heistopdenberg2.jpg</img2>
+            <img3>heistopdenberg3.jpg</img3>
+            <img4></img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>020</id>
+            <location>Roeselare</location>
+            <country>Belgique</country>
+			<googlemaps></googlemaps>
+            <projecttype></projecttype>
+            <buildingstyle></buildingstyle>
+            <producttitle>Aménagement extérieur</producttitle>
+            <producttype>Terrasse</producttype>
+            <series>Twinson p 9555</series>
+            <colourtype>Twinson</colourtype>
+            <colour>Brun écorce (REF.504)</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>Les terrasses Deceuninck en Twinson sont antidérapantes. Elles ne produisent pas d'échardes et ne deviennent jamais glissantes, même par le temps de pluie.</quote>
+            <img1>roeselare1.jpg</img1>
+            <img2>roeselare2.jpg</img2>
+            <img3>roeselare3.jpg</img3>
+            <img4></img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+        <project>
+			<id>021</id>
+            <location></location>
+            <country></country>
+			<googlemaps></googlemaps>
+            <projecttype></projecttype>
+            <buildingstyle></buildingstyle>
+            <producttitle>Décoration intérieure</producttitle>
+            <producttype>Décoration intérieure</producttype>
+            <series>Decoramic</series>
+            <colourtype></colourtype>
+            <colour>Disponibles en 3 couleurs: 1161 Stone blanc 1162 Stone gris 1163 Stone noir</colour>
+            <customer></customer>
+			<websitecustomer></websitecustomer>
+            <quote>Les panneaux muraux Decoramic ont un look naturel et s'utilisent avec un égal bonheur dans les constructions neuves ou les rénovations. Elles sont étanches et donc idéales pour les environnements humides.</quote>
+            <img1>decoramic1.jpg</img1>
+            <img2>decoramic2.jpg</img2>
+            <img3>decoramic3.jpg</img3>
+            <img4>decoramic4.jpg</img4>
+			<img5></img5>
+			<img6></img6>
+        </project>
+    </projects>
+</xml>
