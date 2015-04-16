@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+  <projects>
+    <project id="1">
+      <location>gavere</location>
+      <location_nl>Gavere</location_nl>
+      <location_fr>Gavere</location_fr>
+      <country>belgium</country>
+      <country_nl>België</country_nl>
+      <country_fr>Belgique</country_fr>
+      <region>eastflanders</region>
+      <region_nl>Oost-Vlaanderen</region_nl>
+      <region_fr>Flandre orientale</region_fr>
+      <projecttype>newbuild</projecttype>
+      <projecttype_nl>Nieuwbouw</projecttype_nl>
+      <projecttype_fr>Nouvelle construction</projecttype_fr>
+      <buildingstyle>vicaragehouse</buildingstyle>
+      <buildingstyle_nl>Pastoriewoning</buildingstyle_nl>
+      <buildingstyle_fr>Presbytère</buildingstyle_fr>
+      <producttitle>windowsdoors</producttitle>
+      <producttitle_nl>Ramen &amp; deuren</producttitle_nl>
+      <producttitle_fr>Fenêtres &amp; portes</producttitle_fr>
+      <producttype>windowprofile</producttype>
+      <producttype_nl>Raamprofiel</producttype_nl>
+      <producttype_fr>Profilés de châssis</producttype_fr>
+      <series>zendowneoautentica</series>
+      <series_nl>Zendow#neo Autentica</series_nl>
+      <series_fr>Zendow#neo Autentica</series_fr>
+      <colortype>decoroc</colortype>
+      <colortype_nl>Coating Decoroc</colortype_nl>
+      <colortype_fr>Laquage Decoroc</colortype_fr>
+      <color>6909</color>
+      <color_nl>Balmoral (REF.6909)</color_nl>
+      <color_fr>Balmoral (REF.6909)</color_fr>
+      <customer></customer>
+      <customer_nl></customer_nl>
+      <customer_fr></customer_fr>
+      <websitecustomer></websitecustomer>
+      <quote_nl>Dankzij het Autentica raamwerk krijgt ons huis een klassieke uitstraling met hedendaags comfort.</quote_nl>
+      <quote_fr>Grâce aux châssis Autentica, notre maison a un look classique et un confort contemporain.</quote_fr>
+      <coverImg>gavere.png</coverImg>
+      <img1>gavere1.jpg</img1>
+      <img2>gavere2.jpg</img2>
+      <img3>gavere3.jpg</img3>
+      <img4>gavere4.jpg</img4>
+    </project>
+    <project id="2">
+      <location>booischot</location>
+      <location_nl>Booischot</location_nl>
+      <location_fr>Booischot</location_fr>
+      <country>belgium</country>
+      <country_nl>België</country_nl>
+      <country_fr>Belgique</country_fr>
+      <region>antwerp</region>
+      <region_nl>Antwerpen</region_nl>
+      <region_fr>Anvers</region_fr>
+      <projecttype>newbuild</projecttype>
+      <projecttype_nl>Nieuwbouw</projecttype_nl>
+      <projecttype_fr>Nouvelle construction</projecttype_fr>
+      <buildingstyle>contemporaryhouse</buildingstyle>
+      <buildingstyle_nl>Hedendaagse woning</buildingstyle_nl>
+      <buildingstyle_fr>Maison contemporaine</buildingstyle_fr>
+      <producttitle>windowsdoors</producttitle>
+      <producttitle_nl>Ramen &amp; deuren</producttitle_nl>
+      <producttitle_fr>Fenêtres &amp; portes</producttitle_fr>
+      <producttype>windowprofile</producttype>
+      <producttype_nl>Raamprofiel</producttype_nl>
+      <producttype_fr>Profilés de châssis</producttype_fr>
+      <series>zendowneo</series>
+      <series_nl>Zendow#neo</series_nl>
+      <series_fr>Zendow#neo</series_fr>
+      <colortype>foil</colortype>
+      <colortype_nl>Folie bekleefd</colortype_nl>
+      <colortype_fr>Finition filmée</colortype_fr>
+      <color>1096</color>
+      <color_nl>Crème wit (REF.1096)</color_nl>
+      <color_fr>Blanc crème (REF.1096)</color_fr>
+      <customer>heylenbouw</customer>
+      <customer_nl>Heylen Bouw</customer_nl>
+      <customer_fr>Heylen Bouw</customer_fr>
+      <websitecustomer>http://www.heylen-bouw.be</websitecustomer>
+      <quote_nl>Met Deceuninck kozen we voor een kwaliteitsproduct 100% made in Belgium.</quote_nl>
+      <quote_fr>En choisissant Deceuninck, nous avons choisi un produit de qualité, 100% belge.</quote_fr>
+      <coverImg>booischot.png</coverImg>
+      <img1>booischot1.jpg</img1>
+      <img2>booischot2.jpg</img2>
+      <img3>booischot3.jpg</img3>
+      <img4>booischot4.jpg</img4>
+    </project>
+    <project id="3">
+      <location>crisnee</location>
+      <location_nl>Crisnée</location_nl>
+      <location_fr>Crisnée</location_fr>
+      <country>belgium</country>
+      <country_nl>België</country_nl>
+      <country_fr>Belgique</country_fr>
+      <region>liege</region>
+      <region_nl>Luik</region_nl>
+      <region_fr>Liège</region_fr>
+      <projecttype>newbuild</projecttype>
+      <projecttype_nl>Nieuwbouw</projecttype_nl>
+      <projecttype_fr>Construction nouvelle</projecttype_fr>
+      <buildingstyle>modernhouse</buildingstyle>
+      <buildingstyle_nl>Moderne woning</buildingstyle_nl>
+      <buildingstyle_fr>Maison moderne</buildingstyle_fr>
+      <producttitle>windowsdoors</producttitle>
+      <producttitle_nl>Ramen &amp; deuren</producttitle_nl>
+      <producttitle_fr>Fenêtres &amp; portes</producttitle_fr>
+      <producttype>windowprofile</producttype>
+      <producttype_nl>Raamprofiel</producttype_nl>
+      <producttype_fr>Profilés de châssis</producttype_fr>
+      <series>zendowneopremium</series>
+      <series_nl>Zendow#neo Premium</series_nl>
+      <series_fr>Zendow#neo Premium</series_fr>
+      <colortype>decoroc</colortype>
+      <colortype_nl>Coating Decoroc</colortype_nl>
+      <colortype_fr>Laquage Decoroc</colortype_fr>
+      <color>6072</color>
+      <color_nl>Antracietgrijs (REF.6072)</color_nl>
+      <color_fr>Gris anthracite (REF.6072)</color_fr>
+      <customer>georgechassis</customer>
+      <customer_nl>George Chassis, Cheratte</customer_nl>
+      <customer_fr>George Chassis, Cheratte</customer_fr>
+      <websitecustomer>http://georgechassis.be/</websitecustomer>
+      <quote_nl>Het ontwerp van het profiel en de duurzame materialen garanderen een uitstekende isolatiewaarde.</quote_nl>
+      <quote_fr>Le concept du profilé et les matériaux durables garantissent une excellente isolation.</quote_fr>
+      <coverImg>crisnee.png</coverImg>
+      <img1>crisnee1.jpg</img1>
+      <img2>crisnee2.jpg</img2>
+      <img3>crisnee3.jpg</img3>
+      <img4>crisnee4.jpg</img4>
+    </project>
+    <project id="4">
+      <location>lochristi</location>
+      <location_nl>Lochristi</location_nl>
+      <location_fr>Lochristi</location_fr>
+      <country>belgium</country>
+      <country_nl>België</country_nl>
+      <country_fr>Belgique</country_fr>
+      <region>eastflanders</region>
+      <region_nl>Oost-Vlaanderen</region_nl>
+      <region_fr>Flandre orientale</region_fr>
+      <projecttype>newbuild</projecttype>
+      <projecttype_nl>Nieuwbouw</projecttype_nl>
+      <projecttype_fr>Construction nouvelle</projecttype_fr>
+      <buildingstyle>vicaragehouse</buildingstyle>
+      <buildingstyle_nl>Pastoriewoning</buildingstyle_nl>
+      <buildingstyle_fr>Presbytère</buildingstyle_fr>
+      <producttitle>windowsdoors</producttitle>
+      <producttitle_nl>Ramen &amp; deuren</producttitle_nl>
+      <producttitle_fr>Fenêtres &amp; portes</producttitle_fr>
+      <producttype>windowprofile</producttype>
+      <producttype_nl>Raamprofiel</producttype_nl>
+      <producttype_fr>Profilés de châssis</producttype_fr>
+      <series>zendowneo</series>
+      <series_nl>Zendow#neo</series_nl>
+      <series_fr>Zendow#neo</series_fr>
+      <colortype>decoroc</colortype>
+      <colortype_nl>Coating Decoroc</colortype_nl>
+      <colortype_fr>Laquage Decoroc</colortype_fr>
+      <color>6909</color>
+      <color_nl>Balmoral (REF.6909)</color_nl>
+      <color_fr>Balmoral (REF.6909)</color_fr>
+      <customer>declerck</customer>
+      <customer_nl>De Clerck, Vrasene</customer_nl>
+      <customer_fr>De Clerck, Vrasene</customer_fr>
+      <websitecustomer>http://www.de-clerck.be/</websitecustomer>
+      <quote_nl>Het meerkamerprofiel, de performant isolerende dichting en beglazingskeuze houden overtollige decibels buiten.</quote_nl>
+      <quote_fr>Le profilé à champres multiples, les joints et le vitrage forment une combinaison très isolant acoustiquement.</quote_fr>
+      <coverImg>lochristi.png</coverImg>
+      <img1>lochristi1.jpg</img1>
+      <img2>lochristi2.jpg</img2>
+      <img3>lochristi3.jpg</img3>
+      <img4>lochristi4.jpg</img4>
+    </project>
+    <project id="5">
+      <location>ostend</location>
+      <location_nl>Oostende</location_nl>
+      <location_fr>Ostende</location_fr>
+      <country>belgium</country>
+      <country_nl>België</country_nl>
+      <country_fr>Belgique</country_fr>
+      <region>westflanders</region>
+      <region_nl>West-Vlaanderen</region_nl>
+      <region_fr>Flandre occidentale</region_fr>
+      <projecttype>renovation</projecttype>
+      <projecttype_nl>Renovatie</projecttype_nl>
+      <projecttype_fr>Rénovation</projecttype_fr>
+      <buildingstyle>classichouse</buildingstyle>
+      <buildingstyle_nl>Klassieke woning</buildingstyle_nl>
+      <buildingstyle_fr>Maison classique</buildingstyle_fr>
+      <producttitle>windowsdoors</producttitle>
+      <producttitle_nl>Ramen &amp; deuren</producttitle_nl>
+      <producttitle_fr>Fenêtres &amp; portes</producttitle_fr>
+      <producttype>windowprofile</producttype>
+      <producttype_nl>Raamprofiel</producttype_nl>
+      <producttype_fr>Profilés de châssis</producttype_fr>
+      <series>zendowneoautentica</series>
+      <series_nl>Zendow#neo Autentica</series_nl>
+      <series_fr>Zendow#neo Autentica</series_fr>
+      <colortype>decoroc</colortype>
+      <colortype_nl>Coating Decoroc</colortype_nl>
+      <colortype_fr>Laquage Decoroc</colortype_fr>
+      <color>6909</color>
+      <color_nl>Balmoral (REF.6909)</color_nl>
+      <color_fr>Balmoral (REF.6909)</color_fr>
+      <customer>ramalux</customer>
+      <customer_nl>Ramalux, Knesselare</customer_nl>
+      <customer_fr>Ramalux, Knesselare</customer_fr>
+      <websitecustomer>http://www.ramalux.be/</websitecustomer>
+      <quote_nl>Gedaan met de hoge energiefacturen. Dankzij de nieuwe Ramen &amp; deuren van Deceunick betalen we nu aanzienlijk minder!</quote_nl>
+      <quote_fr>Fini les factures d'énergie impayables. Grâce aux nouvelles portes et fenêtres de Deceuninck, nous avons considérablement réduit nos coûts!</quote_fr>
+      <coverImg>oostende.png</coverImg>
+      <img1>oostende1.jpg</img1>
+      <img2>oostende2.jpg</img2>
+      <img3>oostende3.jpg</img3>
+      <img4>oostende4.jpg</img4>
+    </project>
+    <project id="6">
+      <location>oostduinkerke</location>
+      <location_nl>Oostduinkerke</location_nl>
+      <location_fr>Oostduinkerke</location_fr>
+      <country>belgium</country>
+      <country_nl>België</country_nl>
+      <country_fr>Belgique</country_fr>
+      <region>westflanders</region>
+      <region_nl>West-Vlaanderen</region_nl>
+      <region_fr>Flandre occidentale</region_fr>
+      <projecttype>renovation</projecttype>
+      <projecttype_nl>Renovatie</projecttype_nl>
+      <projecttype_fr>Rénovation</projecttype_fr>
+      <buildingstyle>farmhouse</buildingstyle>
+      <buildingstyle_nl>Hoeve</buildingstyle_nl>
+      <buildingstyle_fr>Fermette</buildingstyle_fr>
+      <producttitle>windowsdoors</producttitle>
+      <producttitle_nl>Ramen &amp; deuren</producttitle_nl>
+      <producttitle_fr>Fenêtres &amp; portes</producttitle_fr>
+      <producttype>windowprofile</producttype>
+      <producttype_nl>Raamprofiel</producttype_nl>
+      <producttype_fr>Profilés de châssis</producttype_fr>
+      <series>zendowneo</series>
+      <series_nl>Zendow#neo</series_nl>
+      <series_fr>Zendow#neo</series_fr>
+      <colortype>foil</colortype>
+      <colortype_nl>Folie bekleefd</colortype_nl>
+      <colortype_fr>Finition filmée</colortype_fr>
+      <color>1143</color>
+      <color_nl>Grijze ceder (REF.1143)</color_nl>
+      <color_fr>Cidre gris (REF.1143)</color_fr>
+      <customer></customer>
+      <customer_nl></customer_nl>
+      <customer_fr></customer_fr>
+      <websitecustomer></websitecustomer>
+      <quote_nl>Deceuninck profielen zijn 100% recycleerbaar en worden vervaardigd in een energiezuinig productieproces.</quote_nl>
+      <quote_fr>Les profilés Deceuninck sont recyclables à 100% et fabriqués selon un processus peu énergivore.</quote_fr>
+      <coverImg>oostduinkerke.png</coverImg>
+      <img1>oostduinkerke1.jpg</img1>
+      <img2>oostduinkerke2.jpg</img2>
+      <img3>oostduinkerke3.jpg</img3>
+      <img4>oostduinkerke4.jpg</img4>
+    </project>
+    <project id="7">
+      <location>sintpauwels</location>
+      <location_nl>Sint-Pauwels</location_nl>
+      <location_fr>Sint-Pauwels</location_fr>
+      <country>belgium</country>
+      <country_nl>België</country_nl>
+      <country_fr>Belgique</country_fr>
+      <region>eastflanders</region>
+      <region_nl>Oost-Vlaanderen</region_nl>
+      <region_fr>Flandre orientale</region_fr>
+      <projecttype>newbuild</projecttype>
+      <projecttype_nl>Nieuwbouw</projecttype_nl>
+      <projecttype_fr>Nouvelle construction</projecttype_fr>
+      <buildingstyle>vicaragehouse</buildingstyle>
+      <buildingstyle_nl>Pastoriewoning</buildingstyle_nl>
+      <buildingstyle_fr>Presbytère</buildingstyle_fr>
+      <producttitle>windowsdoors</producttitle>
+      <producttitle_nl>Ramen &amp; deuren</producttitle_nl>
+      <producttitle_fr>Fenêtres &amp; portes</producttitle_fr>
+      <producttype>windowprofile</producttype>
+      <producttype_nl>Raamprofiel</producttype_nl>
+      <producttype_fr>Profilés de châssis</producttype_fr>
+      <series>zendowneoautentica</series>
+      <series_nl>Zendow#neo Autentica</series_nl>
+      <series_fr>Zendow#neo Autentica</series_fr>
+      <colortype>decoroc</colortype>
+      <colortype_nl>Coating Decoroc</colortype_nl>
+      <colortype_fr>Laquage Decoroc</colortype_fr>
+      <color>6909</color>
+      <color_nl>Balmoral (REF.6909)</color_nl>
+      <color_fr>Balmoral (REF.6909)</color_fr>
+      <customer>declerck</customer>
+      <customer_nl>De Clerck, Vrasene</customer_nl>
+      <customer_fr>De Clerck, Vrasene</customer_fr>
+      <websitecustomer>http://www.de-clerck.be/</websitecustomer>
+      <quote_nl>De ramen zijn combatibel met elk type hoogrendementsbeglazing.</quote_nl>
+      <quote_fr>Les châssis sont compatibles avec n'importe quel type de vitrage haut rendement.</quote_fr>
+      <coverImg>sintpauwels.png</coverImg>
+      <img1>sintpauwels1.jpg</img1>
+      <img2>sintpauwels2.jpg</img2>
+      <img3>sintpauwels3.jpg</img3>
+      <img4>sintpauwels4.jpg</img4>
+    </project>
+    <project id="8">
+      <location>liege</location>
+      <location_nl>Luik</location_nl>
+      <location_fr>Liège</location_fr>
+      <country>belgium</country>
+      <country_nl>België</country_nl>
+      <country_fr>Belgique</country_fr>
+      <region>liege</region>
+      <region_nl>Luik</region_nl>
+      <region_fr>Liège</region_fr>
+      <projecttype>newbuild</projecttype>
+      <projecttype_nl>Nieuwbouw</projecttype_nl>
+      <projecttype_fr>Nouvelle construction</projecttype_fr>
+      <buildingstyle>castlefarm</buildingstyle>
+      <buildingstyle_nl>Kasteelhoeve</buildingstyle_nl>
+      <buildingstyle_fr>Château-ferme</buildingstyle_fr>
+      <producttitle>windowsdoors</producttitle>
+      <producttitle_nl>Ramen &amp; deuren</producttitle_nl>
+      <producttitle_fr>Portes &amp; fenêtres</producttitle_fr>
+      <producttype>windowprofile</producttype>
+      <producttype_nl>Raamprofiel</producttype_nl>
+      <producttype_fr>Profilés de châssis</producttype_fr>
+      <series>zendowneo</series>
+      <series_nl>Zendow#neo</series_nl>
+      <series_fr>Zendow#neo</series_fr>
+      <colortype>foil</colortype>
+      <colortype_nl>Folie bekleefd</colortype_nl>
+      <colortype_fr>Finition filmée</colortype_fr>
+      <color>1068</color>
+      <color_nl>Kwartsgrijs (REF.1068)</color_nl>
+      <color_fr>Gris quartz (REF.1068)</color_fr>
+      <customer>winfera</customer>
+      <customer_nl>Winfera, Tongeren</customer_nl>
+      <customer_fr>Winfera, Tongres</customer_fr>
+      <websitecustomer>http://www.winfera.be</websitecustomer>
+      <quote_nl></quote_nl>
+      <quote_fr></quote_fr>
+      <coverImg>luik.png</coverImg>
+      <img1>luik1.jpg</img1>
+      <img2>luik2.jpg</img2>
+      <img3>luik3.jpg</img3>
+      <img4>luik4.jpg</img4>
+      <img5></img5>
+      <img6></img6>
+    </project>
+    <project id="9">
+      <location>vrasene</location>
+      <location_nl>Vrasene</location_nl>
+      <location_fr>Vrasene</location_fr>
+      <country>belgium</country>
+      <country_nl>België</country_nl>
+      <country_fr>Belgique</country_fr>
+      <region>eastflanders</region>
+      <region_nl>Oost-Vlaanderen</region_nl>
+      <region_fr>Flandre orientale</region_fr>
+      <projecttype>newbuild</projecttype>
+      <projecttype_nl>Nieuwbouw</projecttype_nl>
+      <projecttype_fr>Construction nouvelle</projecttype_fr>
+      <buildingstyle>contemporaryhouse</buildingstyle>
+      <buildingstyle_nl>Hedendaagse woning</buildingstyle_nl>
+      <buildingstyle_fr>Maison contemporaine</buildingstyle_fr>
+      <producttitle>windowsdoors</producttitle>
+      <producttitle_nl>Ramen &amp; deuren</producttitle_nl>
+      <producttitle_fr>Fenêtres &amp; portes</producttitle_fr>
+      <producttype>windowprofile</producttype>
+      <producttype_nl>Raamprofiel</producttype_nl>
+      <producttype_fr>Profilés de châssis</producttype_fr>
+      <series>zendowneo</series>
+      <series_nl>Zendow#neo</series_nl>
+      <series_fr>Zendow#neo</series_fr>
+      <colortype>decoroc</colortype>
+      <colortype_nl>Coating Decoroc</colortype_nl>
+      <colortype_fr>Laquage Decoroc</colortype_fr>
+      <color>6909</color>
+      <color_nl>Balmoral (REF.6909)</color_nl>
+      <color_fr>Balmoral (REF.6909)</color_fr>
+      <customer>declerck</customer>
+      <customer_nl>De Clerck, Vrasene</customer_nl>
+      <customer_fr>De Clerck, Vrasene</customer_fr>
+      <websitecustomer>http://www.de-clerck.be/</websitecustomer>
+      <quote_nl>Voor een uniform uitzicht kreeg de gevelbekleding dezelfde kleur als de ramen.</quote_nl>
+      <quote_fr>Pour une question d'uniformité, la couleur du bardage est la même que celle des châsssis.</quote_fr>
+      <coverImg>vrasene.png</coverImg>
+      <img1>vrasene1.jpg</img1>
+      <img2>vrasene2.jpg</img2>
+      <img3>vrasene3.jpg</img3>
+      <img4>vrasene4.jpg</img4>
+      <img5></img5>
+      <img6></img6>
+    </project>
+    <project id="10">
+      <location>marke</location>
+      <location_nl>Marke</location_nl>
+      <location_fr>Marke</location_fr>
+      <country>belgium</country>
+      <country_nl>België</country_nl>
+      <country_fr>Belgique</country_fr>
+      <region>westflanders</region>
+      <region_nl>West-Vlaanderen</region_nl>
+      <region_fr>Flandre occidentale</region_fr>
+      <projecttype>newbuild</projecttype>
+      <projecttype_nl>Nieuwbouw</projecttype_nl>
+      <projecttype_fr>Nouvelle construction</projecttype_fr>
+      <buildingstyle>vicaragehouse</buildingstyle>
+      <buildingstyle_nl>Pastoriewoning</buildingstyle_nl>
+      <buildingstyle_fr>Presbytère</buildingstyle_fr>
+      <producttitle>windowsdoors</producttitle>
+      <producttitle_nl>Ramen &amp; deuren</producttitle_nl>
+      <producttitle_fr>Fenêtres &amp; portes</producttitle_fr>
+      <producttype>windowprofile</producttype>
+      <producttype_nl>Raamprofiel</producttype_nl>
+      <producttype_fr>Profilés de châssis</producttype_fr>
+      <series>zendowneo</series>
+      <series_nl>Zendow#neo</series_nl>
+      <series_fr>Zendow#neo</series_fr>
+      <colortype>decoroc</colortype>
+      <colortype_nl>Coating Decoroc</colortype_nl>
+      <colortype_fr>Laquage Decoroc</colortype_fr>
+      <color>6096</color>
+      <color_nl>Crème wit (REF.6096)</color_nl>
+      <color_fr>Blanc crème (REF.6096)</color_fr>
+      <customer></customer>
+      <customer_nl></customer_nl>
+      <customer_fr></customer_fr>
+      <websitecustomer></websitecustomer>
+      <quote_nl>Dankzij de kunststof ramen van Deceuninck zijn grote schilder- en onderhoudswerken niet nodig.</quote_nl>
+      <quote_fr>Grâce aux châssis en PVC de Deceuninck, finis les gros travaux de peinture et d'entretien.</quote_fr>
+      <coverImg>marke.png</coverImg>
+      <img1>marke1.jpg</img1>
+      <img2>marke2.jpg</img2>
+      <img3>marke3.jpg</img3>
+      <img4>marke4.jpg</img4>
+      <img5></img5>
+      <img6></img6>
+    </project>
+    <project id="11">
+      <location>zillebeke</location>
+      <location_nl>Zillebeke</location_nl>
+      <location_fr>Zillebeke</location_fr>
+      <country>belgium</country>
+      <country_nl>België</country_nl>
+      <country_fr>Belgique</country_fr>
+      <region>westflanders</region>
+      <region_nl>West-Vlaanderen</region_nl>
+      <region_fr>Flandre occidentale</region_fr>
+      <projecttype>newbuild</projecttype>
+      <projecttype_nl>Nieuwbouw</projecttype_nl>
+      <projecttype_fr>Construction nouvelle</projecttype_fr>
+      <buildingstyle>contemporaryhouse</buildingstyle>
+      <buildingstyle_nl>Hedendaagse woning</buildingstyle_nl>
+      <buildingstyle_fr>Maison contemporaine</buildingstyle_fr>
+      <producttitle>rooflinecladding</producttitle>
+      <producttitle_nl>Dak &amp; gevel</producttitle_nl>
+      <producttitle_fr>Bardage &amp; sous-toiture</producttitle_fr>
+      <producttype>roofline</producttype>
+      <producttype_nl>Dak</producttype_nl>
+      <producttype_fr>Sous-toiture</producttype_fr>
+      <series>p1031</series>
+      <series_nl>Dakgootbekleding P 1031</series_nl>
+      <series_fr>Habillage de chéneaux P 1031</series_fr>
+      <colortype>foil</colortype>
+      <colortype_nl>Folie bekleefd</colortype_nl>
+      <colortype_fr>Finition filmée</colortype_fr>
+      <color>1143</color>
+      <color_nl>Grijze ceder (REF.1143)</color_nl>
+      <color_fr>Grijze ceder (REF.1143)</color_fr>
+      <customer></customer>
+      <customer_nl></customer_nl>
+      <customer_fr></customer_fr>
+      <websitecustomer></websitecustomer>
+      <quote_nl>De dakgootbekleding vraagt weinig onderhoud. Schilderen en/of vernissen is overbodig.</quote_nl>
+      <quote_fr>L'habillage des chénaux demande peu d'entretien. Peinture et vernis sont superflus.</quote_fr>
+      <coverImg>zillebeke.png</coverImg>
+      <img1>zillebeke1.jpg</img1>
+      <img2>zillebeke2.jpg</img2>
+      <img3>zillebeke3.jpg</img3>
+      <img4>zillebeke4.jpg</img4>
+      <img5></img5>
+      <img6></img6>
+    </project>
+    <project id="12">
+      <location>kuurne</location>
+      <location_nl>Kuurne</location_nl>
+      <location_fr>Kuurne</location_fr>
+      <country>belgium</country>
+      <country_nl>België</country_nl>
+      <country_fr>Belgique</country_fr>
+      <region>westflanders</region>
+      <region_nl>West-Vlaanderen</region_nl>
+      <region_fr>Flandre occidentale</region_fr>
+      <projecttype>renovation</projecttype>
+      <projecttype_nl>Renovatie</projecttype_nl>
+      <projecttype_fr>Rénovation</projecttype_fr>
+      <buildingstyle>gardenpavilion</buildingstyle>
+      <buildingstyle_nl>Tuinpaviljoen</buildingstyle_nl>
+      <buildingstyle_fr>Pavillon de jardin</buildingstyle_fr>
+      <producttitle>rooflinecladding</producttitle>
+      <producttitle_nl>Dak &amp; gevel</producttitle_nl>
+      <producttitle_fr>Bardage &amp; sous-toiture</producttitle_fr>
+      <producttype>cladding</producttype>
+      <producttype_nl>Gevel</producttype_nl>
+      <producttype_fr>Bardage</producttype_fr>
+      <series>p2750</series>
+      <series_nl>Rabat 150 Premium P 2750</series_nl>
+      <series_fr>Rabat 150 Premium P 2750</series_fr>
+      <colortype>foil</colortype>
+      <colortype_nl>Folie bekleefd</colortype_nl>
+      <colortype_fr>Finition filmée</colortype_fr>
+      <color>1068</color>
+      <color_nl>Kwartsgrijs (REF.1068)</color_nl>
+      <color_fr>Gris quartz (REF.1068)</color_fr>
+      <customer>geldhofjielker</customer>
+      <customer_nl>Geldhof-Jielker, Menen</customer_nl>
+      <customer_fr>Geldhof-Jielker, Menin</customer_fr>
+      <websitecustomer>Geldhof-Jielker, Menen</websitecustomer>
+      <quote_nl>Gevelbekleding in pvc is een milieuvriendelijke keuze. Het materiaal is immers volledig recycleerbaar.</quote_nl>
+      <quote_fr>Le PVC est un choix écologique pour le bardage de façade. Il es entièrement recyclable.</quote_fr>
+      <coverImg>kuurne.png</coverImg>
+      <img1>kuurne1.jpg</img1>
+      <img2>kuurne2.jpg</img2>
+      <img3>kuurne3.jpg</img3>
+      <img4>kuurne4.jpg</img4>
+      <img5></img5>
+      <img6></img6>
+    </project>
+    <project id="13">
+      <location>kachtem</location>
+      <location_nl>Kachtem</location_nl>
+      <location_fr>Kachtem</location_fr>
+      <country>belgium</country>
+      <country_nl>België</country_nl>
+      <country_fr>Belgique</country_fr>
+      <region>westflanders</region>
+      <region_nl>West-Vlaanderen</region_nl>
+      <region_fr>Flandre occidentale</region_fr>
+      <projecttype>newbuild</projecttype>
+      <projecttype_nl>Nieuwbouw</projecttype_nl>
+      <projecttype_fr>Construction nouvelle</projecttype_fr>
+      <buildingstyle>contemporaryhouse</buildingstyle>
+      <buildingstyle_nl>Hedendaagse woning</buildingstyle_nl>
+      <buildingstyle_fr>Maison contemporain</buildingstyle_fr>
+      <producttitle>rooflinecladding</producttitle>
+      <producttitle_nl>Dak &amp; gevel</producttitle_nl>
+      <producttitle_fr>Bardage &amp; sous-toiture</producttitle_fr>
+      <producttype>roofline</producttype>
+      <producttype_nl>Dak</producttype_nl>
+      <producttype_fr>Sous-toiture</producttype_fr>
+      <series>twinson</series>
+      <series_nl>Twinson</series_nl>
+      <series_fr>Twinson</series_fr>
+      <colortype>twinson</colortype>
+      <colortype_nl>Twinson</colortype_nl>
+      <colortype_fr>Twinson</colortype_fr>
+      <color>504</color>
+      <color_nl>Schorsbruin (REF.504)</color_nl>
+      <color_fr>Brun écorce (REF.504)</color_fr>
+      <customer></customer>
+      <customer_nl></customer_nl>
+      <customer_fr></customer_fr>
+      <websitecustomer></websitecustomer>
+      <quote_nl>Twinson dakoversteken combineren de warmte, schoonheid en elegantie van hout met de duurzaamheid van pvc.</quote_nl>
+      <quote_fr>La sous-toiture en Twinson combine la chaleur, la beauté et l'élégance du bois avec la durabilité du PVC.</quote_fr>
+      <coverImg>kachtem.png</coverImg>
+      <img1>Kachtem1.jpg</img1>
+      <img2>Kachtem2.jpg</img2>
+      <img3>Kachtem3.jpg</img3>
+      <img4>Kachtem4.jpg</img4>
+      <img5></img5>
+      <img6></img6>
+    </project>
+    <project id="14">
+      <location>assebroek</location>
+      <location_nl>Assebroek</location_nl>
+      <location_fr>Assebroek</location_fr>
+      <country>belgium</country>
+      <country_nl>België</country_nl>
+      <country_fr>Belgique</country_fr>
+      <region>westflanders</region>
+      <region_nl>West-Vlaanderen</region_nl>
+      <region_fr>Flandre occidentale</region_fr>
+      <projecttype>renovation</projecttype>
+      <projecttype_nl>Renovatie</projecttype_nl>
+      <projecttype_fr>Rénovation</projecttype_fr>
+      <buildingstyle>contemporaryhouse</buildingstyle>
+      <buildingstyle_nl>Hedendaagse woning</buildingstyle_nl>
+      <buildingstyle_fr>Maison contemporain</buildingstyle_fr>
+      <producttitle>rooflinecladding</producttitle>
+      <producttitle_nl>Dak &amp; gevel</producttitle_nl>
+      <producttitle_fr>Bardage &amp; sous-toiture</producttitle_fr>
+      <producttype>cladding</producttype>
+      <producttype_nl>Gevel</producttype_nl>
+      <producttype_fr>Bardage</producttype_fr>
+      <series>twinson</series>
+      <series_nl>Twinson</series_nl>
+      <series_fr>Twinson</series_fr>
+      <colortype>twinson</colortype>
+      <colortype_nl>Twinson</colortype_nl>
+      <colortype_fr>Twinson</colortype_fr>
+      <color>502</color>
+      <color_nl>Zoethoutzwart (REF.502)</color_nl>
+      <color_fr>Noir réglisse (REF.502)</color_fr>
+      <customer></customer>
+      <customer_nl></customer_nl>
+      <customer_fr></customer_fr>
+      <websitecustomer></websitecustomer>
+      <quote_nl>Deceuninck gevelbekleding is dankzij de beperkte dikte geschikt voor nieuwbouw én renovatie. Gecombineerd met isolatie voldoet men aan het Vlaamse rooilijndecreet.</quote_nl>
+      <quote_fr>Comme il est peu épais, le bardage de Deceuninck convient à la fois aux nouvelles constructions et, en association avec l'isolation, il permet de respecter le décret sur les alignements applicable en Flandre.</quote_fr>
+      <coverImg>assebroek.png</coverImg>
+      <img1>assebroek1.jpg</img1>
+      <img2>assebroek2.jpg</img2>
+      <img3>assebroek3.jpg</img3>
+      <img4>assebroek4.jpg</img4>
+      <img5></img5>
+      <img6></img6>
+    </project>
+    <project id="15">
+      <location>gesves</location>
+      <location_nl>Gesves</location_nl>
+      <location_fr>Gesves</location_fr>
+      <country>belgium</country>
+      <country_nl>België</country_nl>
+      <country_fr>Belgique</country_fr>
+      <region>namur</region>
+      <region_nl>Namen</region_nl>
+      <region_fr>Namur</region_fr>
+      <projecttype>newbuild</projecttype>
+      <projecttype_nl>Nieuwbouw</projecttype_nl>
+      <projecttype_fr>Construction nouvelle</projecttype_fr>
+      <buildingstyle>contemporaryhouse</buildingstyle>
+      <buildingstyle_nl>Hedendaagse woning</buildingstyle_nl>
+      <buildingstyle_fr>Maison contemporain</buildingstyle_fr>
+      <producttitle>rooflinecladding</producttitle>
+      <producttitle_nl>Dak &amp; gevel</producttitle_nl>
+      <producttitle_fr>Bardage &amp; sous-toiture</producttitle_fr>
+      <producttype>cladding</producttype>
+      <producttype_nl>Gevel</producttype_nl>
+      <producttype_fr>Bardage</producttype_fr>
+      <series>twinson</series>
+      <series_nl>Twinson</series_nl>
+      <series_fr>Twinson</series_fr>
+      <colortype>twinson</colortype>
+      <colortype_nl>Twinson</colortype_nl>
+      <colortype_fr>Twinson</colortype_fr>
+      <color>504</color>
+      <color_nl>Schorsbruin (REF.504)</color_nl>
+      <color_fr>Brun écorce (REF.504)</color_fr>
+      <customer></customer>
+      <customer_nl></customer_nl>
+      <customer_fr></customer_fr>
+      <websitecustomer></websitecustomer>
+      <quote_nl>Door zijn PEFC certificering is deze gevelbekleding een milievriendelijk alternatief voor tropisch hardhout.</quote_nl>
+      <quote_fr>Comme il est certifié PEFC, ce bardage de façade représente une alternative écologique aux essences de bois tropicales.</quote_fr>
+      <coverImg>gesves.png</coverImg>
+      <img1>gesves1.jpg</img1>
+      <img2>gesves2.jpg</img2>
+      <img3>gesves3.jpg</img3>
+      <img4>gesves4.jpg</img4>
+      <img5></img5>
+      <img6></img6>
+    </project>
+    <project id="18">
+      <location>geel</location>
+      <location_nl>Geel</location_nl>
+      <location_fr>Geel</location_fr>
+      <country>belgium</country>
+      <country_nl>België</country_nl>
+      <country_fr>Belgique</country_fr>
+      <region>antwerp</region>
+      <region_nl>Antwerpen</region_nl>
+      <region_fr>Anvers</region_fr>
+      <projecttype>newbuild</projecttype>
+      <projecttype_nl>Nieuwbouw</projecttype_nl>
+      <projecttype_fr>Nouvelle construction</projecttype_fr>
+      <buildingstyle>fence</buildingstyle>
+      <buildingstyle_nl>Tuinomheining</buildingstyle_nl>
+      <buildingstyle_fr>Clôture</buildingstyle_fr>
+      <producttitle>outdoorliving</producttitle>
+      <producttitle_nl>Tuintoepassingen</producttitle_nl>
+      <producttitle_fr>Aménagement extérieur</producttitle_fr>
+      <producttype>fence</producttype>
+      <producttype_nl>Tuinomheining</producttype_nl>
+      <producttype_fr>Clôture</producttype_fr>
+      <series>twinson</series>
+      <series_nl>Twinson</series_nl>
+      <series_fr>Twinson</series_fr>
+      <colortype>twinson</colortype>
+      <colortype_nl>Twinson</colortype_nl>
+      <colortype_fr>Twinson</colortype_fr>
+      <color>502</color>
+      <color_nl>Zoethoutzwart (REF.502)</color_nl>
+      <color_fr>Noir réglisse (REF.502)</color_fr>
+      <customer></customer>
+      <customer_nl></customer_nl>
+      <customer_fr></customer_fr>
+      <websitecustomer></websitecustomer>
+      <quote_nl>Voor de afsluiting gebruikten we Twinson planken uit houtcomposiet. Het resultaat staat er!</quote_nl>
+      <quote_fr>Pour la clôture, nous avons utilisé des planches Twinson en bois composite. Le résultat nous plaît beaucoup!</quote_fr>
+      <coverImg>geel.png</coverImg>
+      <img1>geel1.jpg</img1>
+      <img2>geel2.jpg</img2>
+      <img3>geel3.jpg</img3>
+      <img4>geel4.jpg</img4>
+      <img5></img5>
+      <img6></img6>
+    </project>
+
+
+    <!-- Empty project-->
+    <!--<project id="">
+            <location></location>
+            <location_nl></location_nl>
+            <location_fr></location_fr>
+            <country></country>
+            <country_nl></country_nl>
+            <country_fr></country_fr>
+            <region></region>
+            <region_nl></region_nl>
+            <region_fr></region_fr>
+            <projecttype></projecttype>
+            <projecttype_nl></projecttype_nl>
+            <projecttype_fr></projecttype_fr>
+            <buildingstyle></buildingstyle>
+            <buildingstyle_nl></buildingstyle_nl>
+            <buildingstyle_fr></buildingstyle_fr>
+            <producttitle></producttitle>
+            <producttitle_nl></producttitle_nl>
+            <producttitle_fr></producttitle_fr>
+            <producttype></producttype>
+            <producttype_nl></producttype_nl>
+            <producttype_fr></producttype_fr>
+            <series></series>
+            <series_nl></series_nl>
+            <series_fr></series_fr>
+            <colortype></colortype>
+            <colortype_nl></colortype_nl>
+            <colortype_fr></colortype_fr>
+            <color></color>
+            <color_nl></color_nl>
+            <color_fr></color_fr>
+            <customer></customer>
+            <customer_nl></customer_nl>
+            <customer_fr></customer_fr>
+            <websitecustomer></websitecustomer>
+            <quote_nl></quote_nl>
+            <quote_fr></quote_fr>
+            <coverImg></coverImg>
+            <img1></img1>
+            <img2></img2>
+            <img3></img3>
+            <img4></img4>
+            <img5></img5>
+            <img6></img6>
+          </project>-->
+  </projects>
+</xml>
