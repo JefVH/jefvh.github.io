@@ -2005,20 +2005,14 @@ table {
 
 
 #inspiratiemodule {
-   margin-top:91px;
+   
 }
-
-    
     #inspiratiemodule .inspiratie-title{
-        padding: 26px 0;
+        padding: 75px 0;
         text-align:center;
         font-size:1.8em;
         font-weight:500;
-        position:fixed;
-        top:0;
-        left:300px;
-        z-index:9999999;
-
+        margin-top:50px;
     }
     #inspiratiemodule div.filters {
         margin-bottom: 50px;
@@ -2047,7 +2041,8 @@ table {
         margin-bottom:450px;
         background: #01549F;
         width: 15%;
-        height:auto;
+        height:100%;
+        height: calc(100% - 91px);
         z-index:3000;
         color:#ffffff;
         transition:0.5s ease-in-out;
@@ -2056,21 +2051,21 @@ table {
         -ms-transition: all 1s;
         -o-transition: all 1s;
         transition: all 1s;
+
     }
 
     #inspiratiemodule .filtersSidebar-trigger{
         display:block;
-        width:145px;
-        right:0;
+        width:50%;
+        left:-50%;
         z-index:3200;
-        position:fixed;
+        position:absolute;
         padding: 10px;
-        background:#F27638;
+        background:#01549F;
         color:#ffffff;
         overflow:hidden;
         cursor:pointer;
         text-transform: uppercase;
-        transition:0.5s ease-in-out;
         -webkit-transition: all 1.2s;
         -moz-transition: all 1.2s;
         -ms-transition: all 1.2s;
@@ -2079,77 +2074,37 @@ table {
     }
 
         #inspiratiemodule .filtersSidebar-trigger i {
-            margin-right:10px;
+            margin-right:5px;
         }
 
 
     #inspiratiemodule .filtersSidebar-close{
-        position:fixed;
-        top:91px;
-        right:20px;
+        position:absolute;
+        top:0;
+        right:5%;
         padding:10px;
         cursor:pointer;
-        z-index:3000;
     }
 
     #inspiratiemodule .filtersSidebar.filtersSidebar-open{
-        right:0; 
-        overflow-y:scroll;
+        right:0;
     }
 
     #inspiratiemodule .filtersSidebar-trigger.filtersSidebar-open{
-        right:100px;
-        background:#01549F;
+        left:0;
     }
 
     #inspiratiemodule .filtersSidebar-content{
         padding:10px;
         padding-top: 50px;
     }
-        #inspiratiemodule .filtersSidebar-content .option-set{
+        #inspiratiemodule .filtersSidebar-content li{
             margin-bottom:20px;
             color:#fff;
-            font-size:14px;
         }
-            #inspiratiemodule .filtersSidebar-content li .filter-header{
-                cursor:pointer;
-            }
-            #inspiratiemodule .filtersSidebar-content li .filter-header h4 {
-                color:#99ccff;
-                text-transform: uppercase;
-                font-size:16px;
-                float:left;
-            }
-            #inspiratiemodule .filtersSidebar-content li .filter-header i {
-                color:#99ccff;
-                font-size:16px;
-                margin-left:10px;
-                -webkit-transform: rotate(-90deg);
-                -moz-transform: rotate(-90deg);
-                -ms-transform: rotate(-90deg);
-                -o-transform: rotate(-90deg);
-                transform: rotate(-90deg);
-                -webkit-transition: all 0.5s;
-                -moz-transition: all 0.5s;
-                -ms-transition: all 0.5s;
-                -o-transition: all 0.5s;
-                transition: all 0.5s;
-            }
-            #inspiratiemodule .filtersSidebar-content li .filter-header i.open{
-                -webkit-transform: rotate(0deg);
-                -moz-transform: rotate(0deg);
-                -ms-transform: rotate(0deg);
-                -o-transform: rotate(0deg);
-                transform: rotate(0deg);
-            }
-            #inspiratiemodule .filtersSidebar-content .option-set li{
-                color:#fff;
-                font-size:14px;
-            }
             #inspiratiemodule .filtersSidebar-content li h4 {
                 color:#99ccff;
                 text-transform: uppercase;
-                font-size:16px;
             }
             #inspiratiemodule .filtersSidebar-content li input{
                 margin-right:10px;
@@ -2296,7 +2251,7 @@ table {
 
     @media only screen and (min-width:1200px){
         .project-overview .info h2{
-            font-size:24px;
+            font-size:30px;
         }
     }
 
@@ -2311,12 +2266,12 @@ table {
 
     .project-overview .info .info-text a{
         display: inline-block;
+        margin-top: 15px;
         padding:12px;
         background:#fff;
         border:1px solid #fff;
         font-size:9px;
         font-size:0.9rem;
-        margin-top: 15px;
     }
 
     .windowsdoors .info .info-text a{
@@ -2335,43 +2290,8 @@ table {
         color: #ef9b3a;
     }
 
-    .project-overview .info .info-text .info-line{
-        height:45px;
-        position:relative;
-    }
-
-    .project-overview .info .info-text .info-linetype{
-        height:45px;
-        position:relative;
-    }
-
-    .project-overview .info .info-text .info-linetype{
-        padding-top:10px;
-        padding-bottom:10px;
-        margin-bottom:5px;
-    }
-
-
-
-    .project-overview .info .info-text .info-line img{
-        position:absolute;
-        top:0;
-        left:0;
-        height:45px;
-        width:45px;
-    }
-
-    .project-overview .info .info-text .info-linetype img{
-        position:absolute;
-        top:0;
-        left:0;
-        height:45px;
-        width:45px;
-    }
-
     .project-overview .info .info-text p{
         color:#fff;
-        margin-left:55px;
     }
 
     @media only screen and (min-width:600px){
@@ -2394,15 +2314,160 @@ table {
 
     @media only screen and (min-width:1200px){
         .project-overview .info .info-text p{
-            font-size:16px;
+            font-size:15px;
         }
     }
    
-    @media only screen and (min-width:980px)     {
-        #footer{
-            overflow:hidden;
+    /*#inspiratiemodule article {
+        width:50%;
+        float:left;
+        overflow:hidden;
+    } 
+
+        #inspiratiemodule article a {
+            display: block;
         }
+
+            #inspiratiemodule article a figure   {
+                width: 50%;
+                float: left;
+                position:relative;
+            }
+            
+                #inspiratiemodule article a figure img{
+                    width:100%;
+                    display: block;
+                }         
+
+                #inspiratiemodule article a figure figcaption{
+                    text-transform: uppercase;
+                    color:#ffffff;
+                    position:absolute;
+                    top:0;
+                    left:0;
+                    right:0;
+                    bottom:0;
+                    width:100%;
+                    height:100%;
+                    line-height: 100%;
+                    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+                    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+                    filter: alpha(opacity=0);
+                    opacity: 0;
+                    -webkit-transition: opacity 200ms linear;
+                    -moz-transition: opacity 200ms linear;
+                    -o-transition: opacity 200ms linear;
+                    transition: opacity 200ms linear;
+                    background:#e29946;
+                }
+
+                    #inspiratiemodule article a figure figcaption span{
+                        display: block;
+                        position: absolute;
+                        left:50%;
+                        top: 40%;
+                        margin-left:-70px;
+                        border: 3px solid #ffffff;
+                        padding:5px;
+                    }
+
+                        #inspiratiemodule article a figure figcaption span img{
+                            display:inline-block;
+                            width:auto;
+                            margin-right:5px;
+                        }
+            #inspiratiemodule article a .grid-project-info{
+                width: 50%;
+                float: left;
+                padding:0 20px 20px 20px;
+            }
+
+                #inspiratiemodule article a .grid-project-info h1{
+                    font-size:25px;
+                    line-height:30px;
+                    margin-top:15px;
+                }
+
+                #inspiratiemodule article a .grid-project-info h2{
+                    font-size:16px;
+                    line-height:20px;
+                }
+
+                    #inspiratiemodule article a:hover figure figcaption{
+                        -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+                        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+                        filter: alpha(opacity=80);
+                        opacity: 0.8;
+                    }
+
+                #inspiratiemodule article a.windowsdoors .grid-project-info h1{
+                    color: #008ec2;
+                }
+
+                #inspiratiemodule article a.windowsdoors figure figcaption{
+                    background: #008ec2;
+                }
+
+                #inspiratiemodule article a.outdoorliving .grid-project-info h1{
+                    color: #8ba446;
+                }
+
+                #inspiratiemodule article a.outdoorliving figure figcaption{
+                    background: #8ba446;
+                }
+
+                #inspiratiemodule article a.rooflinecladding .grid-project-info h1{
+                    color: #a48e61;
+                }
+
+                #inspiratiemodule article a.rooflinecladding figure figcaption{
+                    background: #a48e61;
+                }
+
+                #inspiratiemodule article a.interior .grid-project-info h1{
+                    color: #ef9b3a;
+                }
+
+                #inspiratiemodule article a.interior figure figcaption{
+                    background: #ef9b3a;
+                }
+                #inspiratiemodule .visibleProject:nth-of-type(4n+3) figure,#inspiratiemodule .visibleProject:nth-of-type(4n+4) figure{
+                    float:right;
+                }
+                #inspiratiemodule .visibleProject:nth-of-type(4n+3) .grid-project-info,#inspiratiemodule .visibleProject:nth-of-type(4n+4) .grid-project-info{
+                    float:left;
+                }
+
+@media screen and (max-width: 1200px){
+    #inspiratiemodule article:nth-child(2n+1) figure{
+        float:right;
     }
+}
+
+@media screen and (max-width: 1200px){
+    #inspiratiemodule article:nth-child(2n+1) .grid-project-info{
+        float:left;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #inspiratiemodule article:nth-child(2n) figure{
+        float:left;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #inspiratiemodule article:nth-child(2n) .grid-project-info{
+        float:right;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #inspiratiemodule article{
+        width:100%;
+        float:none;
+    }
+}*/
 
 
 /*END added rules JHW*/
