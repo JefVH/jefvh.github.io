@@ -125,7 +125,7 @@ function noDuplicatesArray(sourceArray) {
 }
 
 function showProject(count, lang) {
-    var imgPathBase = "/Content/inspiratiemodule/Images/Projects/";
+    var imgPathBase = "Content/inspiratiemodule/Images/Projects/";
     var detailPathBase = "/"+lang+"/inspiratiemodule/detail.aspx?id=";
     switch(lang){
         case 'nl':

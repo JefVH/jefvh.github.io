@@ -216,48 +216,48 @@
         <img3>oostende3.jpg</img3>
         <img4>oostende4.jpg</img4>
       </project>
-      <project id="1">
-        <location>gavere</location>
-        <location_nl>Gavere</location_nl>
-        <location_fr>Gavere</location_fr>
+      <project id="6">
+        <location>oostduinkerke</location>
+        <location_nl>Oostduinkerke</location_nl>
+        <location_fr>Oostduinkerke</location_fr>
         <country>belgium</country>
         <country_nl>België</country_nl>
         <country_fr>Belgique</country_fr>
-        <region>eastflanders</region>
-        <region_nl>Oost-Vlaanderen</region_nl>
-        <region_fr>Flandre orientale</region_fr>
-        <projecttype>newbuild</projecttype>
-        <projecttype_nl>Nieuwbouw</projecttype_nl>
-        <projecttype_fr>Nouvelle construction</projecttype_fr>
-        <buildingstyle>vicaragehouse</buildingstyle>
-        <buildingstyle_nl>Pastoriewoning</buildingstyle_nl>
-        <buildingstyle_fr>Presbytère</buildingstyle_fr>
+        <region>westflanders</region>
+        <region_nl>West-Vlaanderen</region_nl>
+        <region_fr>Flandre occidentale</region_fr>
+        <projecttype>renovation</projecttype>
+        <projecttype_nl>Renovatie</projecttype_nl>
+        <projecttype_fr>Rénovation</projecttype_fr>
+        <buildingstyle>farmhouse</buildingstyle>
+        <buildingstyle_nl>Hoevestijl</buildingstyle_nl>
+        <buildingstyle_fr>Fermette</buildingstyle_fr>
         <producttitle>windowsdoors</producttitle>
         <producttitle_nl>Ramen en Deuren</producttitle_nl>
         <producttitle_fr>Fenêtres et Portes</producttitle_fr>
         <producttype>windowprofile</producttype>
         <producttype_nl>Raamprofiel</producttype_nl>
         <producttype_fr>Profilés de châssis</producttype_fr>
-        <series>zendowneoautentica</series>
-        <series_nl>Zendow#neo Autentica</series_nl>
-        <series_fr>Zendow#neo Autentica</series_fr>
-        <colortype>decoroc</colortype>
-        <colortype_nl>Coating Decoroc</colortype_nl>
-        <colortype_fr>Laquage Decoroc</colortype_fr>
-        <color>6909</color>
-        <color_nl>Balmoral (REF.6909) RAL +- D 085 60 10</color_nl>
-        <color_fr>Balmoral (REF.6909) RAL +- D 085 60 10</color_fr>
+        <series>zendow</series>
+        <series_nl>Zendow</series_nl>
+        <series_fr>Zendow</series_fr>
+        <colortype>foil</colortype>
+        <colortype_nl>Folie bekleefd</colortype_nl>
+        <colortype_fr>Finition filmée</colortype_fr>
+        <color>1143</color>
+        <color_nl>Grijze ceder (REF.1143)</color_nl>
+        <color_fr>Cèdre gris (REF.1143)</color_fr>
         <customer></customer>
         <customer_nl></customer_nl>
         <customer_fr></customer_fr>
         <websitecustomer></websitecustomer>
-        <quote_nl>Dankzij het Autentica raamwerk krijgt ons huis een klassieke uitstraling met hedendaags comfort.</quote_nl>
-        <quote_fr>Grâce aux châssis Autentica, notre maison a un look classique et un confort contemporain.</quote_fr>
-        <coverImg>gavere.png</coverImg>
-        <img1>gavere1.jpg</img1>
-        <img2>gavere2.jpg</img2>
-        <img3>gavere3.jpg</img3>
-        <img4>gavere4.jpg</img4>
+        <quote_nl>Deceuninck profielen zijn 100% recycleerbaar en worden vervaardigd in een energiezuinig productieproces.</quote_nl>
+        <quote_fr>Les profilés Deceuninck sont recyclables à 100% et fabriqués selon un processus peu énergivore.</quote_fr>
+        <coverImg>oostduinkerke.png</coverImg>
+        <img1>oostduinkerke1.jpg</img1>
+        <img2>oostduinkerke2.jpg</img2>
+        <img3>oostduinkerke3.jpg</img3>
+        <img4>oostduinkerke4.jpg</img4>
       </project>
       <project id="2">
         <location>booischot</location>

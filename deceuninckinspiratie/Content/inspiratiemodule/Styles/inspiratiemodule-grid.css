@@ -2194,19 +2194,19 @@ table {
     }
 
     .windowsdoors .info{
-        background: rgba(0, 142, 194, 0.8);
+        background: rgba(0, 142, 194, 0.7);
     }
 
     .outdoorliving .info{
-        background: rgba(139, 164, 70, 0.8);
+        background: rgba(139, 164, 70, 0.7);
     }
 
     .rooflinecladding .info{
-        background: rgba(164, 142, 97, 0.8);
+        background: rgba(164, 142, 97, 0.7);
     }
 
     .interior .info{
-        background: rgba(239, 155, 58, 0.8);
+        background: rgba(239, 155, 58, 0.7);
     }
 
     .project-overview .info-wrap{

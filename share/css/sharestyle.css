@@ -1,0 +1,166 @@
+body{
+	font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+	font-size:11px;
+	color:#141823;
+	line-height:1.28;
+	margin: 0;
+	padding:0;
+	text-align:left;
+	direction: ltr;
+	unicode-bidi: embed;
+}
+
+p{
+	margin-top:0;
+	margin-bottom: 0;
+	display: block;
+  	-webkit-margin-before: 0;
+  	-webkit-margin-after: 0;
+  	-webkit-margin-start: 0;
+  	-webkit-margin-end: 0;
+}
+
+h3{
+	font-size:14px;
+}
+
+.form{
+	display:block;
+	float:left;
+	width:400px;
+}
+
+.form .formWrapper{
+	margin:30px;
+}
+
+.form .formWrapper input{
+	margin-bottom:15px;
+}
+
+.facebookShareDialog{
+	display: block;
+	float:left;
+	width: 400px;
+	border: 1px solid #b1bdd6;
+	padding:5px;
+}
+
+.facebookShareDialog .shareText{
+	border: 1px solid #b1bdd6;
+	position: relative;
+}
+
+.facebookShareDialog .shareText .shareTextWrapper{
+	margin: 0 5px;
+}
+
+.facebookShareDialog .shareText .shareTextWrapper{
+	padding:5px;
+}
+
+.facebookShareDialog .shareText .shareTextWrapper .shareTextInnerWrap{
+	overflow:hidden;
+	font-size: 13px;
+	padding:0;
+	resize:none;
+	line-height: 1.28;
+	font-family: 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif;
+	background-color:transparent;
+	border:0;
+	-webkit-box-sizing:	border-box;
+	outline:0;
+	width:100%;
+	-webkit-font-smoothing: antialiased;
+	-webkit-appearance: none;
+  	-webkit-border-radius: 0;
+	-webkit-rtl-ordering: logical;
+  	-webkit-user-select: text;
+  	flex-direction: column;
+  	word-wrap: break-word;	
+	color: initial;
+  	letter-spacing: normal;
+	word-spacing: normal;
+  	text-transform: none;
+  	text-indent: 0px;
+  	text-shadow: none;
+  	display: inline-block;
+  	text-align: start;
+	-webkit-writing-mode: horizontal-tb;
+}
+
+.facebookShareDialog .link{
+	padding-top:12px;
+	padding-left:12px;
+	padding-right:12px;
+}
+
+.facebookShareDialog .link .linkWrapper{
+	margin-bottom: 12px;
+}
+
+.facebookShareDialog .link .linkWrapper .linkWrap{
+	background-color: #fff;
+	overflow: hidden;
+	position:relative;
+	z-index:0;
+	-webkit-box-shadow:0 0 0 1px rgba(0, 0, 0, .15) inset, 0 1px 4px rgba(0, 0, 0, .1);
+}
+
+.facebookShareDialog .link .linkWrapper .linkWrap .linkInnerWrap{
+	width:100%;
+	float:left;
+}
+
+.facebookShareDialog .link .linkWrapper .linkWrap .linkInnerWrap .linkImage{
+	position:relative;
+	line-height:0;
+	position:relative;
+	z-index:1;
+}
+
+.facebookShareDialog .link .linkWrapper .linkWrap .linkInnerWrap .linkImage img{
+	width:100%;
+	height:auto;
+}
+
+.facebookShareDialog .link .linkWrapper .linkWrap .linkInnerWrap .linkDescription{
+	height:auto;
+	margin:10px 12px;
+	max-height: 100px;
+	font-size: 12px;
+	position: relative;
+}
+
+.facebookShareDialog .link .linkWrapper .linkWrap .linkInnerWrap .linkDescription .linkDescriptionHeading{
+	font-family: Georgia, 'lucida grande',tahoma,verdana,arial,sans-serif;
+  	font-size: 18px;
+  	font-weight: 500;
+  	line-height: 22px;
+  	margin-bottom: 5px;
+	max-height: 110px;
+  	overflow: hidden;
+  	word-wrap: break-word;
+  	text-decoration: none;
+  	-webkit-transition: color .1s ease-in-out;
+  	color: #141823;
+}
+
+.facebookShareDialog .link .linkWrapper .linkWrap .linkInnerWrap .linkDescription .linkDescriptionBody{
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+  	line-height: 16px;
+  	max-height: 80px;
+  	overflow: hidden;
+}
+
+.facebookShareDialog .link .linkWrapper .linkWrap .linkInnerWrap .linkDescription .linkDescriptionDomain{
+	padding-top: 9px;
+  	position: relative;
+  	font-size: 11px;
+  	line-height: 11px;
+  	text-transform: uppercase;
+  	color: #9197a3;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	white-space: nowrap;
+}
