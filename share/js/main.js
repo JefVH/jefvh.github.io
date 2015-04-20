@@ -31,7 +31,7 @@ $(function(){
 	    var hashtagText = text.replace(/#([^ ]+)/, '<a href="http://twitter.com/search/$1" class="hashtag" target="_blank">#$1</a>');
 
 	    $('#tweetContent').empty();
-	    $('#tweetContent').append(hashtagLinkText);
+	    $('#tweetContent').append(hashtagText);
 	});
 
 	// $('#shareTitle').onkeyup(function(){
