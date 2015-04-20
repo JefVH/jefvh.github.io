@@ -1,12 +1,16 @@
 $(function(){
 	$('#shareTitle').bind('keypress keyup focus',function(){
-		$('.linkDescriptionHeading').empty();
-		$('.linkDescriptionHeading').append($('#shareTitle').val());
+	    $('.linkDescriptionHeading').empty();
+	    $('.linkedinContent h4').empty();
+	    $('.linkDescriptionHeading').append($('#shareTitle').val());
+	    $('.linkedinContent h4').append($('#shareTitle').val());
 	});
 
 	$('#shareDescription').bind('keypress keyup focus', function () {
-		$('.linkDescriptionBody').empty();
-		$('.linkDescriptionBody').append($('#shareDescription').val());
+	    $('.linkDescriptionBody').empty();
+	    $('.linkedinContentDescription span').empty();
+	    $('.linkDescriptionBody').append($('#shareDescription').val());
+	    $('.linkedinContentDescription span').append($('#shareDescription').val());
 	});
 
 	$('#shareImage').change(function(){
@@ -55,6 +59,7 @@ function readURL(input) {
 
         reader.onload = function (e) {
             $('.linkImage img').attr('src', e.target.result);
+            $('.linkedinImageContainer img').attr('src', e.target.result);
         }
 
         reader.readAsDataURL(input.files[0]);

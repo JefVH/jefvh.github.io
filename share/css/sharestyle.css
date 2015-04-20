@@ -1,3 +1,6 @@
+@font-face
+{font-family:"LinkedIn-Glyphs";src:url('https://www.linkedin.com/scds/common/u//fonts/LinkedInGlyphs/2.0.1/LinkedIn-Glyphs-16px.eot');src:url('https://www.linkedin.com/scds/common/u//fonts/LinkedInGlyphs/2.0.1/LinkedIn-Glyphs-16px.eot?#iefix') format('embedded-opentype'),url('https://www.linkedin.com/scds/common/u//fonts/LinkedInGlyphs/2.0.1/LinkedIn-Glyphs-16px.woff') format('woff'), url('https://www.linkedin.com/scds/common/u//fonts/LinkedInGlyphs/2.0.1/LinkedIn-Glyphs-16px.ttf') format('truetype');font-weight:normal;font-style:normal}
+
 body{
 	font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
 	font-size:11px;
@@ -287,3 +290,75 @@ h3{
         margin:0;
         padding:0;
     }
+
+.linkedinDialog .linkedinLink .linkedinContentContainer{
+    height:100px;
+}
+
+.linkedinDialog .linkedinLink .linkedinContentContainer .linkedinContent{
+    display:inline-block;
+    vertical-align:middle;
+    zoom:1;
+    box-sizing:border-box;
+    margin-left:166px;
+    padding: 0 10px;
+    max-width:363px;
+}
+
+    .linkedinDialog .linkedinLink .linkedinContentContainer .linkedinContent h4{
+        margin-bottom:5px;
+        font-size:16px;
+        line-height:20px;
+        color:#333;
+        font-weight:normal;
+        max-height:40px;
+        overflow:hidden;
+        text-overflow:ellipsis;
+    }
+
+    .linkedinDialog .linkedinLink .linkedinContentContainer .linkedinContent .linkedinContentDescription {
+        white-space:normal;
+        font-size:12px;
+        line-height:14px;
+        color:#66696a;
+        overflow:hidden;
+        text-overflow:ellipsis;
+    }
+
+        .linkedinDialog .linkedinLink .linkedinContentContainer .linkedinContent .linkedinContentDescription cite {
+            display:inline;
+            font-weight:bold;
+            font-size:12px;
+            line-height:14px;
+            color:#66696a;
+            margin-bottom:4px;
+            white-space:nowrap;
+            overflow:hidden;
+            text-overflow:ellipsis;
+            margin:0;
+            padding:0;
+            border:0;
+            font-style:inherit;
+            font-family:inherit;
+            vertical-align:baseline;
+
+        }
+
+        .linkedinDialog .linkedinLink .linkedinContentContainer .linkedinContent .linkedinContentDescription span {
+            height:45px;
+            max-height:none;
+            white-space:normal;
+            display:inline;
+            color:#333;
+        }
+
+        .linkedinDialog .linkedinLink .linkedinContentContainer .linkedinContent .linkedinContentDescription span:before {
+            font-family: "LinkedIn-Glyphs-2.0.2","LinkedIn-Glyphs";
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: inherit;
+            speak: none;
+            font-size: 12px;
+            color: #999;
+            content: "\e02c";
+        }
