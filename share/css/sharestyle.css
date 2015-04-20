@@ -27,20 +27,6 @@ h3{
 	font-size:14px;
 }
 
-.form{
-	display:block;
-	float:left;
-	width:400px;
-}
-
-.form .formWrapper{
-	margin:30px;
-}
-
-.form .formWrapper input{
-	margin-bottom:15px;
-}
-
 .facebookShareDialog{
 	display: block;
 	float:left;

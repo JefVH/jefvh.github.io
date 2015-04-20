@@ -12,96 +12,119 @@
 
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    </head>
+            </head>
     <body>
         <div class="container theme-showcase">
-        <div class="page-header"><h1>Dynamic Share Dialogs</h1></div>
-    	<div class="form">
-    		<div class="formWrapper">
-    			<h3>Share dialog title</h3>
-    			<input type="text" id="shareTitle" size="35">
-    			<h3>Share dialog description</h3>
-    			<textarea type="text" id="shareDescription" rows="10" cols="37"></textarea>    
-    			<h3>Share dialog image</h3>
-    			<input type="file" id="shareImage" accept="image/*"><br/>
-                <h3>Tweet</h3>
-                <textarea type="text" id="tweet" rows="2" cols="37" maxlength="100"></textarea>
-                <span id="twitterMessageCount">
-                    <br />
-                    <em id="twitterCount"></em> chars left
-                </span>
-    		</div>
-    	</div>
-        <div class="facebookShareDialog">
-        	<div class="shareText">
-        		<div class="shareTextWrapper">
-        			<div class="shareTextWrap">
-        				<div class="shareTextInnerWrap">
-        					Here comes the message the user ads to the post.
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        	<div>
-        		<div class="link">
-        			<div>
-        				<div class="linkWrapper">
-        					<div class="linkWrap">
-        						<div class="linkInnerWrap">
-        							<div class="linkImage">
-        								<img>
-        							</div>
-        							<div>
-        								<div class="linkDescription">
-    										 <div class="linkDescriptionHeading">
-    										 	
-    										 </div>
-    										 <div>
-    										 	<div class="linkDescriptionBody">
-    										 		
-    										 	</div>
-    										 	<div class="linkDescriptionDomain">
-    										 		sdr.li
-    										 	</div>
-    										 </div>
-        								</div>
-        							</div>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        </div>
-        <div class="tweetDialog">
-            <div id="tweetContent">
-
+            <div class="page-header"><h1>Dynamische Share Dialogs</h1></div>
+            <div class="col-sm-12">
+            	<form class="form">
+                    <div class="col-sm-6">
+            			<label for="shareTitle">Facebook and Linkedin Title</label>
+    	                <input type="text" id="shareTitle" class="form-control">
+            			<label for="shareDescription">Post Description</label>
+            			<textarea type="text" id="shareDescription" rows="3" class="form-control"></textarea>    
+            			<label for="shareImage">Post Image</label>
+            			<input type="file" id="shareImage" accept="image/*" class="form-control"><br/>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="tweet">Tweet</label>
+                        <textarea type="text" id="tweet" rows="2" maxlength="100" class="form-control"></textarea>
+                        <small>
+                            <span id="twitterMessageCount" class="pull-right">
+                                <br />
+                                <em id="twitterCount"></em> karakters over
+                            </span>
+                        </small>
+            		</div>
+            	</form>
             </div>
-        </div>
-        <div class="linkedinDialog">
-            <div class="linkedinPost">
-                <p class="linkedinPostContent">Here comes the message the user ads to the post.</p>
-            </div>
-            <div class="linkedinLink">
-                <div class="linkedinImageContainer">
-                    <img>
-                </div>
-                <div class="linkedinContentContainer">
-                    <div class="linkedinContent">
-                        <h4></h4>
-                        <div class="linkedinContentDescription">
-                            <cite>sdr.li</cite>
-                            <span></span>
+            <div class="col-sm-6">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="active"><a href="#facebook" role="tab" data-toggle="tab">Facebook</a></li>
+                    <li><a href="#twitter" role="tab" data-toggle="tab">Twitter</a></li>
+                    <li><a href="#linkedin" role="tab" data-toggle="tab">Linkedin</a></li>
+                    <li><a href="#googleplus" role="tab" data-toggle="tab">Google+</a></li>
+                    <li><a href="#pinterest" role="tab" data-toggle="tab">Pinterest</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="facebook">
+                        <div class="facebookShareDialog">
+                            <div class="shareText">
+                                <div class="shareTextWrapper">
+                                    <div class="shareTextWrap">
+                                        <div class="shareTextInnerWrap">
+                                            Kijk wat ik gedeeld heb met Social Seeder.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="link">
+                                    <div>
+                                        <div class="linkWrapper">
+                                            <div class="linkWrap">
+                                                <div class="linkInnerWrap">
+                                                    <div class="linkImage">
+                                                        <img>
+                                                    </div>
+                                                    <div>
+                                                        <div class="linkDescription">
+                                                             <div class="linkDescriptionHeading">
+                                                                
+                                                             </div>
+                                                             <div>
+                                                                <div class="linkDescriptionBody">
+                                                                    
+                                                                </div>
+                                                                <div class="linkDescriptionDomain">
+                                                                    sdr.li
+                                                                </div>
+                                                             </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div class="tab-pane" id="twitter">
+                        <div class="tweetDialog">
+                            <div id="tweetContent">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="linkedin">
+                        <div class="linkedinDialog">
+                            <div class="linkedinPost">
+                                <p class="linkedinPostContent">Here comes the message the user ads to the post.</p>
+                            </div>
+                            <div class="linkedinLink">
+                                <div class="linkedinImageContainer">
+                                    <img>
+                                </div>
+                                <div class="linkedinContentContainer">
+                                    <div class="linkedinContent">
+                                        <h4></h4>
+                                        <div class="linkedinContentDescription">
+                                            <cite>sdr.li</cite>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="googleplus"></div>
+                    <div class="tab-pane" id="pinterest"></div>
                 </div>
             </div>
         </div>
-            </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>
