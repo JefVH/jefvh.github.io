@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -13,11 +13,17 @@
     	<div class="form">
     		<div class="formWrapper">
     			<h3>Facebook share dialog title</h3>
-    			<input type="text" id="shareTitle">
+    			<input type="text" id="shareTitle" size="35">
     			<h3>Facebook share dialog description</h3>
-    			<input type="text" id="shareDescription">
+    			<textarea type="text" id="shareDescription" rows="10" cols="37"></textarea>    
     			<h3>Facebook share dialog image</h3>
     			<input type="file" id="shareImage" accept="image/*"><br/>
+                <h3>Tweet</h3>
+                <textarea type="text" id="tweet" rows="2" cols="37" maxlength="100"></textarea>
+                <span id="twitterMessageCount">
+                    <br />
+                    <em id="twitterCount"></em> chars left
+                </span>
     		</div>
     	</div>
         <div class="facebookShareDialog">
@@ -60,6 +66,21 @@
         			</div>
         		</div>
         	</div>
+        </div>
+        <div class="tweetDialog">
+            <div id="tweetContent">
+
+            </div>
+        </div>
+        <div class="linkedinDialog">
+            <div class="linkedinPost">
+                <p class="linkedinPostContent">Here comes the message the user ads to the post.</p>
+            </div>
+            <div class="linkedinLink">
+                <div class="linkedinImageContainer">
+                    <img src="https://media.licdn.com/media-proxy/ext?w=180&amp;h=110&amp;f=c&amp;hash=8m9Pm%2BpxhvoUUQtl%2FddSjryVElM%3D&amp;ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0VuvlQ0SjBso9KaUrwG56whBRIHZAG_-AEbyq5fVfyu2Kp-dIPHl_TJAKX9UwlttJPHoHmc" alt="Deceuninck Inspiratie Lochristi" class="nmp-sized checked">
+                </div>
+            </div>
         </div>
         <script src="js/main.js"></script>
     </body>

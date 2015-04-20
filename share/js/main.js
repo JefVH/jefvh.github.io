@@ -1,16 +1,33 @@
 $(function(){
-	$('#shareTitle').keyup(function(){
+	$('#shareTitle').bind('keypress keyup focus',function(){
 		$('.linkDescriptionHeading').empty();
 		$('.linkDescriptionHeading').append($('#shareTitle').val());
 	});
 
-	$('#shareDescription').keyup(function(){
+	$('#shareDescription').bind('keypress keyup focus', function () {
 		$('.linkDescriptionBody').empty();
 		$('.linkDescriptionBody').append($('#shareDescription').val());
 	});
 
 	$('#shareImage').change(function(){
 		readURL(this);
+	});
+
+	$('#tweet').bind('keypress keyup focus', function () {
+	    var $this = $(this);
+	    var text = $this.val();
+	    var maxlength = parseInt($this.attr('maxlength'));
+	    var length = text.length;
+	    var $count = $('#twitterCount');
+
+	    if (!isNaN(maxlength) && $count.length) {
+	        $count.html(maxlength - length);
+	    }
+
+	    var hashtagText = text.replace(/#([^ ]+)/, '<a href="http://twitter.com/search/$1" class="hashtag" target="_blank">#$1</a>');
+
+	    $('#tweetContent').empty();
+	    $('#tweetContent').append(hashtagLinkText);
 	});
 
 	// $('#shareTitle').onkeyup(function(){
