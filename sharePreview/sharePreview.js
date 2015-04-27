@@ -21,5 +21,3 @@ function getData(fburl){
     var imageHeight = image[0].height;
     window.open(shareURL);
 }
-
-});
