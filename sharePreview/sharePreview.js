@@ -20,4 +20,5 @@ function getData(fburl){
     var imageWidth = image[0].width;
     var imageHeight = image[0].height;
     window.open(shareURL);
+    }
 }
