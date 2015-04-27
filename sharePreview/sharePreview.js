@@ -12,13 +12,6 @@ $(function(){
 
 function getData(fburl){
     $.getJSON(fburl, function (data) {
-
-    var title = data['title'];
-    var url = data['url'];
-    var image = data['image'];
-    var imageUrl = image[0].url;
-    var imageWidth = image[0].width;
-    var imageHeight = image[0].height;
-    window.open(shareURL);
-    }
+        window.open(shareURL);
+    });
 }
