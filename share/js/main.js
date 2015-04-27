@@ -2,15 +2,19 @@ $(function(){
 	$('#shareTitle').bind('keypress keyup focus',function(){
 	    $('.linkDescriptionHeading').empty();
 	    $('.linkedinContent h4').empty();
+	    $('.googleplusContentTitle').empty();
 	    $('.linkDescriptionHeading').append($('#shareTitle').val());
 	    $('.linkedinContent h4').append($('#shareTitle').val());
+	    $('.googleplusContentTitle').append($('#shareTitle').val());
 	});
 
 	$('#shareDescription').bind('keypress keyup focus', function () {
 	    $('.linkDescriptionBody').empty();
 	    $('.linkedinContentDescription span').empty();
+	    $('.googleplusContentDescription').empty();
 	    $('.linkDescriptionBody').append($('#shareDescription').val());
 	    $('.linkedinContentDescription span').append($('#shareDescription').val());
+	    $('.googleplusContentDescription').append($('#shareDescription').val());
 	});
 
 	$('#shareImage').change(function(){
@@ -23,15 +27,18 @@ $(function(){
 	    var maxlength = parseInt($this.attr('maxlength'));
 	    var length = text.length;
 	    var $count = $('#twitterCount');
+	    var regex = /(https?:\/\/([-\w\.]+)+(:\d+)?(\/([\w\/_\.]*(\?\S+)?)?)?)/ig;
 
 	    if (!isNaN(maxlength) && $count.length) {
 	        $count.html(maxlength - length);
 	    }
 
-	    var hashtagText = text.replace(/#([^ ]+)/, '<a href="http://twitter.com/search/$1" class="hashtag" target="_blank">#$1</a>');
+	    var replacedURLTweet = text.replace(regex, "<a href='$1' target='_blank'>$1</a>");
+	    
+        var finalTweet = replacedURLTweet.replace(/#(\S+)/g, '<a href=http://twitter.com/#!/search/$1" class="hashtag" target="_blank">#$1</a>');
 
 	    $('#tweetContent').empty();
-	    $('#tweetContent').append(hashtagText);
+	    $('#tweetContent').append(finalTweet);
 	});
 
 	// $('#shareTitle').onkeyup(function(){
@@ -60,6 +67,7 @@ function readURL(input) {
         reader.onload = function (e) {
             $('.linkImage img').attr('src', e.target.result);
             $('.linkedinImageContainer img').attr('src', e.target.result);
+            $('.googleplusImageWrap img').attr('src',e.target.result);
         }
 
         reader.readAsDataURL(input.files[0]);

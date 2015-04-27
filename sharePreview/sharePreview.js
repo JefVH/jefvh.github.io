@@ -1,6 +1,17 @@
-﻿var fburl = "http://graph.facebook.com/http://jefvh.github.io/facebookShare/index.html?callback=?&method=post&scrape=true"
+﻿var fburl1 = 'http://graph.facebook.com/?id=';
+var fburl2 = '?callback=?&method=post&scrape=true';
+var shareURL = 'http://facebook.com/share?u='
 
-$.getJSON(fburl, function (data) {
+$(function(){
+    $('#submit').on('click',function(){
+        fburl = fburl1+$('#url').val()+fburl2;
+        shareURL = shareURL+$('#url').val();
+        getData(fburl);
+    });
+});
+
+function getData(fburl){
+    $.getJSON(fburl, function (data) {
 
     var title = data['title'];
     var url = data['url'];
@@ -8,10 +19,7 @@ $.getJSON(fburl, function (data) {
     var imageUrl = image[0].url;
     var imageWidth = image[0].width;
     var imageHeight = image[0].height;
-    $("#profile").append('<h3>' + title + '</h3>');
-    $("#profile").append('<h3>' + url + '</h3>');
-    $("#profile").append('<h3>' + imageUrl + '</h3>');
-    $("#profile").append('<h3>' + imageWidth + '</h3>');
-    $("#profile").append('<h3>' + imageHeight + '</h3>');
+    window.open(shareURL);
+}
 
 });

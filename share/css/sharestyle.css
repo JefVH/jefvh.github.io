@@ -348,3 +348,89 @@ h3{
             color: #999;
             content: "\e02c";
         }
+
+.googleplusDialog{
+    display: inline-block;
+    vertical-align: middle;
+    font-size:13px;
+    word-wrap:break-word;
+    white-space: normal;
+    -webkit-font-smoothing:antialiased;
+    font: normal 13px Roboto,arial,sans-serif;;
+    background-clip: padding-box;
+    border: solid transparent;
+    border-width: 0 0 0 4px;
+    min-height: 28px;
+}
+
+    .googleplusDialog .googleplusPost{
+        background-color:#F5F5F5;
+        border: 1px solid #d8d8d8;
+        padding:6px;
+    }
+
+        .googleplusDialog .googleplusPost .googleplusWrap{
+            max-width: 346px;
+            width: 346px;
+            clear: both;
+            line-height: 0;
+            overflow: hidden;
+            position: relative; 
+        }
+
+            .googleplusDialog .googleplusPost .googleplusWrap .googleplusImageWrap{
+                width: 346px;
+                height: 268px;
+                max-height: 268px;
+                position: relative;
+                line-height: 0;
+                min-width: 70px;
+                overflow: hidden;
+            }
+
+                .googleplusDialog .googleplusPost .googleplusWrap .googleplusImageWrap img{
+                    max-height: 268px;
+                    max-width: 346px;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    position: relative;
+                    bottom: 0;
+                    display: block;
+                    left:0;
+                    margin:auto;
+                    right:0;
+                    top:0;
+                    border:0;
+                    cursor:pointer;
+                }
+
+            .googleplusDialog .googleplusPost .googleplusWrap .googleplusContentWrap{
+                line-height: 1.4;
+                padding: 15px;
+            }
+
+                .googleplusDialog .googleplusPost .googleplusWrap .googleplusContentWrap .googleplusContentTitle{
+                    color: #404040;
+                    font-size: 16px;
+                    font-weight: 300;
+                    display: block;
+                }
+
+                .googleplusDialog .googleplusPost .googleplusWrap .googleplusContentWrap .googleplusContentDomain{
+                    font-size: 12px;
+                    font-weight: normal;
+                    margin-bottom: 15px;
+                    max-height: 50.4px;
+                    overflow: hidden;
+                }
+
+                .googleplusDialog .googleplusPost .googleplusWrap .googleplusContentWrap .googleplusContentDescription{
+                    font-size: 12px;
+                    color:#999;
+                    max-height: 50.4px;
+                    overflow: hidden;
+                }
+
+
+
+
