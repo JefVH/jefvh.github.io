@@ -1,0 +1,232 @@
+/*------------------------------------------------------------------
+
+[Dashboard Stylesheet]
+
+	Project:		Adminia Admin
+	Version:		1.0
+	Last change:	05/11/2012
+	Assigned to:	Rod Howard (rh)
+
+
+
+[Table of contents]
+
+	1. Stats / .stat-container
+
+-------------------------------------------------------------------*/
+
+
+
+
+
+/*------------------------------------------------------------------
+[1. Stats / .stat-container]
+*/
+
+.stat-container {
+	display: table;
+	
+	margin-bottom: 1.5em;
+	
+	width: 100%;
+}
+
+.stat-holder {
+	display: table-cell;
+	
+	width: 14.5%;
+}
+
+.stat span {
+	display: block;
+	margin-bottom: .4em;
+	font-size: 32px;
+	font-weight: 600;
+	font-style: normal;
+	color: #4A515B;
+}
+
+.stat {
+	height: 50px;
+	padding: 15px;
+	margin-right: 1em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	text-align: center;
+	color: #888;
+	background: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	text-shadow: 1px 1px 2px rgba(255,255,255,.5);
+	box-shadow: 0px 3px 5px #ebebeb;
+}
+/*.stat:after {
+	width: 0px;
+    height: 0px;
+    display: block;
+    border: 13px solid transparent;
+    border-left: 13px solid #333;
+    position: absolute;
+    top: 0px;
+    left: 121px;
+    content: '';
+    z-index: 200;
+}*/
+
+.new-campaigns-holder {
+	margin-top:20px;
+	display: table-cell;
+}
+
+.stat-container .stat-holder:last-child .stat {
+	margin: 0;
+}
+
+table tbody tr.blocklink {cursor: pointer;}
+
+#dashboard-create-button { position: relative; float: right;}
+
+/* dashboard results */
+.dashboard-results .circle, .icon-seeds, .icon-hits, .icon-people, .line-arrow .arrow, .icon-circle {
+	background: url('../img/dashboard-sprite.png') top left no-repeat;
+}
+.dashboard-results {
+	clear: both;
+	margin: 42px 0 0;
+}
+.dashboard-results .item {
+	width: 22%;
+	margin: 0 4% 16px 0;
+	float: left;
+	background: url('../img/dashboard-results-shadow.png') bottom center no-repeat;
+	padding: 0 0 11px;
+}
+.dashboard-results .item.last {
+	margin-right: 0;
+}
+
+.dashboard-results .item .block {
+	border: 1px solid #E3E3E3;
+	min-height: 150px;
+	position: relative;
+	font: 12px/1.2em 'Open Sans', Arial, sans-serif;
+	text-align: center;
+	width: 100%;
+
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f1f1f1));
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#f1f1f1 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#f1f1f1 100%);
+	background: linear-gradient(to bottom, #ffffff 0%,#f1f1f1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1f1f1',GradientType=0 );
+}
+.dashboard-results .content {
+	position: relative;
+	z-index: 5;
+	padding: 15px 20px 13px;
+	height: 100%;
+	min-height: 122px;
+	color: #999999;
+}
+.dashboard-results .circle {
+	position: absolute;
+	z-index: 5;
+
+	background-position: -375px -1px;
+	width: 55px;
+	height: 55px;
+	margin: 50px 0 0 -43px;
+	font: 18px/55px 'Open Sans', Arial, sans-serif;
+	color: #666;
+	text-align: center;
+}
+.dashboard-results .count {
+	color: #06A3BF;
+	font-size: 36px;
+	display: block;
+	font-weight: bold;
+	margin: 20px 0;
+	position: absolute;
+	left: 0;
+	top: 48px;
+	width: 100%;
+}
+.dashboard-results small.count {
+	font-size: 18px;
+	line-height: 10px;
+	margin: 0;
+}
+.dashboard-results .name {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	bottom: 18px;
+	color: #666666;
+}
+.dashboard-results .name.line {
+	border-bottom: 1px solid #CCCCCC;
+	display: block;
+	padding: 0 0 9px;
+	margin-bottom: 2px;
+}
+#dashboard-total .title {
+	margin-bottom: 18px;
+	display: block;
+}
+#dashboard-total .count {
+	position: static;
+	margin: 4px 0 10px;
+}
+#dashboard-total .name {
+	position: static;
+}
+#dashboard-total small.count {
+	margin: 8px 0 6px;
+}
+
+.icon-seeds, .icon-hits, .icon-people { position: absolute; z-index: 0; left: 50%; }
+.icon-seeds { width: 130px; height: 110px; top: 50%; margin: -52px 0 0 -65px; }
+.icon-hits { width: 128px; height: 120px; background-position: -130px 0; top: 50%; margin: -59px 0 0 -64px; }
+.icon-people { width: 115px; height: 130px; background-position: -259px 0; bottom: 0; margin: 0 0 0 -57px; }
+.icon-circle { width: 12px; height: 12px; position: absolute; bottom: -35px; margin-left: -6px; background-position: -407px -68px; left: 50%; }
+
+.line-arrow { clear: both; width: 83%; height: 2px; background: #07A3BF; margin: 0px 0 53px 28px; position: relative; }
+.line-arrow .arrow { width: 17px; height: 17px; background-position: -374px -65px; position: absolute; right: -2px; top: -8px; }
+
+@media (max-width: 767px) {
+	
+	.stat-container {
+		float: left;
+		display: block;
+		
+		margin-bottom: 1em;
+	}
+	
+	.stat-holder {
+		float: left;
+		display: block;
+		
+		width: 50%;
+		margin-bottom: 1em;
+	}
+	
+	.stat {
+		margin: 0 1em;
+	}
+	
+	.stat-container .stat-holder:last-child .stat {
+		margin: 0 1em;
+	}
+	
+}
+
+.widget-table.dashboard {width: 48%; float: left; clear: none;}
+.widget-table.dashboard.right {float: right; text-align: left !important;}
+.widget-table.dashboard th.date {width: 75px;}
