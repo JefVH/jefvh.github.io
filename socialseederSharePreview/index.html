@@ -38,8 +38,10 @@
 	<link href="assets/css/login.css" rel="stylesheet">
 	<link href="assets/css/dashboard.css" rel="stylesheet">
 
+    <link href="assets/css/sharestyle.css" rel="stylesheet" />
+
 	<link href="assets/css/datetimepicker.css" rel="stylesheet">
-	<link href="assets/js/libs/chosen/chosen.min.css?force=20150206" rel="stylesheet">
+	<link href="assets/js/libs/chosen/chosen.min.css" rel="stylesheet">
 	<link href="assets/js/libs/fancybox/jquery.fancybox.css" rel="stylesheet">
 
 	<script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" src="assets/js/jquery-1.7.2.min.js"></script>
@@ -188,7 +190,7 @@
 							<textarea type="textarea" class="span4 charcounter" id="shareMessage" name="message" rows="2" maxlength="100"></textarea>
 						</div>
 						<p>
-							<small>Your tweet on Twitter. <span id="left_chars" class="pull-right"><b><em id="shareMessage_count">73</em> chars left</b></span></small>
+							<small>Your tweet on Twitter. <span id="left_chars" class="pull-right"><b><em id="shareMessage_count"></em> chars left</b></span></small>
 						</p>
 					</div>
 
@@ -232,6 +234,118 @@
 							"We're working on a new publication to cover the European tech industry in depth. Follow @tech_eu."
 						</div>
 					</div>
+                    <div class="control-group">
+                        <label>Preview</label>
+                        <div class="tabbable">
+                            <ul class="nav nav-tabs">
+                                <li class="active">
+                                    <a href="#facebookPreview" data-toggle="tab">Facebook</a>
+                                </li>
+                                <li>
+                                    <a href="#twitterPreview" data-toggle="tab">Twitter</a>
+                                </li>
+                                <li>
+                                    <a href="#linkedinPreview" data-toggle="tab">Linkedin</a>
+                                </li>
+                                <li>
+                                    <a href="#googleplusPreview" data-toggle="tab">Google+</a>
+                                </li>
+                                <li>
+                                    <a href="#pinterestPreview" data-toggle="tab">Pinterest</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="facebookPreview">
+                                    <div class="facebookShareDialog well">
+                                        <div class="shareText">
+                                            <div class="shareTextWrapper">
+                                                <div class="shareTextWrap">
+                                                    <div class="shareTextInnerWrap">
+                                                        (User post text)
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="link">
+                                                <div>
+                                                    <div class="linkWrapper">
+                                                        <div class="linkWrap">
+                                                            <div class="linkInnerWrap">
+                                                                <div class="linkImage">
+                                                                    <img>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="linkDescription">
+                                                                        <div class="linkDescriptionHeading">
+
+                                                                        </div>
+                                                                        <div>
+                                                                            <div class="linkDescriptionBody">
+
+                                                                            </div>
+                                                                            <div class="linkDescriptionDomain">
+                                                                                sdr.li
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="twitterPreview">
+                                    <div class="tweetDialog well">
+                                        <div id="tweetContent">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="linkedinPreview">
+                                    <div class="linkedinDialog well">
+                                        <div class="linkedinPost">
+                                            <p class="linkedinPostContent">(User post text)</p>
+                                        </div>
+                                        <div class="linkedinLink">
+                                            <div class="linkedinImageContainer">
+                                                <img>
+                                            </div>
+                                            <div class="linkedinContentContainer">
+                                                <div class="linkedinContent">
+                                                    <h4></h4>
+                                                    <div class="linkedinContentDescription">
+                                                        <cite>sdr.li</cite>
+                                                        <span></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="googleplusPreview">
+                                    <div class="googleplusDialog well">
+                                        <div class="googleplusPost">
+                                            <div class="googleplusWrap">
+                                                <div class="googleplusImageWrap">
+                                                    <img>
+                                                </div>
+                                                <div class="googleplusContentWrap">
+                                                    <div class="googleplusContentTitle"></div>
+                                                    <div class="googleplusContentDomain">sdr.li</div>
+                                                    <div class="googleplusContentDescription"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="pinterestPreview">Hier komt Pinterest</div>
+                            </div>
+                        </div>
+                    </div>
 				</div>
 			</div>
 		</div>
@@ -281,9 +395,10 @@ var first_time = false;
 <script type="text/javascript" src="assets/js/bootstrap.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap-tooltip.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap-popover.js"></script>
-<script type="text/javascript" src="assets/js/ckeditor/ckeditor.js?force=20150206"></script>
-<script type="text/javascript" src="assets/js/libs/chosen/chosen.jquery.min.js?force=20150206"></script>
-<script type="text/javascript" src="assets/js/custom.js?force=20150206"></script>
+<script type="text/javascript" src="assets/js/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="assets/js/libs/chosen/chosen.jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/custom.js"></script>
+<script type="text/javascript" src="assets/js/sharePreview.js"></script>
 
 
 

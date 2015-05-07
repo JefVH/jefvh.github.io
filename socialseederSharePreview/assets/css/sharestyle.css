@@ -1,0 +1,432 @@
+@font-face
+{font-family:"LinkedIn-Glyphs";src:url('https://www.linkedin.com/scds/common/u//fonts/LinkedInGlyphs/2.0.1/LinkedIn-Glyphs-16px.eot');src:url('https://www.linkedin.com/scds/common/u//fonts/LinkedInGlyphs/2.0.1/LinkedIn-Glyphs-16px.eot?#iefix') format('embedded-opentype'),url('https://www.linkedin.com/scds/common/u//fonts/LinkedInGlyphs/2.0.1/LinkedIn-Glyphs-16px.woff') format('woff'), url('https://www.linkedin.com/scds/common/u//fonts/LinkedInGlyphs/2.0.1/LinkedIn-Glyphs-16px.ttf') format('truetype');font-weight:normal;font-style:normal}
+
+body{
+	font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+	font-size:11px;
+	color:#141823;
+	line-height:1.28;
+	margin: 0;
+	padding:0;
+	text-align:left;
+	direction: ltr;
+	unicode-bidi: embed;
+}
+
+p{
+	margin-top:0;
+	margin-bottom: 0;
+	display: block;
+  	-webkit-margin-before: 0;
+  	-webkit-margin-after: 0;
+  	-webkit-margin-start: 0;
+  	-webkit-margin-end: 0;
+}
+
+h3{
+	font-size:14px;
+}
+
+.facebookShareDialog{
+	display: block;
+	float:left;
+	width: 100%;
+	border: 1px solid #b1bdd6;
+	padding:5px;
+}
+
+.facebookShareDialog .shareText{
+	border: 1px solid #b1bdd6;
+	position: relative;
+}
+
+.facebookShareDialog .shareText .shareTextWrapper{
+	margin: 0 5px;
+}
+
+.facebookShareDialog .shareText .shareTextWrapper{
+	padding:5px;
+}
+
+.facebookShareDialog .shareText .shareTextWrapper .shareTextInnerWrap{
+	overflow:hidden;
+	font-size: 13px;
+	padding:0;
+	resize:none;
+	line-height: 1.28;
+	font-family: 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif;
+	background-color:transparent;
+	border:0;
+	-webkit-box-sizing:	border-box;
+	outline:0;
+	width:100%;
+	-webkit-font-smoothing: antialiased;
+	-webkit-appearance: none;
+  	-webkit-border-radius: 0;
+	-webkit-rtl-ordering: logical;
+  	-webkit-user-select: text;
+  	flex-direction: column;
+  	word-wrap: break-word;	
+	color: initial;
+  	letter-spacing: normal;
+	word-spacing: normal;
+  	text-transform: none;
+  	text-indent: 0px;
+  	text-shadow: none;
+  	display: inline-block;
+  	text-align: start;
+	-webkit-writing-mode: horizontal-tb;
+}
+
+.facebookShareDialog .link{
+	padding-top:12px;
+	padding-left:12px;
+	padding-right:12px;
+}
+
+.facebookShareDialog .link .linkWrapper{
+	margin-bottom: 12px;
+}
+
+.facebookShareDialog .link .linkWrapper .linkWrap{
+	background-color: #fff;
+	overflow: hidden;
+	position:relative;
+	z-index:0;
+	-webkit-box-shadow:0 0 0 1px rgba(0, 0, 0, .15) inset, 0 1px 4px rgba(0, 0, 0, .1);
+}
+
+.facebookShareDialog .link .linkWrapper .linkWrap .linkInnerWrap{
+	width:100%;
+	float:left;
+}
+
+.facebookShareDialog .link .linkWrapper .linkWrap .linkInnerWrap .linkImage{
+	position:relative;
+	line-height:0;
+	position:relative;
+	z-index:1;
+}
+
+.facebookShareDialog .link .linkWrapper .linkWrap .linkInnerWrap .linkImage img{
+	width:100%;
+	height:auto;
+}
+
+.facebookShareDialog .link .linkWrapper .linkWrap .linkInnerWrap .linkDescription{
+	height:auto;
+	margin:10px 12px;
+	max-height: 100px;
+	font-size: 12px;
+	position: relative;
+}
+
+.facebookShareDialog .link .linkWrapper .linkWrap .linkInnerWrap .linkDescription .linkDescriptionHeading{
+	font-family: Georgia, 'lucida grande',tahoma,verdana,arial,sans-serif;
+  	font-size: 18px;
+  	font-weight: 500;
+  	line-height: 22px;
+  	margin-bottom: 5px;
+	max-height: 110px;
+  	overflow: hidden;
+  	word-wrap: break-word;
+  	text-decoration: none;
+  	-webkit-transition: color .1s ease-in-out;
+  	color: #141823;
+}
+
+.facebookShareDialog .link .linkWrapper .linkWrap .linkInnerWrap .linkDescription .linkDescriptionBody{
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+  	line-height: 16px;
+  	max-height: 80px;
+  	overflow: hidden;
+}
+
+.facebookShareDialog .link .linkWrapper .linkWrap .linkInnerWrap .linkDescription .linkDescriptionDomain{
+	padding-top: 9px;
+  	position: relative;
+  	font-size: 11px;
+  	line-height: 11px;
+  	text-transform: uppercase;
+  	color: #9197a3;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	white-space: nowrap;
+}
+
+.tweetDialog{
+    display:block;
+    width:100%;
+    float:left;
+    height:auto;
+    word-wrap:break-word;
+    max-height: 240px;
+    min-height: 80px;
+    overflow: hidden;
+    padding: 8px;
+    text-shadow: none;
+    vertical-align: top;
+    transition: background .2s linear;
+    margin: 0;
+    outline: 0;
+    background-color: #fff;
+    border: 1px solid #e1e8ed;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Arial,sans-serif;
+}
+
+.linkedinDialog{
+    display:block;
+    float:left;
+    width:100%;
+    height:auto;
+    margin-left:20px;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    margin-top:25px;
+}
+
+.linkedinDialog .linkedinPost{
+    margin: 0 15px 10px;
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    font-weight: normal;
+    overflow: hidden;
+    padding:0;
+    border:0;
+    vertical-align:baseline;
+}
+
+.linkedinDialog .linkedinPost .linkedinPostContent{
+    display: inline;
+    word-wrap: break-word;
+    white-space: pre-line;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    direction: ltr;
+    unicode-bidi: embed;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    line-height: 17px;
+    color: #333;
+}
+
+.linkedinDialog .linkedinLink{
+    height:100%;
+    position:relative;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin: 10px 15px;
+    padding: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+.linkedinDialog .linkedinLink .linkedinImageContainer{
+    height:100px;
+    width:165px;
+    overflow: hidden;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    background-color:#cccfd3;
+    text-align:center;
+    position: absolute;
+    left:0;
+    margin:0;
+    margin: 0;
+    padding: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+    .linkedinDialog .linkedinLink .linkedinImageContainer img {
+        margin-top:0;
+        display:inline-block;
+        vertical-align:middle;
+        zoom:1;
+        max-width:100%;
+        border:none;
+        margin:0;
+        padding:0;
+    }
+
+.linkedinDialog .linkedinLink .linkedinContentContainer{
+    height:100px;
+}
+
+.linkedinDialog .linkedinLink .linkedinContentContainer .linkedinContent{
+    display:inline-block;
+    vertical-align:middle;
+    zoom:1;
+    box-sizing:border-box;
+    margin-left:166px;
+    padding: 0 10px;
+    max-width:363px;
+}
+
+    .linkedinDialog .linkedinLink .linkedinContentContainer .linkedinContent h4{
+        margin-bottom:5px;
+        font-size:16px;
+        line-height:20px;
+        color:#333;
+        font-weight:normal;
+        max-height:40px;
+        overflow:hidden;
+        text-overflow:ellipsis;
+    }
+
+    .linkedinDialog .linkedinLink .linkedinContentContainer .linkedinContent .linkedinContentDescription {
+        white-space:normal;
+        font-size:12px;
+        line-height:14px;
+        color:#66696a;
+        overflow:hidden;
+        text-overflow:ellipsis;
+    }
+
+        .linkedinDialog .linkedinLink .linkedinContentContainer .linkedinContent .linkedinContentDescription cite {
+            display:inline;
+            font-weight:bold;
+            font-size:12px;
+            line-height:14px;
+            color:#66696a;
+            margin-bottom:4px;
+            white-space:nowrap;
+            overflow:hidden;
+            text-overflow:ellipsis;
+            margin:0;
+            padding:0;
+            border:0;
+            font-style:inherit;
+            font-family:inherit;
+            vertical-align:baseline;
+
+        }
+
+        .linkedinDialog .linkedinLink .linkedinContentContainer .linkedinContent .linkedinContentDescription span {
+            height:45px;
+            max-height:none;
+            white-space:normal;
+            display:inline;
+            color:#333;
+        }
+
+        .linkedinDialog .linkedinLink .linkedinContentContainer .linkedinContent .linkedinContentDescription span:before {
+            font-family: "LinkedIn-Glyphs-2.0.2","LinkedIn-Glyphs";
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: inherit;
+            speak: none;
+            font-size: 12px;
+            color: #999;
+            content: "\e02c";
+        }
+
+.googleplusDialog{
+    display: inline-block;
+    vertical-align: middle;
+    font-size:13px;
+    word-wrap:break-word;
+    white-space: normal;
+    -webkit-font-smoothing:antialiased;
+    font: normal 13px Roboto,arial,sans-serif;;
+    background-clip: padding-box;
+    border: solid transparent;
+    border-width: 0 0 0 4px;
+    min-height: 28px;
+}
+
+    .googleplusDialog .googleplusPost{
+        background-color:#F5F5F5;
+        border: 1px solid #d8d8d8;
+        padding:6px;
+    }
+
+        .googleplusDialog .googleplusPost .googleplusWrap{
+            max-width: 346px;
+            width: 346px;
+            clear: both;
+            line-height: 0;
+            overflow: hidden;
+            position: relative; 
+        }
+
+            .googleplusDialog .googleplusPost .googleplusWrap .googleplusImageWrap{
+                width: 346px;
+                height: 268px;
+                max-height: 268px;
+                position: relative;
+                line-height: 0;
+                min-width: 70px;
+                overflow: hidden;
+            }
+
+                .googleplusDialog .googleplusPost .googleplusWrap .googleplusImageWrap img{
+                    max-height: 268px;
+                    max-width: 346px;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    position: relative;
+                    bottom: 0;
+                    display: block;
+                    left:0;
+                    margin:auto;
+                    right:0;
+                    top:0;
+                    border:0;
+                    cursor:pointer;
+                }
+
+            .googleplusDialog .googleplusPost .googleplusWrap .googleplusContentWrap{
+                line-height: 1.4;
+                padding: 15px;
+            }
+
+                .googleplusDialog .googleplusPost .googleplusWrap .googleplusContentWrap .googleplusContentTitle{
+                    color: #404040;
+                    font-size: 16px;
+                    font-weight: 300;
+                    display: block;
+                }
+
+                .googleplusDialog .googleplusPost .googleplusWrap .googleplusContentWrap .googleplusContentDomain{
+                    font-size: 12px;
+                    font-weight: normal;
+                    margin-bottom: 15px;
+                    max-height: 50.4px;
+                    overflow: hidden;
+                }
+
+                .googleplusDialog .googleplusPost .googleplusWrap .googleplusContentWrap .googleplusContentDescription{
+                    font-size: 12px;
+                    color:#999;
+                    max-height: 50.4px;
+                    overflow: hidden;
+                }
+
+
+
+

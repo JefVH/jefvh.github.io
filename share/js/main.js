@@ -37,8 +37,8 @@ $(function(){
 	    
         var finalTweet = replacedURLTweet.replace(/#(\S+)/g, '<a href=http://twitter.com/#!/search/$1" class="hashtag" target="_blank">#$1</a>');
 
-	    $('#tweetContent').empty();
-	    $('#tweetContent').append(finalTweet);
+        $('#tweet').empty();
+        $('#tweet').append(finalTweet);
 	});
 
 	// $('#shareTitle').onkeyup(function(){
