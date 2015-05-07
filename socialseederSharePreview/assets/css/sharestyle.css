@@ -1,4 +1,4 @@
-@font-face
+﻿@font-face
 {font-family:"LinkedIn-Glyphs";src:url('https://www.linkedin.com/scds/common/u//fonts/LinkedInGlyphs/2.0.1/LinkedIn-Glyphs-16px.eot');src:url('https://www.linkedin.com/scds/common/u//fonts/LinkedInGlyphs/2.0.1/LinkedIn-Glyphs-16px.eot?#iefix') format('embedded-opentype'),url('https://www.linkedin.com/scds/common/u//fonts/LinkedInGlyphs/2.0.1/LinkedIn-Glyphs-16px.woff') format('woff'), url('https://www.linkedin.com/scds/common/u//fonts/LinkedInGlyphs/2.0.1/LinkedIn-Glyphs-16px.ttf') format('truetype');font-weight:normal;font-style:normal}
 
 body{
@@ -428,5 +428,128 @@ h3{
                 }
 
 
+.pinterestDialog .pinterestPost .pin{
+    background:#fff;
+    box-shadow:0 1px 2px 0 rgba(0,0,0,0.22);
+    border-radius:6px;
+    width:100%;
+    
+    display:inline-block;
 
+    font-size:11px;
+    position:relative;
+    font-family:'Helvetica Neue', 'Helvetica', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', arial, sans-serif;
+    color:#211922;
+}
+
+    .pinterestDialog .pinterestPost .pin .pinWrapper{
+        border-radius:6px;
+        position:relative;
+    }
+
+        .pinterestDialog .pinterestPost .pin .pinWrapper .pinImageActionButtonWrapper{
+            position:relative;
+        }
+
+            .pinterestDialog .pinterestPost .pin .pinWrapper .pinImageActionButtonWrapper .pinHolder{
+                cursor:pointer;
+                position:relative;
+                z-index:1;
+            }
+
+                .pinterestDialog .pinterestPost .pin .pinWrapper .pinImageActionButtonWrapper .pinHolder .pinImgWrap{
+                    width:100%;
+                    margin:auto;
+                    position: relative;
+                    max-width:100%;
+                    display:block;
+                    padding:0;
+                    padding-bottom:65%;
+                }
+
+                    .pinterestDialog .pinterestPost .pin .pinWrapper .pinImageActionButtonWrapper .pinHolder .pinImgWrap .pinImg{
+                        border-radius: 6px 6px 0 0;
+                        display:block;
+                        margin: 0 auto;
+                        z-index:5;
+                        height:auto;
+                        width:100%;
+                        position:absolute;
+                        max-width:100%;
+                        vertical-align:middle;
+                        border:0;
+                    }
+
+    .pinterestDialog .pinterestPost .pin .pinWrapper .richPinMeta{
+        border-bottom: 1px solid #e0e0e0;
+        padding:5px 12px 6px;
+    }
+
+        .pinterestDialog .pinterestPost .pin .pinWrapper .richPinMeta .richPinGridTitle{
+            overflow:hidden;
+            clear:both;
+            color:#444;
+            font-size:14px;
+            font-weight:bold;
+            margin:0;
+            max-height:68px;
+            padding:4px 0 4px;
+        }
+
+    .pinterestDialog .pinterestPost .pin .pinWrapper .pinMeta{
+        margin:10px 16px;
+        position:relative;
+    }
+
+        .pinterestDialog .pinterestPost .pin .pinWrapper .pinMeta .pinDescription{
+            padding:0;
+            margin: 5px 0;
+            -webkit-animation-font-smoothing: antialiased;
+            color:#333;
+            font-size:13px;
+            line-height:17px;
+            word-wrap:break-word;
+        }
+
+    .pinterestDialog .pinterestPost .pin .pinWrapper .pinCredits{
+        font-family: 'Helvetica', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', sans-serif;
+        font-weight: bold;
+        border-top: 1px solid #e7e7e7;
+        color: #777;
+    }
+
+        .pinterestDialog .pinterestPost .pin .pinWrapper .pinCredits .creditItem{
+            line-height:15px;
+            padding:10px;
+            position:relative;
+            -webkit-font-smoothing:antialiased;
+            overflow:hidden;
+            border-radius:0 0 6px 6px;
+            display:block;
+            color:#717171;
+            font-weight:bold;
+            text-decoration:none;
+        }
+
+            .pinterestDialog .pinterestPost .pin .pinWrapper .pinCredits .creditItem .creditName{
+                white-space:nowrap;
+                overflow:hidden;
+                text-overflow:ellipsis;
+                color:#999;
+                display:block;
+            }
+
+            .pinterestDialog .pinterestPost .pin .pinWrapper .pinCredits .creditItem .creditTitle{
+                text-overflow: ellipsis;
+                overflow: hidden;
+                display: block;
+                color: #717171;
+                font-weight: bold;
+            }
+
+            
+        
+        
+
+                    
 

@@ -3,18 +3,22 @@
         $('.linkDescriptionHeading').empty();
         $('.linkedinContent h4').empty();
         $('.googleplusContentTitle').empty();
+        $('.richPinGridTitle').empty();
         $('.linkDescriptionHeading').append($('#message_title').val());
         $('.linkedinContent h4').append($('#message_title').val());
         $('.googleplusContentTitle').append($('#message_title').val());
+        $('.richPinGridTitle').append($('#message_title').val());
     });
 
     $('#fbMessage').bind('keypress keyup focus', function () {
         $('.linkDescriptionBody').empty();
         $('.linkedinContentDescription span').empty();
         $('.googleplusContentDescription').empty();
+        $('.pinDescription').empty();
         $('.linkDescriptionBody').append($('#fbMessage').val());
         $('.linkedinContentDescription span').append($('#fbMessage').val());
         $('.googleplusContentDescription').append($('#fbMessage').val());
+        $('.pinDescription').append($('#fbMessage').val());
     });
 
     $('#fbBanner').change(function () {
@@ -68,6 +72,7 @@ function readURL(input) {
             $('.linkImage img').attr('src', e.target.result);
             $('.linkedinImageContainer img').attr('src', e.target.result);
             $('.googleplusImageWrap img').attr('src', e.target.result);
+            $('.pinImgWrap img').attr('src', e.target.result);
         }
 
         reader.readAsDataURL(input.files[0]);
